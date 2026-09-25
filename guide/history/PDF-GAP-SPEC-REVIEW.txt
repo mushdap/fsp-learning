@@ -1,0 +1,38 @@
+# PDF gap spec: review and implemented pilot
+
+Reviewed on 25 September 2026 against `PDF-GAP-AUDIT-SPEC.md`, the existing coverage audit and the current 240-case content model.
+
+## Findings worth keeping
+
+The main distinction is useful: small communication decisions do not train an entire history, written report and spoken presentation. Full profiles, follow-up questions, clear unknown-answer practice, patient-versus-medical language, and structured writing are genuine additions. Vocabulary and procedure coverage remain incomplete. The existing page audit is not proof that every source objective is taught or assessed.
+
+## What this change implements
+
+- `content/learning-practice.json`: three original bilingual fictional profiles, with explicit reported facts and missing information.
+- `docs/practice/index.md`: a German-first practice route, five-step presentation structure, Konjunktiv I examples, register changes and respectful follow-up phrases.
+- Three linked practice pages: a bicycle fall with two pain sites; urinary symptoms with two onset times and no measured temperature; a medicine-list review with an unidentified tablet.
+- Each page has a role-play fact card, structured model documentation, a longer fact-faithful presentation, 15 follow-up prompts with concealed answers, and a self-check rubric. Nine of the 45 prompts explicitly require an unknown/not-asked answer.
+- German and English are directly authored in separate protected language branches. They use the existing global language switch, not automatic translation of this new text.
+- The medicine case records the fictional patient's account. It does not select a dose, identify a medicine from colour, or advise changing treatment.
+
+These are three practice profiles, not 30 completed topic profiles. These pages do not add objective exam question types, speech scoring, a listening system or an official timed simulation. The existing 240 short cases remain a separate learning format.
+
+## Recommendations to adjust or omit
+
+| Spec recommendation | Decision and reason |
+|---|---|
+| Exactly 336 glossary concepts | Treat 336 as source spellings, including variants. Deduplicate and verify terms before counting distinct taught concepts. The existing audit's 29 exact card matches is not semantic coverage. |
+| Every presentation must be 200–300 words | Use enough detail for the supplied facts. Do not pad a presentation or fabricate negatives to hit a minimum. These pilots provide longer presentations with short visual paragraphs. |
+| Default `vegetative history unremarkable` / allergies denied in a template | Do not use these as defaults. Unknown and not asked are visible in every profile. |
+| A suspected and differential diagnosis in every profile | Useful in later clinician-reviewed clinical reasoning exercises. Do not force a diagnosis into a medicine-list or communication-only task without adequate evidence. |
+| “Trick questions” | Use neutral unknown-information prompts. They teach accurate reporting rather than pretending to know what a particular examiner will ask. |
+| Copy exam anecdotes or likely-topic rankings | Do not present historical anecdotes as present examination rules or predictions. No new timing, passing, jurisdiction or examination-format guarantees are added here. |
+| Declare every procedure covered once it has a short card | A communication card is not complete procedural consent or clinical competency training. Preserve that distinction. |
+| Browser text-to-speech as listening completion | Potentially useful later with German-voice detection and text fallback. Synthetic speech does not assess pronunciation or replace human listening/speaking feedback. |
+| Fix old CI/import failures before content work | Recheck current evidence. The earlier 88-case German/import snapshots are stale after the 240-case readability release; they are not current blockers by themselves. |
+
+## Remaining work, deliberately not claimed complete
+
+The pilot reduces the full-history/documentation/presentation gap for three scenarios. It does not close the source audit's 75 partial and 22 missing objective groups. Twenty-seven additional topic profiles, comprehensive glossary coverage, procedure explanation cards, targeted clinical scenarios, listening, new objective assessment types and a verified jurisdiction-specific simulation remain separate work. Human clinical and German-language review has not been performed on these new pages; do not label them independently reviewed.
+
+All names and prose in the pilot are original fictional material. Source case letters and answer lists were not copied. Unknown medicines, allergy details, measurements and examination findings remain unknown until the fictional evidence states otherwise.

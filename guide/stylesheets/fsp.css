@@ -134,3 +134,19 @@ html[lang="de"] .st-js .st-file dd[data-at]:not(.is-filled)::after{content:"Noch
 .story:not(.is-present) .fsp-previous-dialogue{display:none}
 .fsp-dialogue-step{font-size:.8rem;color:var(--md-default-fg-color--light)}
 .fsp-profile-route{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}.fsp-profile-route>span{flex:1;min-width:140px;border:1px solid #7083a466;border-radius:12px;padding:16px;font-weight:700}.fsp-full-profile dt{font-weight:700;margin-top:22px}.fsp-full-profile dd{margin:6px 0 18px;line-height:1.7}.fsp-full-profile article{padding:12px 0;border-bottom:1px solid #7083a444}.fsp-glossary input{width:100%;padding:14px;border:1px solid #7083a466;border-radius:10px;background:var(--md-default-bg-color);color:inherit}.fsp-term,.fsp-term-practice,.fsp-unresolved{padding:18px;margin:14px 0;border:1px solid #7083a466;border-radius:12px}.fsp-term summary{cursor:pointer;line-height:1.7}.fsp-glossary button{padding:12px 18px;border:1px solid #7083a488;border-radius:10px;color:inherit;cursor:pointer}.fsp-glossary dd{margin:4px 0 16px}.fsp-glossary dt{font-weight:700}.fsp-term-practice h3{font-size:1.4rem}
+
+/* Case-local history record: metadata stays separate from clinical certainty. */
+.fsp-fact-overview{padding:.7rem;border:1px solid var(--md-default-fg-color--lightest);border-radius:.65rem;background:var(--md-code-bg-color)}
+.fsp-fact-overview p{margin:0;font-size:.72rem;line-height:1.6}
+.fsp-fact-overview [data-fact-summary]{font-weight:700}
+.fsp-fact-meter{height:5px;border-radius:9px;background:var(--md-default-fg-color--lightest);margin:.55rem 0;overflow:hidden}
+.fsp-fact-meter i{display:block;height:100%;background:var(--md-accent-fg-color);width:0}
+.fsp-fact-breakdown{color:var(--md-default-fg-color--light)}
+.fsp-fact-group{margin-top:1rem}
+.fsp-fact-group>h3{font-size:.8rem;margin:.7rem 0 .3rem;padding-bottom:.35rem;border-bottom:2px solid var(--md-default-fg-color--lightest)}
+.fsp-patient-fact h4{font-size:.76rem;margin:0 0 .4rem;font-weight:600}
+.fsp-fact-source{display:inline-block;max-width:100%;padding:.2rem .45rem;border:1px solid var(--md-default-fg-color--lightest);border-radius:.35rem;font-size:.65rem;line-height:1.5;overflow-wrap:anywhere}
+.fsp-fact-evidence summary{cursor:pointer;color:var(--md-typeset-a-color);padding:.2rem 0}
+.fsp-fact-evidence blockquote{font-size:.74rem;line-height:1.65;margin:.45rem 0;padding:.4rem .65rem;border-left:3px solid var(--md-accent-fg-color);white-space:pre-wrap;overflow-wrap:anywhere}
+
+.fsp-filters{grid-template-columns:repeat(4,minmax(0,1fr))}.fsp-word-review{align-self:center;font-size:.85rem}@media(max-width:850px){.fsp-filters{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:500px){.fsp-filters{grid-template-columns:1fr}}

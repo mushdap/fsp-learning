@@ -1,0 +1,43 @@
+# Review of the three improvement specifications
+
+**Latest update:** [Phase three](PHASE-3-REVIEW.md) expands full histories to all 30 topics and accounts for all336 source vocabulary spellings through defined entries or explicit unresolved items. Professional validation and other documented gaps remain open.
+
+**Update:** [The second implementation pass](PHASE-2-REVIEW.md) supersedes the eight-question assessment pilot and adds an eight-case patient-fact pilot plus interactive full-history writing. The dated findings below preserve the first review's baseline.
+
+The specifications are proposals, not proof of the current application's behavior. Reviewed against the repositories on 25 September 2026. Implementation details and remaining work are also recorded in the three focused agent reviews.
+
+## Already addressed before this review
+
+All 240 cases have directly authored German reading blocks and shorter openings. Mean English opening length is 33.8 words. The minimum opening check is already 20 words, not 55. The exam importer already preserves reading blocks. Case-local reveal stages and scroll-mode persistence have regression tests. These fixes should be preserved, not repeated.
+
+Fresh measurements (`python tools/spec_metrics.py`) show 180/240 guide questions have a correct option among the longest **including ties**, but 133/240 have a uniquely longest correct option. The earlier 74% figure obscured that distinction. Both show an assessment-design problem. Zero current correct options exactly equal the takeaway; this does not rule out semantic answer leakage.
+
+## Useful priorities
+
+1. Separate assessment prompts from explanations; use plausible distractors and option-specific feedback. Start with an explicitly reviewed pilot and report the remaining bank honestly.
+2. Add complete fictional histories, structured German documentation, fact-faithful presentations and follow-up practice. These train skills that short multiple-choice stories cannot measure.
+3. Make case-file changes accessible, use meaningful status tones and distinguish unread teaching notes from unknown clinical facts.
+4. Keep publishing reproducible: build and validate both apps, copy only public assets and record source revisions plus file hashes.
+
+## Recommendations adjusted or not adopted
+
+- Do not pad every opening to 35–70 words after simplifying it for non-native readers. No single readability score proves that German medical communication is understandable.
+- Do not enforce a rigid 1.3 option-length ratio: it can produce filler. Measure guessing bias and review plausibility instead.
+- Do not require a suspected diagnosis or fixed word count in every presentation. Some cases intentionally lack enough information to support one.
+- Do not label a fact “confirmed” just because a doctor asks “Correct?” The patient must answer. Do not fabricate allergy denials or normal findings to fill a template.
+- Keep whole conversations readable. Mandatory animation of every line can slow revision and create navigation regressions. A true per-line clinical fact model needs authored evidence, not automatic extraction from teaching summaries.
+- Do not copy financial status names, currency formatting, branding, or a larger framework to obtain a small UI feature.
+- Do not equate 336 source spellings with 336 unique glossary concepts. Deduplicate and check meanings before claiming coverage.
+- Do not automatically import the PDF's treatment, fasting or medication instructions. Source anecdotes are not current official examination rules or clinical guidance.
+- Keep German as the default. Do not claim independent human language or clinical review where none occurred.
+
+## Delivered in this revision
+
+- Three complete fictional history-practice profiles with structured documentation models, presentations and 45 bilingual follow-ups (nine explicitly unknown answers).
+- Eight separate bilingual foundation assessments with neutral prompts, plausible alternatives and an explanation for each option. The other 232 questions remain available as legacy practice. All 240 writing workspaces now offer eight structured history fields and preserve saved drafts.
+- Bilingual semantic case-file statuses, polite progress announcements, mobile new-note counts and reduced-motion support. The panel identifies its contents as reading notes rather than a complete clinical record.
+- A single release-preparation script in the public artifact repository builds and tests both apps, imports the shared bank and records file hashes. Publishing still requires a deliberate commit and push.
+
+## Remaining scope
+
+The full 30-profile course, hundreds of examiner follow-ups, expanded glossary, complete procedure library, full simulation and all-question assessment redesign remain larger editorial projects. The existing PDF coverage audit remains the baseline; these additions do not close every gap. Patient history, writing and speaking require human review and cannot be represented as a secure official pass/fail score.

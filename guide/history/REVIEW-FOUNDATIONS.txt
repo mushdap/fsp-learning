@@ -1,0 +1,19 @@
+# Independent communication-content review
+
+Reviewed 80 fictional cases: foundations, history, empathy, circulation, clots, wounds, chest-pain, heart-failure, breathing and asthma (8 each). Review included the completed empathy and asthma files.
+
+The review compared settings, stories, German dialogue, handovers, vocabulary, decisions and feedback. Particular attention went to reported versus observed information, unanswered questions versus negative findings, unconfirmed diagnoses, acute deterioration, medication uncertainty, and humour aimed at the situation rather than the patient. Acute chest-pain, breathlessness, cold-foot and confusion scenes were read in full.
+
+## Findings sent to the coordinating author
+
+- **clots-negative-answer — vocabulary:** `verneint` is explained as `auf Nachfrage nicht angegeben`. This can confuse non-mention with explicit denial. Recommended replacement: `auf konkrete Nachfrage ausdrücklich mit Nein beantwortet`.
+- **circulation-smoking-without-sermon — German handover:** Change `über fortgesetzten, gegenüber früher reduziertem Nikotinkonsum` to `über fortgesetzten, gegenüber früher reduzierten Nikotinkonsum` (accusative agreement).
+- **clots-stocking-shame — tone:** The drawer following the plan more faithfully than the patient can sound blaming when painful hands prevent application. Move the humour to the unused equipment and missing practical help, not the patient's faithfulness.
+
+No additional concrete unsafe treatment instruction, invented normal examination result or unsupported diagnosis was identified in this editorial pass. In the acute scenes reviewed, routine questions stop and clinical help is requested; medicine and device decisions remain individual and verified.
+
+## Limits
+
+This is an independent editorial and internal-consistency review, not clinical validation, legal review, exam accreditation or proof that every medical statement is complete. It does not replace review by qualified practising clinicians and German-language educators. It did not retest the website or independently recheck every PDF citation and external source. Other authors' case files were not edited by this reviewer; the coordinating author owns resolution of the findings above.
+
+Resolution: All three actionable findings in this review were applied before the final build.

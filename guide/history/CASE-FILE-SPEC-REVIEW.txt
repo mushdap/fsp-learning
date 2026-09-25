@@ -1,0 +1,34 @@
+# Case-file specification review
+
+Reviewed 25 September 2026 against the current guide. The supplied specification is a proposal, not evidence that every listed defect still exists.
+
+## Implemented
+
+- Replaced financial status matching with explicit reading-stage labels and semantic info/warning/success tones. German and English labels are authored directly and update without changing the stage.
+- Added a polite, atomic screen-reader announcement of visible reading-note count and status. Initial loading stays quiet.
+- Added a mobile badge for new notes while the case panel is closed. Opening or rewinding clears it.
+- Added status animation with reduced-motion support; new-row animation now also respects reduced motion.
+- Replaced the static “Memory record” label with “Case notes”.
+- Changed the pending placeholder from a dash to “Not reached” / “Noch nicht erreicht”. The panel explicitly explains that these are reading notes, not a complete medical record: unreached does not mean not asked, negative, or normal.
+- Kept backward navigation and case-local stages intact. Eleven JavaScript tests and the Python case-stage test pass, including status, mobile badge, language changes and reduced motion.
+
+## Already fixed before this specification
+
+Reading-mode persistence, case-local fact indexing and backward-page state restoration already had fixes and regression tests. They should not be rewritten unnecessarily.
+
+## Useful next phase, not yet implemented
+
+A source-aware clinical fact model, grouped history fields, reported/unknown/not-asked distinctions, a correction log and optional dialogue steps are worthwhile. They require authored facts and source attribution for each case. The existing four rows are teaching notes; converting them automatically into patient findings would misrepresent them. Start with a reviewed eight-case pilot, then expand. Keep a whole-conversation view for readers who find repeated next-button presses tiring.
+
+Line-by-line presentation, a clinical open-field meter, evidence cards, source chips and a handover laboratory are not included in this first slice. No claim is made that every requirement or acceptance test in the supplied spec has been delivered.
+
+## Adjust or reject
+
+- The worked example labels a fact “confirmed” immediately after the doctor asks “Correct?”. That question is not the patient's confirmation. Keep the fact reported or awaiting a response until an explicit answer exists.
+- Three days of worsening and three weeks since onset are two valid dates. Do not strike out the former as a false patient statement. Correct the trainee's incomplete summary instead.
+- Do not make reaching the handover page mean that a handover actually happened or that clinical information is complete. “Ready to practise” remains a reading status.
+- Do not add negative findings, examination results or named gaps that the authored case does not support merely to fill a template.
+- A universal ban on the word “keine” inside an unknown-state explanation would reject valid text such as “keine Angaben verfügbar”. Validate explicit state and meaning rather than a raw word blacklist.
+- Do not repurpose F for the file: it already controls fullscreen. A future shortcut needs a non-conflicting key and discoverable help.
+- Do not copy unrelated financial scene code, branding, hosting configuration or an entire application framework. The retained money helper still serves a generic stack scene renderer; deleting it without removing that renderer would break its contract.
+- Status colors are defined in CSS, not arbitrary YAML style values. The current guide needs a small explicit stage map; a configurable cross-project state engine would add complexity without improving these cases today.

@@ -9,17 +9,17 @@
     cleanup.forEach(fn=>fn()); cleanup=[];
     document.querySelectorAll('[data-glossary-host]').forEach(host=>{
       if(host.dataset.mounted)return;host.dataset.mounted='true';
-      Promise.all([import(new URL('glossary-ui.js',scriptURL).href),fetch(new URL('../data/glossary.json',scriptURL)).then(r=>{if(!r.ok)throw Error('glossary');return r.json();})]).then(([ui,data])=>{if(host.isConnected)ui.mountGlossary(host,data);}).catch(()=>{delete host.dataset.mounted;});
+      Promise.all([import(new URL('glossary-ui.js',scriptURL).href),fetch(new URL('../data/'+(host.dataset.glossarySource||'glossary.json'),scriptURL)).then(r=>{if(!r.ok)throw Error('glossary');return r.json();})]).then(([ui,data])=>{if(host.isConnected)ui.mountGlossary(host,data);}).catch(()=>{delete host.dataset.mounted;});
     });
     document.querySelectorAll('[data-fsp-library]').forEach(lib=>{
-      const search=lib.querySelector('[data-search]'), topic=lib.querySelector('[data-topic]'),level=lib.querySelector('[data-level]'),cards=[...lib.querySelectorAll('[data-card]')];
+      const search=lib.querySelector('[data-search]'), topic=lib.querySelector('[data-topic]'),level=lib.querySelector('[data-level]'),skill=lib.querySelector('[data-skill]'),cards=[...lib.querySelectorAll('[data-card]')];
       lib.querySelector('.fsp-filters').hidden=false;
       const filter=()=>{
         const words=search.value.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);
-        let n=0;cards.forEach(c=>{const haystack=(c.textContent+' '+c.dataset.searchTerms).toLocaleLowerCase();const ok=(topic.value==='all'||topic.value===c.dataset.topic)&&(level.value==='all'||level.value===c.dataset.level)&&words.every(w=>haystack.includes(w));c.hidden=!ok;if(ok)n++;});
+        let n=0;cards.forEach(c=>{const haystack=(c.textContent+' '+c.dataset.searchTerms).toLocaleLowerCase();const ok=(topic.value==='all'||topic.value===c.dataset.topic)&&(level.value==='all'||level.value===c.dataset.level)&&(skill.value==='all'||(c.dataset.skills||'').split(' ').includes(skill.value))&&words.every(w=>haystack.includes(w));c.hidden=!ok;if(ok)n++;});
         lib.querySelector('.fsp-library-count').textContent=n+' of '+cards.length+' practice stories';lib.querySelector('[data-empty]').hidden=n!==0;
       };
-      search.addEventListener('input',filter);topic.addEventListener('change',filter);level.addEventListener('change',filter);filter();
+      search.addEventListener('input',filter);topic.addEventListener('change',filter);level.addEventListener('change',filter);skill.addEventListener('change',filter);filter();
     });
     document.querySelectorAll('[data-choice]').forEach(box=>{
       const button=box.querySelector('[data-check]');button.hidden=false;

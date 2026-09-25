@@ -1,0 +1,11 @@
+# Plain-language case revision
+
+All 240 cases now have short English openings, directly authored German explanations, and a three-point visual reading map. Eight original body-map SVGs plus the two existing sourced anatomy diagrams remain in 154 relevant cases.
+
+Average opening length: 84.5 to 33.8 English words (60% shorter). This is a length measure, not a certified language proficiency level.
+
+IDs, patient details, answer indices, source pages, German dialogue and professional handovers were preserved. Professional handovers are available in an expandable panel. Sixteen answer options were reworded without changing meaning or answer positions.
+
+Case-file rows now use case-local scene markers. Four reading milestones follow the actual scenes, including when a body map changes page numbers. Navigation backward removes later facts; a new case starts its own progress. This is reading progress, not a clinical finding or examination score.
+
+The text has editorial checks but is not independently clinically validated. The PDF coverage limitations in COVERAGE-AUDIT.md still apply.

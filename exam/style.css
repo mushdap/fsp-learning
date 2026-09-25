@@ -10,3 +10,11 @@
 /* Full-history workspace uses the same cards and accessible form controls. */
 .practice-route{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}.practice-route>span{flex:1;min-width:150px;padding:16px;border:1px solid #7083a455;border-radius:12px;font-weight:700}.profile-facts dt{font-weight:700;margin-top:20px}.profile-facts dd{margin:6px 0 18px;line-height:1.7}.followup{padding:20px 0;border-top:1px solid #7083a455}.followup textarea{min-height:90px}.structured-note textarea{min-height:100px}
 .fsp-glossary input{width:100%;padding:14px;border:1px solid #7083a466;border-radius:10px;background:transparent;color:inherit}.fsp-term,.fsp-term-practice,.fsp-unresolved{padding:18px;margin:14px 0;border:1px solid #7083a466;border-radius:12px}.fsp-term summary{cursor:pointer;line-height:1.7}.fsp-glossary dd{margin:4px 0 16px}.fsp-glossary dt{font-weight:700}.fsp-term-practice h3{font-size:1.4rem}
+:is(.record-tabs,.actions){flex-wrap:wrap}
+.record-tabs{display:flex;gap:.5rem;margin:1.2rem 0}
+.record-tabs [aria-selected="true"]{border-color:var(--accent,#f4bc50);box-shadow:inset 0 -3px var(--accent,#f4bc50)}
+[role="tabpanel"][hidden]{display:none!important}
+.evidence-card{border-left:3px solid #eab454;padding:1rem;margin-bottom:1.5rem}
+.source-chip{display:inline-block;border:1px solid #718098;border-radius:1rem;padding:.2rem .65rem;font-size:.85rem}
+.preserve-lines{white-space:pre-wrap;overflow-wrap:anywhere}
+.practice-route [aria-current="step"]{outline:2px solid #eab454;outline-offset:3px}

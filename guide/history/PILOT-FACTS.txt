@@ -1,0 +1,23 @@
+# Patient-fact pilot
+
+The eight **Getting started** cases now have 21 manually authored patient-fact fields in `content/case-facts.json`. This is a small teaching record, not a complete medical record or clinical documentation system. The other 232 cases keep their established reading notes.
+
+## Behaviour
+
+- Each of the four dialogue lines is its own Present page. Scroll retains the whole conversation in order; Present has a collapsed history of earlier lines, without future lines.
+- Each fact event points to an introduction or specific dialogue line. The builder resolves these semantic anchors to case-local stages, so adding a diagram does not move a fact to the wrong clinical moment.
+- Source and state remain distinct: patient report, explicitly patient-confirmed, unknown, not asked yet, or planned/instructed. A doctor asking a question does not confirm the answer; an instruction is not proof of completion.
+- Facts replace earlier versions when evidence arrives. Reached earlier versions remain available under “Earlier entry”. Moving backward removes future versions and their history. Language switching preserves the current stage.
+- “Not reached” describes lesson navigation. “Not asked” describes the conversation. An unanswered question is unknown, never a negative finding.
+- Patient facts sit above a separate learning-milestone group. The progress meter still counts four learning milestones; it does not measure history completeness or diagnostic certainty.
+- The existing mobile badge and polite announcement now include patient-fact changes. They reset on backward movement and case changes.
+
+## Examples and limits
+
+Mara's name and birth date become reported on her answer, while matching to the record remains pending. Oskar's allergy history stays not asked throughout. Tessa's initial claim of understanding is replaced by her stated uncertainty. Leonie's chronology becomes patient-confirmed only after her explicit agreement; this does not establish a diagnosis.
+
+Facts are manually authored from the existing fictional case introduction and dialogue, never automatically extracted from teaching advice. No examination result, diagnosis, allergy denial, or completed action was invented. Introductory facts may already be known before dialogue begins. No persistence of a medical record, cross-case patient database, exam scoring, or full 240-case migration is introduced.
+
+## Verification
+
+`tools/test_case_stages.py` checks real pilot scenes, source anchoring, non-confirmation after questions, and the non-pilot fallback. `tools/test_story_mode.cjs` exercises the actual browser script for forward/backward versions, hidden future information, unknown versus unreached, language changes, reading-mode persistence, and case isolation. Strict MkDocs build and guide content checks remain required.

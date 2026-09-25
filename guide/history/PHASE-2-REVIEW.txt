@@ -1,0 +1,29 @@
+# Second implementation pass
+
+This pass continues the three-spec review. The scope is the assessment rewrite, an eight-case patient-fact pilot, and connecting the existing three full-history profiles to the exam workspace.
+
+## Assessment content
+
+The foundation overlay plus `assessment-wave-a.json` and `assessment-wave-b.json` provide dedicated bilingual assessment wording across the 30 topics. Both the guide choice exercises and the exam import these records. The study case remains separate from the question prompt. Each assessment has three alternatives and an explanation for each, while preserving case IDs and correct-option indices.
+
+`tools/check_assessments.py` checks complete coverage, schema, uniqueness, index consistency and length-only guessing in English and German. It measures the longest, shortest and middle-length answer strategies, selecting randomly among equal-length options. These checks do not establish clinical validity or prove distractors are equally difficult. Independent language and clinical review remains outstanding.
+
+## Patient-fact pilot
+
+See [the pilot record](PILOT-FACTS.md). Eight foundation cases use 21 explicitly authored fact fields, staged by conversation evidence. The remaining 232 cases keep reading notes; they have not been converted into full patient records. A question does not confirm its answer. Learning progress is separate from clinical information completeness.
+
+## Full-history workspace
+
+The exam now imports the existing three complete fictional profiles. Learners can open and close the fact card, draft eight history sections, write a German presentation, answer all 45 follow-ups and compare with authored examples. Drafts are stored separately for each profile and separately from short-case drafts. There is no automatic writing or speaking grade.
+
+New knowledge-check attempts retain a snapshot of their questions, options and explanations, so future bank changes do not silently change the reviewed attempt. Attempts saved before snapshots were introduced still resolve against the current bank; their original wording cannot be reconstructed reliably.
+
+## Still open
+
+The 27 additional full profiles, broader glossary with grammatical forms, procedure explanations and the remaining patient-fact records are not delivered in this pass. The PDF coverage audit remains in force; no claim of complete PDF coverage or independent professional validation is made.
+
+## Measured assessment result
+
+Across all 240 questions, English length-only guessing scored32.1% (shortest),35.0% (middle) and32.9% (longest); German scored32.6%,35.6% and31.8% respectively, with random selection among ties. These are descriptive checks of wording, not observed learner outcomes.
+
+An additional agent sampled every new topic and examined full emergency/medicine-related batches for consistency. That pass corrected consent assumptions, missing translated details and mismatched question/action wording. This was an AI content review, not independent clinical validation.

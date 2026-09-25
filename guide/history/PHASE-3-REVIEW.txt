@@ -1,0 +1,15 @@
+# Full-history course and glossary expansion
+
+The course now has 30 original fictional full-history profiles: one per topic. Each includes a fact card, structured report, presentation and 15 bilingual follow-ups. Across the course this is 450 follow-ups, including at least 90 explicit unknown-answer exercises. These additions support role-play and human-reviewed documentation, not an official or clinically validated examination.
+
+The 27 new profiles use the same data in the guide and exam. The guide provides readable role-play pages and model disclosures; the exam saves structured reports, presentations and answers separately per profile. The original three profile pages retain their authored introductions. Structured models for those three use their stated fact-card sections without adding findings.
+
+An additional agent reviewed the profile facts against models and follow-ups. Corrections preserved quantity units, symptom locations, reported sources and the difference between relieving pain and relieving urgency. A numerical consistency check also prevents model reports from silently adding measurements absent from the profile. Neither process substitutes for professional clinical review.
+
+The glossary contains 310 entries with plain German explanations, English meanings, grammar notes and example sentences. It maps 330 original spellings from the PDF inventory. Six ambiguous spellings remain explicitly unresolved, so all 336 inventory spellings are accounted for without claiming that all are taught. Alias mapping is checked exactly once per source spelling. See [the glossary review](GLOSSARY-REVIEW.md) for terminology decisions and limits.
+
+Search works with German terms, aliases and English meanings. The optional speaking exercise asks learners to explain a term before opening an example; it does not score pronunciation or understanding. Article metadata is shown separately to avoid mechanically attaching an article to an adjective phrase with the wrong ending.
+
+33 glossary entries have selectively checked references; 277 have not received that external-source check. All still require independent professional review. The existing PDF audit links to new glossary entries but preserves its historical objective-level gaps.
+
+Still outstanding: comprehensive procedure/examination explanations, the remaining 232 patient-fact panels, listening/simulation features and independent clinical/language review. Definitions and profiles do not by themselves establish complete coverage of every PDF detail.

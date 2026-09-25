@@ -6,11 +6,11 @@ All five PNGs below were generated with the built-in image-generation tool on 25
 
 | File | Use |
 | --- | --- |
-| `docs/assets/clinic-conversation.png` | Original gouache-style welcome illustration; fictional doctor and older patient |
-| `docs/assets/palwasha-listening.png` | Dr Palwasha anime character, attentive conversation |
-| `docs/assets/daniyal-explaining.png` | Dr Daniyal anime character, fictional scanner explanation |
-| `docs/assets/doctors-handover.png` | Both anime doctors, private colleague handover |
-| `docs/assets/doctors-rehearsal.png` | Both anime doctors, friendly rehearsal |
+| `docs/assets/clinic-conversation.webp` | Original gouache-style welcome illustration; fictional doctor and older patient |
+| `docs/assets/palwasha-listening.webp` | Dr Palwasha anime character, attentive conversation |
+| `docs/assets/daniyal-explaining.webp` | Dr Daniyal anime character, fictional scanner explanation |
+| `docs/assets/doctors-handover.webp` | Both anime doctors, private colleague handover |
+| `docs/assets/doctors-rehearsal.webp` | Both anime doctors, friendly rehearsal |
 
 ### Prompt set
 

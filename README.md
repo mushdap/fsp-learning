@@ -10,6 +10,6 @@ These are fictional educational scenarios. The exam is a practice knowledge chec
 
 Only the built websites are distributed here. The supplied PDF and original photographs are not included. Illustrations are generated fictional teaching artwork.
 
-To prepare a synchronized release from adjacent `fsp-guide` and `fsp-exam` checkouts, run `python publish.py` using the guide's Python environment, then review and commit the diff. The script builds, tests and copies an explicit set of public assets. `release-manifest.json` records source revisions and asset hashes. It does not publish automatically or delete obsolete files silently.
+To prepare a synchronized release from adjacent `fsp-guide` and `fsp-exam` checkouts, run `python publish.py` using the guide's Python environment, then review and commit the diff. The script builds, tests and copies an explicit set of public assets. `release-manifest.json` records source revisions and asset hashes. It refuses dirty source trees before and after building. It removes only obsolete manifest-owned assets, preserves unrelated files, and does not publish automatically. `python verify_release.py` checks every declared asset hash.
 
-Snapshot: guide 7d4e3dc; exam acf171e. GitHub Pages serves this repository's main branch.
+Snapshot: guide 9bc4ee2; exam 452a425. GitHub Pages serves this repository's main branch.

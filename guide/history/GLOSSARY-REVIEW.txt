@@ -1,0 +1,52 @@
+# Glossary expansion review
+
+## Result
+
+`content/glossary.json` contains **310 defined entries** with original short German explanations, English meanings and patient-friendly German examples. **330 of the PDF audit's 336 source spellings** map to defined entries. **Six spellings remain explicitly unresolved.** Every original spelling is accounted for exactly once, either in `aliases` or in `unresolved`.
+
+One additional standalone entry, Hypersalivation, is defined even though the PDF's combined label “Hypersalivation/Sialorrhö” remains unresolved. Therefore entry count is not the same as the count of unique source concepts.
+
+There are 149 explicit plural forms. The remaining entries have grammar notes instead of invented plurals. Nine entries are adjectival/adverbial expressions or a prepositional phrase, with no standalone noun article. Plural-only forms such as Masern and symptom plurals have specific notes. An empty plural field means no plural is taught here; it does **not** assert that the noun can never form a plural.
+
+## Editorial decisions
+
+- Preserve all original spellings as aliases, including singular/plural variants, capitalization and clear typographical errors.
+- Correct Kolonkarziom to Kolonkarzinom, Malleolus laterales to Malleolus lateralis, and Korneatransplatation to Hornhauttransplantation.
+- Keep related but different concepts separate: Effluvium versus Alopezie, Dysphagie versus Odynophagie, Cholezystolithiasis versus the broader Cholelithiasis, and Psoriasis versus Psoriasis vulgaris.
+- A joint does not itself fracture: the shoulder-joint fracture aliases explicitly leave the exact bone to be clarified.
+- Explain historical Globus hystericus as Globusgefühl without assigning a psychiatric cause.
+- Read the relevant original PDF contexts when a spelling was ambiguous. This clarified OCD as obsessive-compulsive disorder (physical pages 104/108/213), Hypotonie as low blood pressure in this source, and Vesicula as a skin blister.
+- The PDF uses Linsentransplantation in a cataract context (physical pages 162/165/220). The glossary teaches lens replacement with an artificial lens and explains that this is not donor-tissue transplantation. The correction is supported by [gesund.bund.de's cataract explanation](https://gesund.bund.de/grauer-star-katarakt).
+- No PDF definition was copied into the glossary. No drug dose, medication-stop rule, treatment duration or diagnostic threshold was added.
+
+## Six unresolved source labels
+
+1. **Unterleibskarzinom:** the affected organ is not specified.
+2. **Arthritis urica/Hyperurikämie:** joint inflammation from urate crystals and a raised blood uric-acid value are different concepts, not synonyms.
+3. **Hypersalivation/Sialorrhö:** excess production and saliva accumulating or escaping because of impaired clearance are not interchangeable. The PDF itself discusses this distinction in the swallowing section.
+4. **Hidradenitis:** the source alternates an imprecise abscess description and discussion of hidradenitis suppurativa; the unqualified label should not silently become either diagnosis.
+5. **abdominales Ödem:** the affected tissue or space is not sufficiently clear; do not silently substitute ascites.
+6. **Funktionelle Extrasystole:** the qualifier implies a causal interpretation; an isolated vocabulary label cannot establish a non-organic or harmless cause.
+
+These are visible clarification needs, not missing records to fill with guesses.
+
+## Sources and review boundary
+
+**33 entries have an individually selected primary medical or publisher-owned linguistic reference in `source_urls`.** These include national health portals, university/clinical providers, NIH/GARD, medical society guidelines, and Duden for specific grammar checks. Sources were checked selectively for uncommon concepts and important distinctions, including lissencephaly, osteitis pubis, mesenteric infarction, finger infection terminology, overflow diarrhea, vesicle grammar, Tremor plural, and artificial lens replacement. Duden links are linguistic references; they do not imply clinical validation.
+
+The other 277 entries are original working definitions of standard terms, informed by the existing topic vocabulary and checked for consistency during authoring. An empty `source_urls` is deliberate: **it means no entry-specific external verification is claimed**. This is not a professionally clinically validated dictionary, nor an independent human German-language review. The entire corpus still merits that review before being relied upon beyond language learning.
+
+Examples are hypothetical conversation phrases. A word explanation or an example question does not establish a diagnosis, a normal finding, consent, or a treatment plan for any patient.
+
+English meanings were expanded into short plain-English explanations wherever a technical translation would be opaque. For example, Podagra explains the big-toe joint, Tenesmus explains the repeated urge to pass stool, and Peritonitis explains the lining inside the abdomen. Simple everyday meanings such as “itching” remain short.
+
+## Checks performed
+
+- Exact coverage of all 336 audited source spellings, with no duplicate mapping.
+- Unique entry IDs and case-insensitive canonical terms.
+- Required definition, English meaning, German example and grammar note for every defined entry.
+- Article values restricted to der/die/das or empty for non-noun expressions.
+- HTTPS URLs where references are present.
+- Manual review of aliases, examples, uncertainty wording and separation of similar terms.
+
+Only `content/glossary.json` and this review file were changed for this subtask. No commits were made.

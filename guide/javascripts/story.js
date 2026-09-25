@@ -61,6 +61,10 @@
     const announcement = file && file.querySelector('[data-file-announcement]');
     const badge = file && file.querySelector('[data-file-badge]');
     const patientFacts = file ? [...file.querySelectorAll('[data-patient-fact]')] : [];
+    const factSummary = file && file.querySelector('[data-fact-summary]');
+    const factBreakdown = file && file.querySelector('[data-fact-breakdown]');
+    const factMeter = file && file.querySelector('[data-fact-meter]');
+    const factMeterFill = file && file.querySelector('[data-fact-meter-fill]');
     let patientStage = -1;
     const FACT_STATES = {
       reported: ['Patient report', 'Patientenangabe'],
@@ -72,12 +76,18 @@
     function renderPatientFacts(stage) {
       patientStage = stage;
       let changed = 0;
+      const counts = { recorded: 0, unknown: 0, notAsked: 0, planned: 0, later: 0 };
       const lang = german() ? 'de' : 'en';
       patientFacts.forEach(card => {
         let events = [];
         try { events = JSON.parse(card.dataset.patientFact); } catch (_) {}
         const reached = events.filter(event => event.stage <= stage);
         const event = reached[reached.length - 1];
+        if (!event) counts.later++;
+        else if (event.state === 'unknown') counts.unknown++;
+        else if (event.state === 'not_asked') counts.notAsked++;
+        else if (event.state === 'planned') counts.planned++;
+        else counts.recorded++;
         const eventKey = event ? event.key : '';
         if (card.dataset.activeFactKey !== eventKey) changed++;
         card.dataset.activeFactKey = eventKey;
@@ -87,12 +97,35 @@
         state.dataset.state = event ? event.state : 'unreached';
         card.querySelector('[data-fact-value]').textContent = event ? event.value[lang]
           : (german() ? 'Diese Angabe folgt später im Gespräch. Dies bedeutet nicht „nein“.' : 'This entry comes later in the conversation. This does not mean “no”.');
-        card.querySelector('[data-fact-source]').textContent = event ? (german() ? 'Quelle: ' : 'Source: ') + event.source[lang] : '';
+        const sourceChip = card.querySelector('[data-fact-source]');
+        sourceChip.textContent = event ? (german() ? 'Quelle: ' : 'Source: ') + event.source[lang] : '';
+        sourceChip.hidden = !event;
+        const evidence = card.querySelector('[data-fact-evidence]');
+        const quote = card.querySelector('[data-fact-quote]');
+        if (evidence && quote) {
+          const text = event && event.evidence && event.evidence[lang];
+          evidence.hidden = !text;
+          quote.textContent = text || '';
+          quote.setAttribute('lang', lang);
+          // A different source starts closed; rewinding never retains a later quote.
+          if (!text || evidence.dataset.eventKey !== eventKey) evidence.open = false;
+          evidence.dataset.eventKey = eventKey;
+        }
         const history = card.querySelector('[data-fact-history]');
         history.hidden = reached.length < 2;
         card.querySelector('[data-fact-previous]').textContent = reached.slice(0,-1).map(old => old.value[lang] + ' (' + old.source[lang] + ')').join(' → ');
         if (reached.length < 2) history.open = false;
       });
+      const open = counts.unknown + counts.notAsked + counts.planned;
+      const summary = german()
+        ? `${counts.recorded} erfasst · ${open} offen · ${counts.later} später`
+        : `${counts.recorded} recorded · ${open} open · ${counts.later} later`;
+      if (factSummary) factSummary.textContent = summary;
+      if (factBreakdown) factBreakdown.textContent = german()
+        ? `Offen: ${counts.unknown} unbekannt · ${counts.notAsked} nicht erfragt · ${counts.planned} nur geplant`
+        : `Open: ${counts.unknown} unknown · ${counts.notAsked} not asked · ${counts.planned} planned only`;
+      if (factMeter) factMeter.setAttribute('aria-label', summary);
+      if (factMeterFill) factMeterFill.style.width = (patientFacts.length ? counts.recorded / patientFacts.length * 100 : 0) + '%';
       return changed;
     }
 
