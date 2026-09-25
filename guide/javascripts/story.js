@@ -60,6 +60,42 @@
     const status = file && file.querySelector('[data-file-status]');
     const announcement = file && file.querySelector('[data-file-announcement]');
     const badge = file && file.querySelector('[data-file-badge]');
+    const patientFacts = file ? [...file.querySelectorAll('[data-patient-fact]')] : [];
+    let patientStage = -1;
+    const FACT_STATES = {
+      reported: ['Patient report', 'Patientenangabe'],
+      confirmed: ['Patient confirmed', 'Vom Patienten bestätigt'],
+      unknown: ['Not known', 'Unbekannt'],
+      not_asked: ['Not asked yet', 'Noch nicht erfragt'],
+      planned: ['Planned / instructed', 'Geplant / angewiesen'],
+    };
+    function renderPatientFacts(stage) {
+      patientStage = stage;
+      let changed = 0;
+      const lang = german() ? 'de' : 'en';
+      patientFacts.forEach(card => {
+        let events = [];
+        try { events = JSON.parse(card.dataset.patientFact); } catch (_) {}
+        const reached = events.filter(event => event.stage <= stage);
+        const event = reached[reached.length - 1];
+        const eventKey = event ? event.key : '';
+        if (card.dataset.activeFactKey !== eventKey) changed++;
+        card.dataset.activeFactKey = eventKey;
+        const state = card.querySelector('[data-fact-state]');
+        state.textContent = event ? (FACT_STATES[event.state] || FACT_STATES.unknown)[german() ? 1 : 0]
+          : (german() ? 'Noch nicht erreicht' : 'Not reached');
+        state.dataset.state = event ? event.state : 'unreached';
+        card.querySelector('[data-fact-value]').textContent = event ? event.value[lang]
+          : (german() ? 'Diese Angabe folgt später im Gespräch. Dies bedeutet nicht „nein“.' : 'This entry comes later in the conversation. This does not mean “no”.');
+        card.querySelector('[data-fact-source]').textContent = event ? (german() ? 'Quelle: ' : 'Source: ') + event.source[lang] : '';
+        const history = card.querySelector('[data-fact-history]');
+        history.hidden = reached.length < 2;
+        card.querySelector('[data-fact-previous]').textContent = reached.slice(0,-1).map(old => old.value[lang] + ' (' + old.source[lang] + ')').join(' → ');
+        if (reached.length < 2) history.open = false;
+      });
+      return changed;
+    }
+
     let announcementsReady = false;
     let unread = 0, activeStatus = 'Open', lastLanguage = null;
     const german = () => document.documentElement.lang === 'de';
@@ -71,13 +107,13 @@
       if (badge) {
         badge.hidden = !unread;
         badge.textContent = '+' + unread;
-        badge.setAttribute('aria-label', german() ? `${unread} neue Lernnotizen` : `${unread} new reading notes`);
+        badge.setAttribute('aria-label', german() ? `${unread} Aktualisierungen` : `${unread} updates`);
       }
     }
     if (file && window.MutationObserver) {
       const languageObserver = new MutationObserver(() => {
         const lang = document.documentElement.lang;
-        if (lang !== lastLanguage) { lastLanguage = lang; renderFileStatus(); }
+        if (lang !== lastLanguage) { lastLanguage = lang; renderFileStatus(); renderPatientFacts(patientStage); }
       });
       languageObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
       off.push(() => languageObserver.disconnect());
@@ -127,6 +163,9 @@
 
       marks.forEach((m) => m.classList.toggle('is-active', m === el));
 
+      const patientRewind = stage < patientStage;
+      const factChanges = renderPatientFacts(stage);
+
       // Case file rows — earlier chapters arrive pre-filled.
       let covered = 0, added = 0, removed = false;
       fillables.forEach((f) => {
@@ -160,8 +199,8 @@
       }
       const changedStatus = activeStatus !== st;
       activeStatus = st;
-      if (removed) unread = 0;
-      if (announcementsReady && !firstPaint && added && window.innerWidth <= 1080 && !file.classList.contains('is-open')) unread += added;
+      if (removed || patientRewind) unread = 0;
+      if (announcementsReady && !firstPaint && (added || factChanges) && !patientRewind && window.innerWidth <= 1080 && !file.classList.contains('is-open')) unread += added + factChanges;
       renderFileStatus();
       status.classList.remove('is-stamping');
       if (changedStatus && !firstPaint && !reduced()) { void status.offsetWidth; status.classList.add('is-stamping'); }
@@ -170,6 +209,7 @@
         announcement.textContent = german()
           ? `${covered} von ${target} Lernnotizen sichtbar. Status: ${status.textContent}.`
           : `${covered} of ${target} reading notes visible. Status: ${status.textContent}.`;
+        if (factChanges) announcement.textContent += german() ? ` ${factChanges} Patientenangaben aktualisiert.` : ` ${factChanges} patient fact entries updated.`;
       }
       headlineLabel.textContent = hl ? hl.label : defaultLabel;
       headline.textContent = hl ? hl.value : story.dataset.initialValue;

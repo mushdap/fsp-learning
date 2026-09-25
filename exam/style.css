@@ -7,3 +7,5 @@
 
 [data-reading-lang="de"]{display:none!important}html[lang="de"] [data-reading-lang="en"]{display:none!important}html[lang="de"] [data-reading-lang="de"]{display:revert!important}
 .study-map{padding:22px 0}.study-map ol{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;list-style-position:inside;padding:0}.study-map li{padding:20px;border:1px solid #64748b;border-radius:12px;line-height:1.65}.question p{max-width:65ch;line-height:1.7}.option{line-height:1.6}@media(max-width:760px){.study-map ol{grid-template-columns:1fr}}
+/* Full-history workspace uses the same cards and accessible form controls. */
+.practice-route{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}.practice-route>span{flex:1;min-width:150px;padding:16px;border:1px solid #7083a455;border-radius:12px;font-weight:700}.profile-facts dt{font-weight:700;margin-top:20px}.profile-facts dd{margin:6px 0 18px;line-height:1.7}.followup{padding:20px 0;border-top:1px solid #7083a455}.followup textarea{min-height:90px}.structured-note textarea{min-height:100px}

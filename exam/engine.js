@@ -21,6 +21,11 @@ export const writingFields=[
 ];
 export function saveWritingDraft(previous,fields,structured,rubric){return {...previous,...fields,structured:{...(previous?.structured||{}),...structured},rubric};}
 
+// New attempts retain the exact assessed content when the bank is updated later.
+export function resolveAttemptQuestions(attempt,bank){
+ return attempt.ids.map(id=>attempt.questions?.find(q=>q.id===id)||bank.find(q=>q.id===id));
+}
+
 export function setupChoices(bank,set,requestedTopic='all'){
  const pool=set==='focused'?bank.filter(q=>q.assessment):bank;
  const topics=[...new Map(pool.map(q=>[q.topic,q.topicTitle])).entries()];

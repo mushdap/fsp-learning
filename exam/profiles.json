@@ -1,0 +1,1036 @@
+{
+  "schema_version": 1,
+  "scope": "Original fictional language-practice pilot; 3 profiles, not full PDF coverage or an official examination.",
+  "profiles": [
+    {
+      "id": "two-pains-one-story",
+      "topic": "wrist-trauma",
+      "title": {
+        "de": "Ein Sturz. Zwei schmerzende Stellen.",
+        "en": "One fall. Two painful places."
+      },
+      "patient": {
+        "name": "Nora Seidel",
+        "age": 42
+      },
+      "aim": {
+        "de": "Zwei Beschwerden getrennt sammeln. Eine fehlende Untersuchung bleibt offen.",
+        "en": "Collect two complaints separately. An examination that has not happened stays unknown."
+      },
+      "opening": {
+        "de": "„Ich bin auf dem Weg zur Arbeit mit dem Fahrrad gestürzt. Mein linkes Handgelenk tut weh. Die linke Hüfte auch. Meine Tasche hat den Sturz besser überstanden als ich.“",
+        "en": "“I fell off my bicycle on my way to work. My left wrist hurts. My left hip does too. My bag handled the fall better than I did.”"
+      },
+      "facts": [
+        {
+          "key": "identity",
+          "label": {
+            "de": "Person",
+            "en": "Person"
+          },
+          "value": {
+            "de": "Nora Seidel, 42 Jahre, 168 cm, 67 kg. Name und Alter von der Patientin bestätigt.",
+            "en": "Nora Seidel, 42 years, 168 cm, 67 kg. Patient confirmed her name and age."
+          }
+        },
+        {
+          "key": "onset",
+          "label": {
+            "de": "Unfall",
+            "en": "Accident"
+          },
+          "value": {
+            "de": "Heute um 07:40 Uhr auf dem direkten Weg zur Arbeit. Das Vorderrad rutschte weg. Sturz auf die linke Hand und linke Hüfte.",
+            "en": "Today at 07:40, directly on the way to work. The front wheel slipped. She landed on her left hand and left hip."
+          }
+        },
+        {
+          "key": "wrist",
+          "label": {
+            "de": "Beschwerde 1",
+            "en": "Complaint 1"
+          },
+          "value": {
+            "de": "Linkes Handgelenk: Schmerzen seit dem Sturz, 7 von 10 bei Bewegung, 3 von 10 in Ruhe. Kein Kribbeln nach eigener Angabe.",
+            "en": "Left wrist: pain since the fall, 7/10 with movement, 3/10 at rest. She reports no tingling."
+          }
+        },
+        {
+          "key": "hip",
+          "label": {
+            "de": "Beschwerde 2",
+            "en": "Complaint 2"
+          },
+          "value": {
+            "de": "Linke Hüfte: Schmerzen seit dem Sturz, 4 von 10 beim Stehen. Belastbarkeit noch nicht untersucht.",
+            "en": "Left hip: pain since the fall, 4/10 when standing. Ability to bear weight has not been examined."
+          }
+        },
+        {
+          "key": "associated",
+          "label": {
+            "de": "Weitere Unfallangaben",
+            "en": "Other accident details"
+          },
+          "value": {
+            "de": "Sie habe einen Helm getragen. Kopfaufprall und Bewusstlosigkeit verneint sie. Nach Brustschmerzen wurde noch nicht gefragt.",
+            "en": "She reports wearing a helmet. She denies hitting her head or losing consciousness. Chest pain has not yet been asked about."
+          }
+        },
+        {
+          "key": "vegetative",
+          "label": {
+            "de": "Weitere Anamnese",
+            "en": "Other history"
+          },
+          "value": {
+            "de": "Appetit, Schlaf, Stuhlgang und Wasserlassen noch nicht erfragt. Letzte Menstruation und mögliche Schwangerschaft noch nicht erfragt.",
+            "en": "Appetite, sleep, bowel movements and urination not yet asked about. Last menstrual period and possible pregnancy not yet asked about."
+          }
+        },
+        {
+          "key": "past",
+          "label": {
+            "de": "Vorerkrankungen / Eingriffe",
+            "en": "Past conditions / procedures"
+          },
+          "value": {
+            "de": "Sie berichtet über eine Blinddarmentfernung mit 19 Jahren. Weitere Erkrankungen und Eingriffe noch nicht systematisch erfragt.",
+            "en": "She reports appendix removal at age 19. Other conditions and procedures have not yet been systematically asked about."
+          }
+        },
+        {
+          "key": "medicines",
+          "label": {
+            "de": "Medikamente",
+            "en": "Medicines"
+          },
+          "value": {
+            "de": "Sie gibt an, keine regelmäßigen Medikamente einzunehmen. Nach frei verkäuflichen Mitteln wurde noch nicht gefragt.",
+            "en": "She reports no regular medicines. Over-the-counter products have not yet been asked about."
+          }
+        },
+        {
+          "key": "allergy",
+          "label": {
+            "de": "Allergien",
+            "en": "Allergies"
+          },
+          "value": {
+            "de": "Juckende Hautrötung unter einem Pflaster nach der früheren Operation. Auslöser nicht getestet. Andere Allergien noch nicht erfragt.",
+            "en": "Itchy skin redness under an adhesive dressing after the previous operation. Trigger not tested. Other allergies not yet asked about."
+          }
+        },
+        {
+          "key": "noxen",
+          "label": {
+            "de": "Genussmittel",
+            "en": "Smoking, alcohol and drugs"
+          },
+          "value": {
+            "de": "Sie rauche nicht, trinke ungefähr ein Glas Wein im Monat und nehme keine Drogen.",
+            "en": "She reports not smoking, drinking about one glass of wine a month, and no drug use."
+          }
+        },
+        {
+          "key": "social",
+          "label": {
+            "de": "Soziales",
+            "en": "Social history"
+          },
+          "value": {
+            "de": "Grundschullehrerin. Lebt mit ihrem Partner und ihrem Sohn zusammen. Sie möchte wissen, wer ihren Sohn heute abholen kann.",
+            "en": "Primary school teacher. Lives with her partner and son. She wants to know who can collect her son today."
+          }
+        },
+        {
+          "key": "family",
+          "label": {
+            "de": "Familie",
+            "en": "Family history"
+          },
+          "value": {
+            "de": "Die Mutter habe Bluthochdruck. Weitere Familienanamnese offen.",
+            "en": "Her mother has high blood pressure, according to Nora. Further family history is open."
+          }
+        },
+        {
+          "key": "vaccination",
+          "label": {
+            "de": "Impfstatus",
+            "en": "Vaccinations"
+          },
+          "value": {
+            "de": "Sie kennt das Datum der letzten Tetanusimpfung nicht.",
+            "en": "She does not know the date of her last tetanus vaccination."
+          }
+        },
+        {
+          "key": "findings",
+          "label": {
+            "de": "Untersuchung / Diagnose",
+            "en": "Examination / diagnosis"
+          },
+          "value": {
+            "de": "Keine körperliche Untersuchung oder Bildgebung dokumentiert. Eine Fraktur ist weder bestätigt noch ausgeschlossen.",
+            "en": "No physical examination or imaging documented. A fracture is neither confirmed nor excluded."
+          }
+        }
+      ],
+      "presentation": {
+        "de": "Ich stelle Ihnen Frau Nora Seidel vor, 42 Jahre. Sie berichte über einen Fahrradsturz heute um 07:40 Uhr auf dem direkten Weg zur Arbeit. Sie sei auf die linke Hand und die linke Hüfte gefallen. Am linken Handgelenk habe sie bei Bewegung Schmerzen von 7, in Ruhe von 3 auf einer Skala bis 10. An der linken Hüfte gebe sie beim Stehen 4 von 10 an. Kribbeln verneine sie. Sie habe einen Helm getragen; Kopfaufprall und Bewusstlosigkeit verneine sie. Nach Brustschmerzen wurde noch nicht gefragt. Eine Blinddarmentfernung mit 19 Jahren sei bekannt. Sie nehme nach eigener Angabe keine regelmäßigen Medikamente ein. Frei verkäufliche Mittel sind noch nicht erfragt. Nach der früheren Operation habe ein Pflaster eine juckende Hautrötung verursacht; ein getesteter Auslöser sei nicht bekannt. Sie rauche nicht und nehme keine Drogen. Sie trinke ungefähr ein Glas Wein im Monat. Frau Seidel sei Grundschullehrerin und lebe mit Partner und Sohn zusammen. Ihre Mutter habe Bluthochdruck. Das Datum der letzten Tetanusimpfung kenne sie nicht. Untersuchung und Bildgebung liegen nicht vor. Beide Schmerzstellen müssen getrennt weiter abgeklärt werden. Eine Fraktur kann aus diesen Angaben allein nicht bestätigt oder ausgeschlossen werden.",
+        "en": "I am presenting Nora Seidel, 42. She reports a bicycle fall today at 07:40 on her direct journey to work. She landed on her left hand and left hip. Left wrist pain is 7/10 with movement and 3/10 at rest. Left hip pain is 4/10 when standing. She denies tingling. She reports wearing a helmet and denies head impact or loss of consciousness. Chest pain has not yet been asked about. She reports appendix removal at 19 and no regular medicines; over-the-counter products remain unasked. An adhesive dressing caused itchy redness after that operation; the trigger was not tested. She reports no smoking or drugs and about one glass of wine monthly. She is a primary school teacher living with her partner and son. Her mother has high blood pressure. She does not know her last tetanus vaccination date. Examination and imaging are not available. Both pain sites need separate further assessment. These statements alone neither confirm nor exclude a fracture."
+      },
+      "followups": [
+        {
+          "type": "detail",
+          "question": {
+            "de": "Wann geschah der Unfall?",
+            "en": "When did the accident happen?"
+          },
+          "answer": {
+            "de": "Heute um 07:40 Uhr.",
+            "en": "Today at 07:40."
+          }
+        },
+        {
+          "type": "detail",
+          "question": {
+            "de": "Welche zwei Stellen schmerzen?",
+            "en": "Which two places hurt?"
+          },
+          "answer": {
+            "de": "Linkes Handgelenk und linke Hüfte.",
+            "en": "Left wrist and left hip."
+          }
+        },
+        {
+          "type": "detail",
+          "question": {
+            "de": "Welche Schmerzstärke gehört zum Handgelenk?",
+            "en": "Which pain scores belong to the wrist?"
+          },
+          "answer": {
+            "de": "7 bei Bewegung, 3 in Ruhe, jeweils von 10.",
+            "en": "7 with movement, 3 at rest, both out of 10."
+          }
+        },
+        {
+          "type": "detail",
+          "question": {
+            "de": "Was sagte sie zum Kribbeln?",
+            "en": "What did she say about tingling?"
+          },
+          "answer": {
+            "de": "Sie verneint Kribbeln. Das ist eine Patientenangabe, kein vollständiger Untersuchungsbefund.",
+            "en": "She denies tingling. That is her report, not a complete examination finding."
+          }
+        },
+        {
+          "type": "detail",
+          "question": {
+            "de": "Warum ist der Weg wichtig?",
+            "en": "Why record the journey?"
+          },
+          "answer": {
+            "de": "Sie war auf dem direkten Weg zur Arbeit. Diesen Umstand dokumentieren wir; wir entscheiden hier nicht über Versicherungsschutz.",
+            "en": "She was directly on her way to work. Record that circumstance; this exercise does not decide insurance cover."
+          }
+        },
+        {
+          "type": "detail",
+          "question": {
+            "de": "Welche Reaktion verursachte das Pflaster?",
+            "en": "What reaction followed the dressing?"
+          },
+          "answer": {
+            "de": "Eine juckende Hautrötung nach der früheren Operation.",
+            "en": "Itchy skin redness after the previous operation."
+          }
+        },
+        {
+          "type": "detail",
+          "question": {
+            "de": "Was beschäftigt sie neben dem Schmerz?",
+            "en": "What worries her besides pain?"
+          },
+          "answer": {
+            "de": "Wer ihren Sohn heute abholen kann.",
+            "en": "Who can collect her son today."
+          }
+        },
+        {
+          "type": "unknown",
+          "question": {
+            "de": "Ist das Handgelenk gebrochen?",
+            "en": "Is the wrist broken?"
+          },
+          "answer": {
+            "de": "Nicht bekannt. Untersuchung und Bildgebung fehlen.",
+            "en": "Unknown. Examination and imaging are missing."
+          }
+        },
+        {
+          "type": "unknown",
+          "question": {
+            "de": "Hat sie Brustschmerzen verneint?",
+            "en": "Did she deny chest pain?"
+          },
+          "answer": {
+            "de": "Nein. Danach wurde noch nicht gefragt.",
+            "en": "No. It has not yet been asked about."
+          }
+        },
+        {
+          "type": "unknown",
+          "question": {
+            "de": "Wann war die letzte Tetanusimpfung?",
+            "en": "When was the last tetanus vaccination?"
+          },
+          "answer": {
+            "de": "Sie kennt das Datum nicht. Unbekannt ist nicht dasselbe wie ungeimpft.",
+            "en": "She does not know the date. Unknown does not mean unvaccinated."
+          }
+        },
+        {
+          "type": "language",
+          "question": {
+            "de": "Wie sagen Sie „Fraktur“ im Patientengespräch?",
+            "en": "How do you say “fracture” to a patient in German?"
+          },
+          "answer": {
+            "de": "Ein Knochenbruch.",
+            "en": "Ein Knochenbruch: a broken bone."
+          }
+        },
+        {
+          "type": "language",
+          "question": {
+            "de": "Wie geben Sie „Ich nehme keine regelmäßigen Medikamente“ weiter?",
+            "en": "How do you report “I take no regular medicines”?"
+          },
+          "answer": {
+            "de": "Sie gebe an, keine regelmäßigen Medikamente einzunehmen.",
+            "en": "She reports taking no regular medicines."
+          }
+        },
+        {
+          "type": "communication",
+          "question": {
+            "de": "Wie wechseln Sie zur zweiten Schmerzstelle?",
+            "en": "How do you move to the second pain site?"
+          },
+          "answer": {
+            "de": "Jetzt habe ich die Angaben zum Handgelenk. Erzählen Sie mir bitte noch von der Hüfte.",
+            "en": "I have the wrist details now. Please also tell me about your hip."
+          }
+        },
+        {
+          "type": "communication",
+          "question": {
+            "de": "Was bedeutet ihre Bemerkung über die Tasche?",
+            "en": "What does her remark about the bag mean?"
+          },
+          "answer": {
+            "de": "Sie macht einen kleinen Scherz. Daraus folgt nicht, dass die Verletzung leicht ist.",
+            "en": "She makes a small joke. It does not show that the injury is minor."
+          }
+        },
+        {
+          "type": "documentation",
+          "question": {
+            "de": "Dürfen Sie „DMS intakt“ schreiben?",
+            "en": "May you write “circulation, movement and sensation intact”?"
+          },
+          "answer": {
+            "de": "Nein. Eine entsprechende Untersuchung ist nicht dokumentiert.",
+            "en": "No. That examination is not documented."
+          }
+        }
+      ]
+    },
+    {
+      "id": "urinary-history-with-gaps",
+      "topic": "urinary",
+      "title": {
+        "de": "„Heiß“ ist noch keine gemessene Temperatur.",
+        "en": "“Hot” is not a measured temperature."
+      },
+      "patient": {
+        "name": "Samir Winter",
+        "age": 36
+      },
+      "aim": {
+        "de": "Zeit, Körperseite und Messwerte genau trennen. Ein Gefühl wird nicht zur Zahl.",
+        "en": "Separate timing, body side and measurements. A feeling does not become a number."
+      },
+      "opening": {
+        "de": "„Seit gestern brennt es beim Wasserlassen. Seit heute Morgen tut meine rechte Seite am Rücken weh. Mir ist heiß, aber mein Thermometer hat wohl frei.“",
+        "en": "“It has burned when I pass urine since yesterday. My right side at the back has hurt since this morning. I feel hot, but my thermometer seems to have taken the day off.”"
+      },
+      "facts": [
+        {
+          "key": "identity",
+          "label": {
+            "de": "Person",
+            "en": "Person"
+          },
+          "value": {
+            "de": "Samir Winter, 36 Jahre, 179 cm, 82 kg. Name und Alter bestätigt.",
+            "en": "Samir Winter, 36 years, 179 cm, 82 kg. Name and age confirmed."
+          }
+        },
+        {
+          "key": "urinary",
+          "label": {
+            "de": "Wasserlassen",
+            "en": "Urination"
+          },
+          "value": {
+            "de": "Brennen seit gestern Nachmittag. Häufiger Harndrang, jeweils kleine Mengen. Sichtbares Blut im Urin verneint er.",
+            "en": "Burning since yesterday afternoon. Frequent urge, small amounts each time. He denies visible blood in urine."
+          }
+        },
+        {
+          "key": "pain",
+          "label": {
+            "de": "Schmerz",
+            "en": "Pain"
+          },
+          "value": {
+            "de": "Seit heute um 06:00 Uhr Schmerzen rechts seitlich am Rücken. Durchgehend, 6 von 10. Ausstrahlung noch nicht erfragt.",
+            "en": "Pain on the right side of his back since 06:00 today. Continuous, 6/10. Radiation not yet asked about."
+          }
+        },
+        {
+          "key": "associated",
+          "label": {
+            "de": "Begleitende Angaben",
+            "en": "Associated reports"
+          },
+          "value": {
+            "de": "Er fühle sich heiß und habe seit heute Morgen weniger Appetit. Temperatur nicht gemessen. Erbrechen verneint.",
+            "en": "He feels hot and reports less appetite since this morning. Temperature not measured. He denies vomiting."
+          }
+        },
+        {
+          "key": "vegetative",
+          "label": {
+            "de": "Weitere Anamnese",
+            "en": "Other history"
+          },
+          "value": {
+            "de": "Letzte Nacht wegen Harndrang zweimal aufgestanden. Stuhlgang und Gewichtsverlauf noch nicht erfragt.",
+            "en": "Got up twice last night because he needed to urinate. Bowel movements and weight change not yet asked about."
+          }
+        },
+        {
+          "key": "past",
+          "label": {
+            "de": "Vorerkrankungen / Eingriffe",
+            "en": "Past conditions / procedures"
+          },
+          "value": {
+            "de": "Er berichtet über einen Nierenstein vor vier Jahren. Dieser sei ohne Eingriff abgegangen. Weitere Erkrankungen und Operationen noch nicht erfragt.",
+            "en": "He reports a kidney stone four years ago that passed without a procedure. Other conditions and operations not yet asked about."
+          }
+        },
+        {
+          "key": "medicines",
+          "label": {
+            "de": "Medikamente",
+            "en": "Medicines"
+          },
+          "value": {
+            "de": "Keine regelmäßigen Medikamente nach eigener Angabe. Heute eine Schmerztablette aus der Hausapotheke; Name, Stärke und Einnahmezeit unbekannt.",
+            "en": "No regular medicines by his report. One pain tablet from his home medicine cupboard today; name, strength and time unknown."
+          }
+        },
+        {
+          "key": "allergy",
+          "label": {
+            "de": "Allergien",
+            "en": "Allergies"
+          },
+          "value": {
+            "de": "Er nennt Heuschnupfen im Frühjahr. Medikamentenallergien noch nicht gezielt erfragt.",
+            "en": "He reports hay fever in spring. Medicine allergies not yet specifically asked about."
+          }
+        },
+        {
+          "key": "noxen",
+          "label": {
+            "de": "Genussmittel",
+            "en": "Smoking, alcohol and drugs"
+          },
+          "value": {
+            "de": "Nie geraucht, nach eigener Angabe. Etwa zwei Flaschen Bier pro Monat. Nach Drogen wurde noch nicht gefragt.",
+            "en": "He reports never smoking and about two bottles of beer per month. Drug use not yet asked about."
+          }
+        },
+        {
+          "key": "social",
+          "label": {
+            "de": "Soziales",
+            "en": "Social history"
+          },
+          "value": {
+            "de": "Busfahrer. Lebt allein. Seine Schwester kann bei Bedarf seine Medikamentenpackung bringen.",
+            "en": "Bus driver. Lives alone. His sister can bring the medicine package if needed."
+          }
+        },
+        {
+          "key": "family",
+          "label": {
+            "de": "Familie",
+            "en": "Family history"
+          },
+          "value": {
+            "de": "Sein Vater habe ebenfalls einmal einen Nierenstein gehabt. Weitere Familienanamnese offen.",
+            "en": "His father also once had a kidney stone, according to Samir. Further family history is open."
+          }
+        },
+        {
+          "key": "vaccination",
+          "label": {
+            "de": "Impfstatus",
+            "en": "Vaccinations"
+          },
+          "value": {
+            "de": "Noch nicht erfragt.",
+            "en": "Not yet asked about."
+          }
+        },
+        {
+          "key": "findings",
+          "label": {
+            "de": "Untersuchung / Diagnose",
+            "en": "Examination / diagnosis"
+          },
+          "value": {
+            "de": "Keine Vitalwerte, Urinuntersuchung oder körperlichen Befunde vorhanden. Keine bestätigte Diagnose.",
+            "en": "No vital signs, urine test or physical findings available. No confirmed diagnosis."
+          }
+        }
+      ],
+      "presentation": {
+        "de": "Ich stelle Ihnen Herrn Samir Winter vor, 36 Jahre. Seit gestern Nachmittag habe er Brennen beim Wasserlassen und häufigen Harndrang mit kleinen Urinmengen. Sichtbares Blut im Urin verneine er. Seit heute um 06:00 Uhr habe er außerdem durchgehende Schmerzen rechts seitlich am Rücken, 6 von 10. Eine Ausstrahlung wurde noch nicht erfragt. Er fühle sich heiß; eine Temperatur wurde jedoch nicht gemessen. Seit heute Morgen habe er weniger Appetit. Erbrechen verneine er. Letzte Nacht sei er wegen Harndrang zweimal aufgestanden. Stuhlgang und Gewichtsverlauf sind offen. Vor vier Jahren habe er einen Nierenstein gehabt, der ohne Eingriff abgegangen sei. Er nehme nach eigener Angabe keine regelmäßigen Medikamente. Heute habe er eine Schmerztablette genommen. Name, Stärke und Einnahmezeit sind unbekannt. Seine Schwester könne die Packung bringen. Er berichte über Heuschnupfen im Frühjahr; Medikamentenallergien wurden noch nicht gezielt erfragt. Er habe nie geraucht und trinke etwa zwei Flaschen Bier pro Monat. Drogenkonsum ist noch nicht erfragt. Er sei Busfahrer und lebe allein. Sein Vater habe einmal einen Nierenstein gehabt. Es liegen keine Vitalwerte oder Untersuchungsbefunde vor. Eine Diagnose ist nicht bestätigt. Die aktuellen Beschwerden müssen ärztlich beurteilt und die offenen Angaben geklärt werden.",
+        "en": "I am presenting Samir Winter, 36. Since yesterday afternoon he reports burning during urination, frequent urges and small amounts. He denies visible blood in urine. Since 06:00 today he also reports continuous right-sided back pain, 6/10. Radiation has not yet been asked about. He feels hot, but temperature has not been measured. Appetite is reduced since this morning and he denies vomiting. He got up twice to urinate last night. Bowel movements and weight change remain open. Four years ago he reports a kidney stone that passed without a procedure. He reports no regular medicines, but took one pain tablet today; its name, strength and time are unknown. His sister can bring the package. He reports spring hay fever; medicine allergies remain unasked. He reports never smoking and about two beers a month. Drug use is unasked. He is a bus driver living alone. His father once had a kidney stone. No vital signs or examination findings are available. There is no confirmed diagnosis. The current complaints need medical assessment and the missing details need clarification."
+      },
+      "followups": [
+        {
+          "type": "detail",
+          "question": {
+            "de": "Wann begann das Brennen?",
+            "en": "When did the burning start?"
+          },
+          "answer": {
+            "de": "Gestern Nachmittag.",
+            "en": "Yesterday afternoon."
+          }
+        },
+        {
+          "type": "detail",
+          "question": {
+            "de": "Wann begann der Rückenschmerz?",
+            "en": "When did the back pain start?"
+          },
+          "answer": {
+            "de": "Heute um 06:00 Uhr.",
+            "en": "Today at 06:00."
+          }
+        },
+        {
+          "type": "detail",
+          "question": {
+            "de": "Welche Seite nennt er?",
+            "en": "Which side does he name?"
+          },
+          "answer": {
+            "de": "Rechts.",
+            "en": "Right."
+          }
+        },
+        {
+          "type": "detail",
+          "question": {
+            "de": "Wie beschreibt er den Schmerzverlauf?",
+            "en": "How does he describe the pain pattern?"
+          },
+          "answer": {
+            "de": "Durchgehend, 6 von 10.",
+            "en": "Continuous, 6/10."
+          }
+        },
+        {
+          "type": "detail",
+          "question": {
+            "de": "Was weiß er über seinen früheren Stein?",
+            "en": "What does he know about his earlier stone?"
+          },
+          "answer": {
+            "de": "Vor vier Jahren; laut Patient ohne Eingriff abgegangen.",
+            "en": "Four years ago; according to him, it passed without a procedure."
+          }
+        },
+        {
+          "type": "detail",
+          "question": {
+            "de": "Wer kann die Packung bringen?",
+            "en": "Who can bring the package?"
+          },
+          "answer": {
+            "de": "Seine Schwester.",
+            "en": "His sister."
+          }
+        },
+        {
+          "type": "detail",
+          "question": {
+            "de": "Welche Allergie nennt er?",
+            "en": "What allergy does he mention?"
+          },
+          "answer": {
+            "de": "Heuschnupfen im Frühjahr.",
+            "en": "Hay fever in spring."
+          }
+        },
+        {
+          "type": "unknown",
+          "question": {
+            "de": "Wie hoch ist seine Temperatur?",
+            "en": "What is his temperature?"
+          },
+          "answer": {
+            "de": "Nicht bekannt. Er fühlt sich heiß, hat aber nicht gemessen.",
+            "en": "Unknown. He feels hot but has not measured it."
+          }
+        },
+        {
+          "type": "unknown",
+          "question": {
+            "de": "Welches Schmerzmittel nahm er?",
+            "en": "Which pain medicine did he take?"
+          },
+          "answer": {
+            "de": "Name und Stärke sind unbekannt. Die Packung soll die Angabe klären.",
+            "en": "Name and strength are unknown. The package should clarify them."
+          }
+        },
+        {
+          "type": "unknown",
+          "question": {
+            "de": "Wohin strahlt der Schmerz aus?",
+            "en": "Where does the pain radiate?"
+          },
+          "answer": {
+            "de": "Noch nicht erfragt.",
+            "en": "Not yet asked about."
+          }
+        },
+        {
+          "type": "language",
+          "question": {
+            "de": "Wie sagen Sie „Miktion“ einfach?",
+            "en": "How do you say “Miktion” simply?"
+          },
+          "answer": {
+            "de": "Wasserlassen.",
+            "en": "Passing urine."
+          }
+        },
+        {
+          "type": "language",
+          "question": {
+            "de": "Wie geben Sie „Mir ist heiß“ weiter?",
+            "en": "How do you report “I feel hot”?"
+          },
+          "answer": {
+            "de": "Er gebe an, sich heiß zu fühlen. Die Temperatur sei nicht gemessen worden.",
+            "en": "He reports feeling hot. His temperature has not been measured."
+          }
+        },
+        {
+          "type": "communication",
+          "question": {
+            "de": "Wie fragen Sie nach Drogen ohne Vorwurf?",
+            "en": "How do you ask about drugs without blame?"
+          },
+          "answer": {
+            "de": "Ich frage alle Patienten danach: Nehmen Sie Drogen oder andere Mittel ein?",
+            "en": "I ask all patients this: do you use drugs or other substances?"
+          }
+        },
+        {
+          "type": "documentation",
+          "question": {
+            "de": "Ist eine Nierenbeckenentzündung bestätigt?",
+            "en": "Is a kidney infection confirmed?"
+          },
+          "answer": {
+            "de": "Nein. Die Angaben sind Beschwerden, kein bestätigter Befund.",
+            "en": "No. These are reported symptoms, not a confirmed finding."
+          }
+        },
+        {
+          "type": "communication",
+          "question": {
+            "de": "Wie prüfen Sie die zwei Anfangszeiten?",
+            "en": "How do you check the two start times?"
+          },
+          "answer": {
+            "de": "Das Brennen begann gestern, der Rückenschmerz heute um sechs. Habe ich das richtig verstanden?",
+            "en": "The burning began yesterday, the back pain today at six. Have I understood correctly?"
+          }
+        }
+      ]
+    },
+    {
+      "id": "medicine-list-with-one-blank",
+      "topic": "medicines",
+      "title": {
+        "de": "Die blaue Tablette braucht einen Namen.",
+        "en": "The blue tablet needs a name."
+      },
+      "patient": {
+        "name": "Eva Brandt",
+        "age": 58
+      },
+      "aim": {
+        "de": "Eine Medikamentenliste ordnen. Bestätigte Angaben und offene Fragen sichtbar trennen.",
+        "en": "Organise a medicine list. Keep confirmed reports and open questions visibly separate."
+      },
+      "opening": {
+        "de": "„Ich soll meine Medikamente nennen. Die weiße Tablette kenne ich. Bei der blauen hilft mein Gedächtnis heute nicht mit.“",
+        "en": "“I was asked to name my medicines. I know the white tablet. My memory is not helping with the blue one today.”"
+      },
+      "facts": [
+        {
+          "key": "identity",
+          "label": {
+            "de": "Person",
+            "en": "Person"
+          },
+          "value": {
+            "de": "Eva Brandt, 58 Jahre, 164 cm, 73 kg. Name und Alter bestätigt.",
+            "en": "Eva Brandt, 58 years, 164 cm, 73 kg. Name and age confirmed."
+          }
+        },
+        {
+          "key": "reason",
+          "label": {
+            "de": "Anlass",
+            "en": "Reason for visit"
+          },
+          "value": {
+            "de": "Geplanter Termin zum Abgleich der Medikamentenliste. Sie sagt, dass es ihr heute wie üblich gehe. Einzelne akute Beschwerden wurden noch nicht systematisch erfragt.",
+            "en": "Planned medicine-list review. She says she feels as usual today. Individual acute symptoms have not yet been systematically asked about."
+          }
+        },
+        {
+          "key": "past",
+          "label": {
+            "de": "Vorerkrankungen",
+            "en": "Past conditions"
+          },
+          "value": {
+            "de": "Nach eigener Angabe Bluthochdruck seit acht Jahren. Weitere Vorerkrankungen noch nicht vollständig erfragt.",
+            "en": "She reports high blood pressure for eight years. Other past conditions have not yet been fully asked about."
+          }
+        },
+        {
+          "key": "operations",
+          "label": {
+            "de": "Eingriffe",
+            "en": "Procedures"
+          },
+          "value": {
+            "de": "Gallenblasenentfernung vor sechs Jahren, nach eigener Angabe.",
+            "en": "Gallbladder removal six years ago, according to her."
+          }
+        },
+        {
+          "key": "medicine-known",
+          "label": {
+            "de": "Bekanntes Medikament",
+            "en": "Known medicine"
+          },
+          "value": {
+            "de": "Sie nennt Ramipril, eine Tablette morgens. Stärke unbekannt. Angabe noch nicht mit Packung oder Plan verglichen. Dies ist ihre berichtete Einnahme, keine Empfehlung.",
+            "en": "She names ramipril, one tablet in the morning. Strength unknown. Not yet checked against a package or plan. This is reported use, not a recommendation."
+          }
+        },
+        {
+          "key": "medicine-unknown",
+          "label": {
+            "de": "Unbekanntes Medikament",
+            "en": "Unknown medicine"
+          },
+          "value": {
+            "de": "Eine blaue Tablette abends, Name und Stärke unbekannt. Sie weiß nicht, wofür sie verordnet wurde. Ihre Tochter kann beide Packungen heute bringen.",
+            "en": "One blue tablet in the evening; name and strength unknown. She does not know why it was prescribed. Her daughter can bring both packages today."
+          }
+        },
+        {
+          "key": "other-products",
+          "label": {
+            "de": "Weitere Mittel",
+            "en": "Other products"
+          },
+          "value": {
+            "de": "Gelegentlich ein pflanzlicher Schlaftee. Produktname unbekannt. Weitere frei verkäufliche Mittel noch nicht erfragt.",
+            "en": "Occasional herbal sleep tea. Product name unknown. Other over-the-counter products not yet asked about."
+          }
+        },
+        {
+          "key": "allergy",
+          "label": {
+            "de": "Allergien",
+            "en": "Allergies"
+          },
+          "value": {
+            "de": "Sie berichtet über juckende Quaddeln nach einem Antibiotikum vor zehn Jahren. Name unbekannt. Atembeschwerden und weitere Einzelheiten dazu noch nicht erfragt.",
+            "en": "She reports itchy raised skin patches after an antibiotic ten years ago. Name unknown. Breathing symptoms and further details have not yet been asked about."
+          }
+        },
+        {
+          "key": "vegetative",
+          "label": {
+            "de": "Weitere Anamnese",
+            "en": "Other history"
+          },
+          "value": {
+            "de": "Sie schlafe seit zwei Wochen schlechter ein. Appetit, Gewichtsentwicklung, Stuhlgang und Wasserlassen noch nicht erfragt. Letzte Menstruation und relevante gynäkologische Angaben offen.",
+            "en": "She reports more difficulty falling asleep for two weeks. Appetite, weight change, bowel movements and urination unasked. Last menstrual period and relevant gynaecological history remain open."
+          }
+        },
+        {
+          "key": "noxen",
+          "label": {
+            "de": "Genussmittel",
+            "en": "Smoking, alcohol and drugs"
+          },
+          "value": {
+            "de": "Früher zehn Zigaretten täglich über zwanzig Jahre; seit fünf Jahren nicht mehr. Etwa ein Glas Wein am Wochenende. Drogenkonsum verneint sie.",
+            "en": "Previously ten cigarettes daily for twenty years; stopped five years ago. About one glass of wine at weekends. She denies drug use."
+          }
+        },
+        {
+          "key": "social",
+          "label": {
+            "de": "Soziales",
+            "en": "Social history"
+          },
+          "value": {
+            "de": "Buchhändlerin, lebt mit ihrem Mann. Ihre Tochter wohnt in der Nähe.",
+            "en": "Bookseller, lives with her husband. Her daughter lives nearby."
+          }
+        },
+        {
+          "key": "family",
+          "label": {
+            "de": "Familie",
+            "en": "Family history"
+          },
+          "value": {
+            "de": "Ihr Vater habe Diabetes. Weitere Familienanamnese noch nicht erfragt.",
+            "en": "Her father has diabetes, according to Eva. Further family history unasked."
+          }
+        },
+        {
+          "key": "vaccination",
+          "label": {
+            "de": "Impfstatus",
+            "en": "Vaccinations"
+          },
+          "value": {
+            "de": "Noch nicht erfragt.",
+            "en": "Not yet asked about."
+          }
+        },
+        {
+          "key": "findings",
+          "label": {
+            "de": "Untersuchung / Plan",
+            "en": "Examination / plan"
+          },
+          "value": {
+            "de": "Keine Vitalwerte oder Untersuchungsbefunde vorhanden. Packungen und vorhandenen Medikamentenplan vergleichen; Unklarheiten beim zuständigen Behandlungsteam klären. Keine Änderung der Einnahme in dieser Übung.",
+            "en": "No vital signs or examination findings available. Compare packages and the available medicine plan; clarify uncertainties with the responsible clinical team. No change in use is made in this exercise."
+          }
+        }
+      ],
+      "presentation": {
+        "de": "Ich stelle Ihnen Frau Eva Brandt vor, 58 Jahre. Sie komme zu einem geplanten Abgleich ihrer Medikamentenliste. Sie gebe an, dass es ihr heute wie üblich gehe. Einzelne akute Beschwerden wurden noch nicht systematisch erfragt. Seit acht Jahren habe sie nach eigener Angabe Bluthochdruck. Vor sechs Jahren sei ihre Gallenblase entfernt worden. Sie nehme morgens eine Tablette Ramipril; die Stärke kenne sie nicht. Abends nehme sie eine blaue Tablette, deren Name, Stärke und Zweck unbekannt seien. Ihre Tochter könne beide Packungen heute bringen. Gelegentlich trinke sie einen pflanzlichen Schlaftee; der Produktname ist offen. Seit zwei Wochen könne sie schlechter einschlafen. Vor zehn Jahren seien nach einem unbekannten Antibiotikum juckende Quaddeln aufgetreten. Atembeschwerden und weitere Einzelheiten der Reaktion wurden noch nicht erfragt. Sie habe früher zwanzig Jahre lang täglich zehn Zigaretten geraucht und vor fünf Jahren aufgehört. Am Wochenende trinke sie etwa ein Glas Wein. Drogenkonsum verneine sie. Sie sei Buchhändlerin und lebe mit ihrem Mann. Ihre Tochter wohne in der Nähe. Ihr Vater habe Diabetes. Weitere Anamnese und Impfstatus bleiben offen. Es liegen keine Vitalwerte oder Untersuchungsbefunde vor. Die Packungen sollen mit dem vorhandenen Plan verglichen werden. Unklare Angaben müssen mit dem zuständigen Behandlungsteam geklärt werden.",
+        "en": "I am presenting Eva Brandt, 58, attending a planned medicine-list review. She reports feeling as usual today; individual acute symptoms have not been systematically asked about. She reports high blood pressure for eight years and gallbladder removal six years ago. She reports one ramipril tablet each morning but does not know the strength. She takes one blue tablet in the evening, with name, strength and purpose unknown. Her daughter can bring both packages today. She occasionally drinks herbal sleep tea; the product name is open. She reports difficulty falling asleep for two weeks. Ten years ago an unknown antibiotic caused itchy raised skin patches; breathing symptoms and other reaction details remain unasked. She previously smoked ten cigarettes daily for twenty years and stopped five years ago. She reports about one glass of wine at weekends and denies drug use. She is a bookseller living with her husband. Her daughter lives nearby. Her father has diabetes. Further history and vaccination status remain open. There are no vital signs or examination findings. Packages should be compared with the existing plan. The responsible clinical team should clarify uncertain information."
+      },
+      "followups": [
+        {
+          "type": "detail",
+          "question": {
+            "de": "Warum kommt Frau Brandt?",
+            "en": "Why is Eva attending?"
+          },
+          "answer": {
+            "de": "Zu einem geplanten Abgleich der Medikamentenliste.",
+            "en": "For a planned medicine-list review."
+          }
+        },
+        {
+          "type": "detail",
+          "question": {
+            "de": "Welchen Medikamentennamen kennt sie?",
+            "en": "Which medicine name does she know?"
+          },
+          "answer": {
+            "de": "Ramipril.",
+            "en": "Ramipril."
+          }
+        },
+        {
+          "type": "detail",
+          "question": {
+            "de": "Wann nimmt sie die blaue Tablette laut eigener Angabe?",
+            "en": "When does she report taking the blue tablet?"
+          },
+          "answer": {
+            "de": "Abends.",
+            "en": "In the evening."
+          }
+        },
+        {
+          "type": "detail",
+          "question": {
+            "de": "Wer bringt die Packungen?",
+            "en": "Who will bring the packages?"
+          },
+          "answer": {
+            "de": "Ihre Tochter kann beide Packungen heute bringen.",
+            "en": "Her daughter can bring both packages today."
+          }
+        },
+        {
+          "type": "detail",
+          "question": {
+            "de": "Was berichtet sie über das Antibiotikum?",
+            "en": "What does she report about the antibiotic?"
+          },
+          "answer": {
+            "de": "Juckende Quaddeln vor zehn Jahren; Name unbekannt.",
+            "en": "Itchy raised skin patches ten years ago; name unknown."
+          }
+        },
+        {
+          "type": "detail",
+          "question": {
+            "de": "Seit wann schläft sie schlechter ein?",
+            "en": "When did falling asleep become harder?"
+          },
+          "answer": {
+            "de": "Seit zwei Wochen.",
+            "en": "Two weeks ago."
+          }
+        },
+        {
+          "type": "detail",
+          "question": {
+            "de": "Wie lange raucht sie nicht mehr?",
+            "en": "How long has she stopped smoking?"
+          },
+          "answer": {
+            "de": "Seit fünf Jahren.",
+            "en": "Five years."
+          }
+        },
+        {
+          "type": "unknown",
+          "question": {
+            "de": "Welche Stärke hat das Ramipril?",
+            "en": "What is the ramipril strength?"
+          },
+          "answer": {
+            "de": "Unbekannt. Sie kennt nur den Namen und die berichtete Einnahme.",
+            "en": "Unknown. She knows only the name and her reported use."
+          }
+        },
+        {
+          "type": "unknown",
+          "question": {
+            "de": "Ist die blaue Tablette ein Schlafmittel?",
+            "en": "Is the blue tablet a sleeping medicine?"
+          },
+          "answer": {
+            "de": "Nicht bekannt. Farbe und Einnahmezeit reichen nicht zur Bestimmung.",
+            "en": "Unknown. Colour and time are not enough to identify it."
+          }
+        },
+        {
+          "type": "unknown",
+          "question": {
+            "de": "Hatte sie bei der Reaktion Atemnot?",
+            "en": "Was there breathlessness during the reaction?"
+          },
+          "answer": {
+            "de": "Noch nicht erfragt.",
+            "en": "Not yet asked about."
+          }
+        },
+        {
+          "type": "language",
+          "question": {
+            "de": "Was bedeutet „Zustand nach Gallenblasenentfernung“?",
+            "en": "What does “status post gallbladder removal” mean?"
+          },
+          "answer": {
+            "de": "Die Gallenblase wurde früher entfernt.",
+            "en": "The gallbladder was removed in the past."
+          }
+        },
+        {
+          "type": "language",
+          "question": {
+            "de": "Wie geben Sie „Ich nehme morgens eine Tablette“ weiter?",
+            "en": "How do you report “I take one tablet in the morning”?"
+          },
+          "answer": {
+            "de": "Sie nehme morgens eine Tablette. Name und Stärke müssen gesondert dokumentiert werden.",
+            "en": "She takes one tablet in the morning, according to her report. Name and strength need separate documentation."
+          }
+        },
+        {
+          "type": "communication",
+          "question": {
+            "de": "Wie fragen Sie nach weiteren Mitteln?",
+            "en": "How do you ask about other products?"
+          },
+          "answer": {
+            "de": "Nehmen Sie auch Mittel ohne Rezept, Tropfen, Tees oder Nahrungsergänzungsmittel?",
+            "en": "Do you also use non-prescription products, drops, teas or supplements?"
+          }
+        },
+        {
+          "type": "documentation",
+          "question": {
+            "de": "Dürfen Sie „beschwerdefrei“ schreiben?",
+            "en": "May you write “symptom-free”?"
+          },
+          "answer": {
+            "de": "Nein. „Wie üblich“ ersetzt keine gezielte Frage nach Beschwerden.",
+            "en": "No. “As usual” does not replace specific symptom questions."
+          }
+        },
+        {
+          "type": "communication",
+          "question": {
+            "de": "Was sagen Sie zum unbekannten Medikament?",
+            "en": "What do you say about the unknown medicine?"
+          },
+          "answer": {
+            "de": "Wir klären zuerst Name und Stärke anhand der Packung und des Plans.",
+            "en": "We will first check its name and strength using the package and plan."
+          }
+        }
+      ]
+    }
+  ]
+}

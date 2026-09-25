@@ -117,3 +117,19 @@ html[lang="de"] .st-js .st-file dd[data-at]:not(.is-filled)::after{content:"Noch
 .st-file__status.is-stamping{animation:fsp-status-stamp .24s ease-out}
 @keyframes fsp-status-stamp{from{transform:scale(1.05)}to{transform:scale(1)}}
 @media(prefers-reduced-motion:reduce){.st-file__status.is-stamping,.st-file .is-fresh{animation:none!important}}
+
+/* Patient-fact pilot: provenance and certainty are separate from learning progress. */
+.fsp-patient-facts h2,.fsp-reading-heading{font-size:.85rem;margin:1rem 0 .6rem}
+.fsp-patient-facts>p{font-size:.72rem;line-height:1.55;color:var(--md-default-fg-color--light)}
+.fsp-patient-fact{padding:.75rem 0;border-top:1px solid var(--md-default-fg-color--lightest)}
+.fsp-patient-fact h3{font-size:.8rem;margin:0 0 .4rem}
+.fsp-patient-fact p{font-size:.78rem;line-height:1.55;margin:.4rem 0;overflow-wrap:anywhere}
+.fsp-patient-fact small{font-size:.67rem;color:var(--md-default-fg-color--light)}
+.fsp-fact-state{display:inline-block;font-size:.65rem;border:1px solid currentColor;border-radius:4px;padding:.12rem .35rem;color:#8dc7ef}
+.fsp-fact-state[data-state=unknown],.fsp-fact-state[data-state=not_asked]{color:#ffce79}
+.fsp-fact-state[data-state=unreached]{color:var(--md-default-fg-color--light)}
+.fsp-patient-fact details{font-size:.72rem;margin-top:.5rem}
+.fsp-patient-fact [hidden]{display:none!important}
+.fsp-previous-dialogue{margin-bottom:1rem}
+.story:not(.is-present) .fsp-previous-dialogue{display:none}
+.fsp-dialogue-step{font-size:.8rem;color:var(--md-default-fg-color--light)}

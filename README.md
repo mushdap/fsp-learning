@@ -12,4 +12,4 @@ Only the built websites are distributed here. The supplied PDF and original phot
 
 To prepare a synchronized release from adjacent `fsp-guide` and `fsp-exam` checkouts, run `python publish.py` using the guide's Python environment, then review and commit the diff. The script builds, tests and copies an explicit set of public assets. `release-manifest.json` records source revisions and asset hashes. It does not publish automatically or delete obsolete files silently.
 
-Snapshot: guide 3d055c0; exam 31fefcb. GitHub Pages serves this repository's main branch.
+Snapshot: guide a6f70c0; exam fd00671. GitHub Pages serves this repository's main branch.
