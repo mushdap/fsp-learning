@@ -18,3 +18,5 @@
 .source-chip{display:inline-block;border:1px solid #718098;border-radius:1rem;padding:.2rem .65rem;font-size:.85rem}
 .preserve-lines{white-space:pre-wrap;overflow-wrap:anywhere}
 .practice-route [aria-current="step"]{outline:2px solid #eab454;outline-offset:3px}
+
+.fsp-clarification{margin:1rem 0;padding:.8rem 1rem;border-inline-start:3px solid #d9a441;border-radius:.3rem;background:rgba(217,164,65,.08);line-height:1.65}.fsp-clarification h4{margin:0 0 .5rem}.fsp-clarification p:last-child{margin-bottom:0}

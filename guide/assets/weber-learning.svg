@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+<title id="title">Weber A, B und C: Höhe des Wadenbeinbruchs / fibular fracture level</title>
+<desc id="desc">Drei vereinfachte Schemata. A liegt unter, B auf Höhe und C über der Syndesmose. Three simplified diagrams: A below, B at, and C above the syndesmosis. Not an X-ray or a treatment rule.</desc>
+<rect width="960" height="560" rx="24" fill="#f3f7fb"/>
+<g font-family="Arial,sans-serif" fill="#172c43">
+<text x="36" y="44" font-size="25" font-weight="bold">Weber: Wo liegt die Bruchlinie?</text>
+<text x="36" y="75" font-size="19">Where is the fracture line relative to the syndesmosis?</text>
+<defs><g id="ankle"><path d="M-58 0 L-60 208 L-40 208 L-40 180 L28 180 Q46 180 46 150 L46 0" fill="#c9d8e5" stroke="#344e69" stroke-width="4"/><path d="M75 0 L75 164 L82 214 Q88 231 103 215 L107 172 L103 0" fill="#dce6ef" stroke="#344e69" stroke-width="4"/><path d="M-30 194 Q-17 181 12 194 L52 217 L51 245 L-40 245Z" fill="#dce6ef" stroke="#344e69" stroke-width="4"/><rect x="47" y="140" width="27" height="32" fill="#379ea6" opacity=".8"/><path d="M-77 156 H125" stroke="#23838c" stroke-width="2" stroke-dasharray="6 5"/></g></defs>
+<g transform="translate(140 145)"><use href="#ankle"/><path d="M74 193 L107 193" stroke="#b43c34" stroke-width="9"/><text x="0" y="-24" font-size="27" font-weight="bold">A</text><text x="-64" y="290" font-size="22">Unterhalb / Below</text></g>
+<g transform="translate(440 145)"><use href="#ankle"/><path d="M74 169 L106 141" stroke="#b43c34" stroke-width="9"/><text x="0" y="-24" font-size="27" font-weight="bold">B</text><text x="-75" y="290" font-size="22">Auf Höhe / At level</text></g>
+<g transform="translate(740 145)"><use href="#ankle"/><path d="M74 91 L105 69" stroke="#b43c34" stroke-width="9"/><text x="0" y="-24" font-size="27" font-weight="bold">C</text><text x="-66" y="290" font-size="22">Oberhalb / Above</text></g>
+<rect x="36" y="467" width="20" height="20" fill="#379ea6"/><text x="68" y="484" font-size="18">Syndesmose: Bandverbindung zwischen Schien- und Wadenbein / ligament connection</text>
+<text x="36" y="522" font-size="17">Schema, kein Röntgenbild. Begleitverletzungen mitbeurteilen. / Diagram, not an X-ray. Assess associated injury.</text>
+</g></svg>

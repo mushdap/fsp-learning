@@ -152,3 +152,5 @@ html[lang="de"] .st-js .st-file dd[data-at]:not(.is-filled)::after{content:"Noch
 .fsp-fact-evidence blockquote{font-size:.74rem;line-height:1.65;margin:.45rem 0;padding:.4rem .65rem;border-left:3px solid var(--md-accent-fg-color);white-space:pre-wrap;overflow-wrap:anywhere}
 
 .fsp-filters{grid-template-columns:repeat(4,minmax(0,1fr))}.fsp-word-review{align-self:center;font-size:.85rem}@media(max-width:850px){.fsp-filters{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:500px){.fsp-filters{grid-template-columns:1fr}}
+
+.fsp-clarification{margin:1rem 0;padding:.8rem 1rem;border-inline-start:3px solid #d9a441;border-radius:.3rem;background:rgba(217,164,65,.08);line-height:1.65}.fsp-clarification h4{margin:0 0 .5rem}.fsp-clarification p:last-child{margin-bottom:0}

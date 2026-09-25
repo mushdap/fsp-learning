@@ -4425,38 +4425,197 @@
       "en": "a small area of thick, hard skin caused by pressure, often on a toe",
       "example_de": "Drückt die verhornte Stelle im Schuh?",
       "source_urls": []
+    },
+    {
+      "id": "term-336",
+      "term": "Unterleibskarzinom",
+      "aliases": [
+        "Unterleibskarzinom"
+      ],
+      "article": "das",
+      "plural": "Unterleibskarzinome",
+      "grammar_note": "Sammelbezeichnung; der genaue Organname fehlt.",
+      "de": "Unscharfe Bezeichnung für eine Krebserkrankung im Unterbauch, oft der weiblichen Geschlechtsorgane. Sie nennt kein bestimmtes Organ.",
+      "en": "An imprecise label for cancer in the lower abdomen, often involving female reproductive organs. It does not identify one organ.",
+      "example_de": "Welches Organ war betroffen? Können wir den Operationsbericht sehen?",
+      "source_urls": [
+        "https://www.krebsinformationsdienst.de/gebaermutterkoerperkrebs"
+      ],
+      "clarification": {
+        "pages": [
+          45,
+          206
+        ],
+        "context": {
+          "de": "In der Familienanamnese wurde die Mutter operiert. Die Quelle nennt kein genaueres Organ.",
+          "en": "The family history describes the mother’s operation. The source gives no more precise organ."
+        },
+        "boundary": {
+          "de": "Nicht automatisch Eierstock-, Gebärmutterkörper- oder Gebärmutterhalskrebs eintragen.",
+          "en": "Do not automatically record ovarian, endometrial or cervical cancer."
+        }
+      }
+    },
+    {
+      "id": "term-337",
+      "term": "Arthritis urica/Hyperurikämie",
+      "aliases": [
+        "Arthritis urica/Hyperurikämie"
+      ],
+      "article": "die / die",
+      "plural": "",
+      "grammar_note": "Zwei Begriffe: die Arthritis urica und die Hyperurikämie. Der Schrägstrich macht sie nicht zu Synonymen.",
+      "de": "Arthritis urica ist eine Gelenkentzündung durch Uratkristalle (Gichtarthritis). Hyperurikämie ist ein erhöhter Harnsäurewert im Blut; sie kann ohne Gicht auftreten.",
+      "en": "Gouty arthritis is joint inflammation caused by urate crystals. Hyperuricemia means a high blood urate level and can occur without gout.",
+      "example_de": "Gab es einen bestätigten Gichtanfall oder nur einen erhöhten Harnsäurewert?",
+      "source_urls": [
+        "https://www.niams.nih.gov/health-topics/gout"
+      ],
+      "clarification": {
+        "pages": [
+          52,
+          56,
+          134,
+          138,
+          163,
+          207,
+          217,
+          220
+        ],
+        "context": {
+          "de": "Die Tabelle verbindet beide Wörter. Die längeren Fälle nennen teilweise einen früheren Gichtanfall.",
+          "en": "The table combines the terms. Some longer case histories also describe a previous gout attack."
+        },
+        "boundary": {
+          "de": "Ein Laborwert allein beweist keine aktuelle Gichtarthritis. Bekannte Anfälle und Laborwerte getrennt dokumentieren.",
+          "en": "A laboratory value alone does not prove current gouty arthritis. Document known attacks separately from laboratory values."
+        }
+      }
+    },
+    {
+      "id": "term-338",
+      "term": "Hypersalivation/Sialorrhö",
+      "aliases": [
+        "Hypersalivation/Sialorrhö"
+      ],
+      "article": "die / die",
+      "plural": "",
+      "grammar_note": "Beide Wörter sind feminin. Speichelproduktion und Speichelverlust werden hier getrennt erklärt.",
+      "de": "Hypersalivation meint vermehrte Speichelproduktion. Sialorrhö beschreibt Speichelfluss aus dem Mund; gestörtes Schlucken kann dazu führen, auch ohne erhöhte Produktion.",
+      "en": "Hypersalivation means increased saliva production. Sialorrhea describes drooling, which may result from impaired swallowing without increased production.",
+      "example_de": "Wird mehr Speichel gebildet, oder können Sie den Speichel nicht gut schlucken?",
+      "source_urls": [
+        "https://www.rightdecisions.scot.nhs.uk/shared-content/palliative-care-mouth-care-old/sialorrhoea-excessive-drooling/"
+      ],
+      "clarification": {
+        "pages": [
+          65,
+          68,
+          69,
+          208
+        ],
+        "context": {
+          "de": "Auf PDF-Seite 68 wird der Schluckfall als zurückbleibender Speichel bei Dysphagie erklärt; Seite 69 definiert echte Mehrproduktion.",
+          "en": "PDF page 68 explains retained saliva in the swallowing case; page 69 defines true increased production."
+        },
+        "boundary": {
+          "de": "Sichtbarer Speichel beweist keine erhöhte Drüsenproduktion. Schluckproblem und beobachteten Speichelfluss getrennt beschreiben.",
+          "en": "Visible saliva does not prove increased gland production. Describe swallowing difficulty and drooling separately."
+        }
+      }
+    },
+    {
+      "id": "term-339",
+      "term": "Hidradenitis",
+      "aliases": [
+        "Hidradenitis"
+      ],
+      "article": "die",
+      "plural": "",
+      "grammar_note": "Feminin. Im Quellenkontext wird Hidradenitis suppurativa erläutert; der Kurzname allein ist unvollständig.",
+      "de": "Im Begleittext der Quelle ist Hidradenitis suppurativa gemeint: eine chronisch entzündliche Erkrankung der Haarfollikel mit wiederkehrenden schmerzhaften Knoten, Abszessen und teils Gängen unter der Haut.",
+      "en": "The source’s accompanying explanation refers to hidradenitis suppurativa: chronic hair-follicle inflammation with recurrent painful nodules, abscesses and sometimes tunnels under the skin.",
+      "example_de": "Welche Diagnose steht im Operationsbericht, und traten solche Knoten schon öfter auf?",
+      "source_urls": [
+        "https://www.niams.nih.gov/health-topics/hidradenitis-suppurativa-hs"
+      ],
+      "clarification": {
+        "pages": [
+          146,
+          149,
+          218
+        ],
+        "context": {
+          "de": "Die Tabelle sagt Schweißdrüsenabszess. PDF-Seite 149 erläutert dagegen ausdrücklich Hidradenitis suppurativa.",
+          "en": "The vocabulary table says sweat-gland abscess, while PDF page 149 explicitly discusses hidradenitis suppurativa."
+        },
+        "boundary": {
+          "de": "Nicht jeden einzelnen Abszess als Hidradenitis suppurativa diagnostizieren. Der Quellbezug klärt das Lernwort, nicht den Befund eines neuen Patienten.",
+          "en": "Do not diagnose every isolated abscess as hidradenitis suppurativa. Source context clarifies the learning term, not a new patient’s diagnosis."
+        }
+      }
+    },
+    {
+      "id": "term-340",
+      "term": "abdominales Ödem",
+      "aliases": [
+        "abdominales Ödem"
+      ],
+      "article": "das",
+      "plural": "",
+      "grammar_note": "Adjektiv + Substantiv: das abdominale Ödem. In der Quelle ist die Formulierung unpräzise.",
+      "de": "Ödem bedeutet Flüssigkeit im Gewebe. In diesem Quellfall bedeutet die Aussage zunächst nur: Die Patientin berichtet einen dicker gewordenen Bauch. Aszites ist dagegen Flüssigkeit in der Bauchhöhle.",
+      "en": "Edema means fluid within tissue. In this source case, the statement only establishes that the patient reports an enlarged abdomen. Ascites means fluid in the abdominal cavity.",
+      "example_de": "Seit wann ist der Bauch dicker? Was wurde bei der Untersuchung festgestellt?",
+      "source_urls": [
+        "https://www.cancer.gov/about-cancer/treatment/side-effects/edema",
+        "https://www.cancer.gov/about-cancer/treatment/side-effects/ascites"
+      ],
+      "clarification": {
+        "pages": [
+          173,
+          221
+        ],
+        "context": {
+          "de": "Die Quelle ergänzt ausdrücklich: Laut Patientin ist ihr Bauch dicker geworden. Eine bestätigte Flüssigkeitsansammlung wird damit nicht beschrieben.",
+          "en": "The source explicitly attributes the larger abdomen to the patient’s report. This is not confirmation of a fluid collection."
+        },
+        "boundary": {
+          "de": "Bauchzunahme kann verschiedene Ursachen haben. Weder Ödem, Aszites noch Blutung ohne Befund ergänzen.",
+          "en": "An enlarged abdomen can have different causes. Do not add edema, ascites or bleeding without evidence."
+        }
+      }
+    },
+    {
+      "id": "term-341",
+      "term": "Funktionelle Extrasystole",
+      "aliases": [
+        "Funktionelle Extrasystole"
+      ],
+      "article": "die",
+      "plural": "Extrasystolen",
+      "grammar_note": "Die Extrasystole; Plural: Extrasystolen. Der Zusatz funktionell ist eine Einordnung, kein Messbefund.",
+      "de": "Eine Extrasystole ist ein vorzeitiger zusätzlicher Herzschlag. Der Quellfall berichtet eine frühere Abklärung ohne auffälligen Befund. Das erklärt den Zusatz funktionell in dieser Vorgeschichte.",
+      "en": "An extrasystole is a premature extra heartbeat. The source case reports an earlier assessment without abnormal findings; this explains the label functional in that history.",
+      "example_de": "Wann wurde das Herzstolpern untersucht? Haben sich die Beschwerden seitdem geändert?",
+      "source_urls": [
+        "https://www.nhs.uk/symptoms/heart-palpitations/"
+      ],
+      "clarification": {
+        "pages": [
+          180,
+          222
+        ],
+        "context": {
+          "de": "Der Begleittext nennt eine Untersuchung vor sechs Monaten ohne auffällige Befunde; nicht nur das isolierte Wort in der Tabelle.",
+          "en": "The accompanying case describes assessment six months earlier without abnormal findings, rather than only the isolated table label."
+        },
+        "boundary": {
+          "de": "Eine frühere unauffällige Abklärung beweist nicht, dass neue Beschwerden harmlos sind. Zeit und Quelle der früheren Aussage mitführen.",
+          "en": "A previous reassuring assessment does not prove that new symptoms are harmless. Preserve the date and source of the earlier account."
+        }
+      }
     }
   ],
-  "unresolved": [
-    {
-      "term": "Unterleibskarzinom",
-      "reason": "Unterleib nennt kein eindeutiges Organ. Für eine korrekte Krebsbezeichnung fehlt der genaue Befund.",
-      "reason_en": "The phrase does not name a specific organ. A more precise finding is needed to name the cancer."
-    },
-    {
-      "term": "Arthritis urica/Hyperurikämie",
-      "reason": "Die Quelle verbindet Gichtarthritis und erhöhten Harnsäurewert. Das sind unterschiedliche Begriffe, keine Synonyme.",
-      "reason_en": "Gout-related joint inflammation and a high uric acid level are different concepts, not synonyms."
-    },
-    {
-      "term": "Hypersalivation/Sialorrhö",
-      "reason": "Die Quelle verbindet vermehrte Speichelbildung mit Speichelfluss aus dem Mund. Nicht jeder Speichelfluss bedeutet erhöhte Produktion; Begriffe getrennt klären.",
-      "reason_en": "Producing more saliva and saliva flowing out of the mouth are not always the same problem. The source combines them."
-    },
-    {
-      "term": "Hidradenitis",
-      "reason": "Hidradenitis ohne Zusatz ist nicht eindeutig genug. Nicht automatisch mit Hidradenitis suppurativa oder einer einfachen Schweißdrüsenentzündung gleichsetzen.",
-      "reason_en": "The name needs more context. Do not automatically treat it as hidradenitis suppurativa or a simple sweat-gland inflammation."
-    },
-    {
-      "term": "abdominales Ödem",
-      "reason": "Abdominales Ödem nennt nicht eindeutig die betroffene Gewebeschicht. Nicht ohne Befund mit Aszites gleichsetzen.",
-      "reason_en": "The phrase does not specify which tissue contains the fluid. Do not automatically equate it with fluid in the abdominal cavity."
-    },
-    {
-      "term": "Funktionelle Extrasystole",
-      "reason": "Der Zusatz funktionell beschreibt eine Ursacheneinordnung. Die Quelle reicht nicht aus, um eine harmlose oder nichtorganische Ursache zu bestätigen.",
-      "reason_en": "The extra word describes an interpretation of the cause. The source alone cannot establish that the extra heartbeat is harmless."
-    }
-  ]
+  "unresolved": []
 }

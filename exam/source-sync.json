@@ -584,11 +584,18 @@
     "term-331",
     "term-332",
     "term-333",
-    "term-335"
+    "term-335",
+    "term-336",
+    "term-337",
+    "term-338",
+    "term-339",
+    "term-340",
+    "term-341"
   ],
   "sha256": {
     "bank.json": "c73e6aeab2c56fe732a54e887b530fd08fd3759a716f257fc1f185b6fee6811b",
     "profiles.json": "e9a52922afed10d619b2dbd6eb8db04a34b25de1342e379f871744fb8f50bea3",
-    "glossary.json": "b135a6ee7a756ab6e21ace39a97842613c849eca4a5827f0553d0b52f7bf904b"
+    "glossary.json": "45f4e210a21b1009e37bc13107f8414608cac1e102dffd426ab1e8cf7e82c0c8",
+    "lessons.json": "82f9293a96c413d2a5e822c70b5a51403d78e0e6c7a2dbec90987ecd6837fc18"
   }
 }

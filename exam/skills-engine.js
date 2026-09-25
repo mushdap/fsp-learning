@@ -42,7 +42,7 @@ export function presentationOrderQuestion(profile,index=0){
  explanation:rationale,evidence:pair(sections.map(f=>f.value.de).join(' → '),sections.map(f=>f.value.en).join(' → ')),
  source:pair('Drei unveränderte Ausschnitte aus der Faktenkarte','Three unchanged extracts from the fact card'),facts:profile.facts};
 }
-export function buildSkillQuestions(profiles,glossary){
+export function buildSkillQuestions(profiles,glossary,lessons=[]){
  const out=[];
  const factFor=p=>p.facts.find(f=>/^(onset|timing|urinary)$/.test(f.key))||p.facts.find(f=>f.key!=='identity');
  for(const [i,p] of profiles.entries()){
@@ -67,6 +67,11 @@ export function buildSkillQuestions(profiles,glossary){
    question:pair(`Was bedeutet „${e.term}“ in einfacher Sprache?`,`What does “${e.term}” mean in everyday language?`),
    options:entries.map(x=>pair(x.de,x.en)),correct:entries.indexOf(e),explanation:pair(e.example_de,`Everyday meaning: ${e.en}.`),evidence:pair(e.de,e.en),source:pair(`Wortschatz · ${e.term}`,`Glossary · ${e.term}`),facts:[]});
  }
+ for(const u of lessons)out.push({id:`foundation:${u.id}`,type:'foundation',profileId:null,patient:'',
+  question:u.question,stimulus:[{label:pair('Erfundenes Beispiel','Fictional example'),value:u.scenario}],
+  options:u.options,correct:u.correct,optionFeedback:u.feedback,explanation:u.feedback[u.correct],
+  evidence:u.takeaway,source:pair(`Lektion: ${u.title.de} · PDF-Seiten ${u.pages.join(', ')}`,`Lesson: ${u.title.en} · PDF pages ${u.pages.join(', ')}`),
+  guide:`practice/completion/${u.id}/`,facts:[]});
  return out;
 }
 export function practiceStages(profile){return [

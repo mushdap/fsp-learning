@@ -34,6 +34,7 @@ def main():
     run([sys.executable, '-X', 'utf8', 'tools/check_guide.py'], GUIDE)
     run([sys.executable, '-X', 'utf8', 'tools/check_assessments.py'], GUIDE)
     run([sys.executable, '-X', 'utf8', 'tools/check_learning.py'], GUIDE)
+    run([sys.executable, '-X', 'utf8', 'tools/check_completion.py'], GUIDE)
     run([sys.executable, '-X', 'utf8', 'tools/check_release_requirements.py'], GUIDE)
     run([sys.executable, '-X', 'utf8', 'tools/test_case_stages.py'], GUIDE)
     run([sys.executable, '-X', 'utf8', 'tools/test_patient_fact_wave.py'], GUIDE)
@@ -50,7 +51,7 @@ def main():
             raise SystemExit(f'{repo.name} changed revision during the build. Retry from a stable checkout.')
     sources = [(p, ROOT / 'guide' / p.relative_to(GUIDE / 'site'))
                for p in (GUIDE / 'site').rglob('*') if p.is_file()]
-    for name in ('index.html', 'app.js', 'engine.js', 'language.js', 'style.css', 'bank.json', 'de.json', 'profile-workspace.js', 'profiles.json', 'glossary-ui.js', 'glossary.json','skills-engine.js','skills-workspace.js','practice-workspace.js','source-sync.json'):
+    for name in ('index.html', 'app.js', 'engine.js', 'language.js', 'style.css', 'bank.json', 'de.json', 'profile-workspace.js', 'profiles.json', 'glossary-ui.js', 'glossary.json','skills-engine.js','skills-workspace.js','practice-workspace.js','source-sync.json','lessons.json'):
         sources.append((EXAM / name, ROOT / 'exam' / name))
     sources.extend((p, ROOT / 'exam/assets' / p.relative_to(EXAM / 'assets'))
                    for p in (EXAM / 'assets').rglob('*') if p.is_file())
