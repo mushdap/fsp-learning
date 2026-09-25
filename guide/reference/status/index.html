@@ -11489,7 +11489,7 @@
   <span class="md-ellipsis">
     
   
-    Fachprüfung / Human review
+    Quelle und Bearbeitung / Source and adaptations
   
 
     
@@ -11678,15 +11678,15 @@
 <ul>
 <li>Patient-fact panels cover 240 of 240 short cases. Each contains selected source-backed fields, not a complete clinical record. 0 cases remain without a patient-fact panel.</li>
 <li>Complete clinical teaching of the partial/missing objective groups remains open. Broad clinical groups are not marked covered just because a term has a glossary definition.</li>
-<li>A German educator and clinician still need to review the authored material. The human-review page supplies a scoped review record; no independent human review or official FSP validation is claimed.</li>
-<li>Six ambiguous source spellings remain unresolved. Grammar for case words is authored, not independently certified.</li>
+<li>Human and German-language review are not tracked as release requirements, following the owner’s decision. Source material and authored adaptations remain distinguished.</li>
+<li>Six ambiguous source spellings remain unresolved. Grammar notes for case words are authored learning material.</li>
 <li>Konjunktiv-I exercises score a guided verb choice from an authored model, not arbitrary free-text rewriting. Presentation-order tasks assess one explicitly stated structure, not a universal clinical sequence.</li>
 <li>Profile data is fetched on demand and compacted, but remains one file when a profile-based view is opened. At this size, a per-profile request system adds complexity; reconsider when the corpus grows.</li>
 <li>Source corrections must keep their exact evidence and uncertainty. There are no prescribing instructions, universal preparation rules or recovery guarantees.</li>
 </ul>
 <h2 id="unfinished-spec-reconciliation">Unfinished-spec reconciliation<a class="headerlink" href="#unfinished-spec-reconciliation" title="Permanent link">&para;</a></h2>
-<p>The reported throat-allergy confirmation error was corrected before this release: a record label is not a confirmed allergy. All 240 fact panels, German milestone text and reveal/rewind contracts are checked. NOAK, PTCA/heart-catheter and medicine-notation cards already exist and are checked rather than duplicated. Everyday-language bridges preserve the exact source quote; companion and clinician statements are never relabeled as patient speech.</p>
-<p>The remaining-objectives page lists the current partial/missing groups with specific gaps. Human review remains open. Readability measurements in <code>tools/spec_metrics.py</code> now include all 30 topics and the previously flagged difficult topics; word counts measure text length, not learner comprehension.</p>
+<p>Documented information now has its own state, separate from observations, patient reports and consent. A record label is not a confirmed allergy. All 240 fact panels, German milestone text and reveal/rewind contracts are checked. NOAK, PTCA/heart-catheter and medicine-notation cards already exist and are checked rather than duplicated. Everyday-language bridges preserve the exact source quote; companion and clinician statements are never relabeled as patient speech.</p>
+<p>The remaining-objectives page lists the current partial/missing groups with specific gaps. Human/German review requirements have been removed. Readability measurements in <code>tools/spec_metrics.py</code> now include all 30 topics and the previously flagged difficult topics; word counts measure text length, not learner comprehension.</p>
 <h2 id="release-verification">Release verification<a class="headerlink" href="#release-verification" title="Permanent link">&para;</a></h2>
 <p>The release process runs strict build/link checks, content contracts, patient-fact stage tests, browser-state tests and exam tests. A passed software test does not establish medical accuracy. GitHub Actions and the public release manifest record the actual published revisions.</p>
 

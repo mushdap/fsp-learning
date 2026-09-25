@@ -70,6 +70,8 @@
       reported: ['Patient report', 'Patientenangabe'],
       witness_report: ['Companion or witness report', 'Fremdangabe'],
       observed: ['Observed in this case', 'Im Fall beobachtet'],
+      recorded: ['From a document', 'Laut Dokument'],
+      consent: ['Permission given', 'Zustimmung erteilt'],
       confirmed: ['Patient confirmed', 'Vom Patienten bestätigt'],
       unknown: ['Not known', 'Unbekannt'],
       not_asked: ['Not asked yet', 'Noch nicht erfragt'],

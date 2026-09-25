@@ -128,6 +128,8 @@ html[lang="de"] .st-js .st-file dd[data-at]:not(.is-filled)::after{content:"Noch
 .fsp-fact-state{display:inline-block;font-size:.65rem;border:1px solid currentColor;border-radius:4px;padding:.12rem .35rem;color:#8dc7ef}
 .fsp-fact-state[data-state=unknown],.fsp-fact-state[data-state=not_asked]{color:#ffce79}
 .fsp-fact-state[data-state=unreached]{color:var(--md-default-fg-color--light)}
+.fsp-fact-state[data-state=recorded]{color:var(--md-default-fg-color);background:var(--md-code-bg-color);border-style:dashed}
+.fsp-fact-state[data-state=consent]{color:var(--md-default-fg-color);border-style:double}
 .fsp-patient-fact details{font-size:.72rem;margin-top:.5rem}
 .fsp-patient-fact [hidden]{display:none!important}
 .fsp-previous-dialogue{margin-bottom:1rem}
