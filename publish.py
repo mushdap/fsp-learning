@@ -24,13 +24,14 @@ def main():
     run([sys.executable, '-X', 'utf8', '-m', 'mkdocs', 'build', '--strict'], GUIDE)
     run([sys.executable, '-X', 'utf8', 'tools/check_guide.py'], GUIDE)
     run([sys.executable, '-X', 'utf8', 'tools/check_assessments.py'], GUIDE)
+    run([sys.executable, '-X', 'utf8', 'tools/check_learning.py'], GUIDE)
     run([sys.executable, '-X', 'utf8', 'tools/test_case_stages.py'], GUIDE)
     run(['node', 'tools/test_story_mode.cjs'], GUIDE)
     run([sys.executable, '-X', 'utf8', 'tools/import_bank.py'], EXAM)
     run(['node', '--test'], EXAM)
     sources = [(p, ROOT / 'guide' / p.relative_to(GUIDE / 'site'))
                for p in (GUIDE / 'site').rglob('*') if p.is_file()]
-    for name in ('index.html', 'app.js', 'engine.js', 'language.js', 'style.css', 'bank.json', 'de.json', 'profile-workspace.js', 'profiles.json'):
+    for name in ('index.html', 'app.js', 'engine.js', 'language.js', 'style.css', 'bank.json', 'de.json', 'profile-workspace.js', 'profiles.json', 'glossary-ui.js', 'glossary.json'):
         sources.append((EXAM / name, ROOT / 'exam' / name))
     sources.extend((p, ROOT / 'exam/assets' / p.relative_to(EXAM / 'assets'))
                    for p in (EXAM / 'assets').rglob('*') if p.is_file())

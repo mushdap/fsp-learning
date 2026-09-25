@@ -7,6 +7,10 @@
   function persist(set) { try { localStorage.setItem(KEY,JSON.stringify([...set])); return true; } catch { return false; } }
   function init() {
     cleanup.forEach(fn=>fn()); cleanup=[];
+    document.querySelectorAll('[data-glossary-host]').forEach(host=>{
+      if(host.dataset.mounted)return;host.dataset.mounted='true';
+      Promise.all([import(new URL('glossary-ui.js',scriptURL).href),fetch(new URL('../data/glossary.json',scriptURL)).then(r=>{if(!r.ok)throw Error('glossary');return r.json();})]).then(([ui,data])=>{if(host.isConnected)ui.mountGlossary(host,data);}).catch(()=>{delete host.dataset.mounted;});
+    });
     document.querySelectorAll('[data-fsp-library]').forEach(lib=>{
       const search=lib.querySelector('[data-search]'), topic=lib.querySelector('[data-topic]'),level=lib.querySelector('[data-level]'),cards=[...lib.querySelectorAll('[data-card]')];
       lib.querySelector('.fsp-filters').hidden=false;
