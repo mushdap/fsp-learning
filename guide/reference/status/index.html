@@ -14,7 +14,7 @@
         <link rel="prev" href="../source-errors/">
       
       
-        <link rel="next" href="../../history/">
+        <link rel="next" href="../remaining-objectives/">
       
       
         
@@ -10323,6 +10323,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../../practice/gap-workshop/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gap Workshop
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../practice/glucose-full-history/" class="md-nav__link">
         
   
@@ -11389,6 +11417,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#unfinished-spec-reconciliation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unfinished-spec reconciliation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#release-verification" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -11403,6 +11442,62 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../remaining-objectives/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Offene Lernziele / Open objectives
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../human-review/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fachprüfung / Human review
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -11481,6 +11576,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#unfinished-spec-reconciliation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unfinished-spec reconciliation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#release-verification" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -11531,6 +11637,10 @@
 <td>120 updated dialogues/handovers; at least three in every topic</td>
 </tr>
 <tr>
+<td>Everyday → professional language</td>
+<td>240 source-linked bilingual bridges; 237 patient quotes; 3 explicitly attributed companion/doctor quotes</td>
+</tr>
+<tr>
 <td>Full histories</td>
 <td>30 profiles and 450 follow-ups</td>
 </tr>
@@ -11547,12 +11657,16 @@
 <td>Nine explanation cards and eight additional themed exercises</td>
 </tr>
 <tr>
+<td>Gap workshop</td>
+<td>14 bilingual stations with source pages, model answers and explicit remaining limits</td>
+</tr>
+<tr>
 <td>Current objective evidence</td>
-<td>29 covered / 81 partial / 14 missing; original baseline 27 / 75 / 22</td>
+<td>29 covered / 90 partial / 5 missing; original baseline 27 / 75 / 22</td>
 </tr>
 <tr>
 <td>Exam practice</td>
-<td>Three objective types, four-stage single-profile run, optional elapsed stopwatch, record sections and saved handover drafts</td>
+<td>Five objective types (150 exercises): recall, missing information, everyday terminology, guided Konjunktiv-I completion and presentation order; four-stage profile run, optional stopwatch and saved drafts</td>
 </tr>
 <tr>
 <td>Release integrity</td>
@@ -11564,12 +11678,15 @@
 <ul>
 <li>Patient-fact panels cover 240 of 240 short cases. Each contains selected source-backed fields, not a complete clinical record. 0 cases remain without a patient-fact panel.</li>
 <li>Complete clinical teaching of the partial/missing objective groups remains open. Broad clinical groups are not marked covered just because a term has a glossary definition.</li>
-<li>A German educator and clinician still need to review the authored material. No independent human review or official FSP validation is claimed.</li>
+<li>A German educator and clinician still need to review the authored material. The human-review page supplies a scoped review record; no independent human review or official FSP validation is claimed.</li>
 <li>Six ambiguous source spellings remain unresolved. Grammar for case words is authored, not independently certified.</li>
-<li>Objective exercises use three types. Automatic Konjunktiv-I rewriting and presentation-order scoring remain future additions; existing written models support manual practice.</li>
+<li>Konjunktiv-I exercises score a guided verb choice from an authored model, not arbitrary free-text rewriting. Presentation-order tasks assess one explicitly stated structure, not a universal clinical sequence.</li>
 <li>Profile data is fetched on demand and compacted, but remains one file when a profile-based view is opened. At this size, a per-profile request system adds complexity; reconsider when the corpus grows.</li>
 <li>Source corrections must keep their exact evidence and uncertainty. There are no prescribing instructions, universal preparation rules or recovery guarantees.</li>
 </ul>
+<h2 id="unfinished-spec-reconciliation">Unfinished-spec reconciliation<a class="headerlink" href="#unfinished-spec-reconciliation" title="Permanent link">&para;</a></h2>
+<p>The reported throat-allergy confirmation error was corrected before this release: a record label is not a confirmed allergy. All 240 fact panels, German milestone text and reveal/rewind contracts are checked. NOAK, PTCA/heart-catheter and medicine-notation cards already exist and are checked rather than duplicated. Everyday-language bridges preserve the exact source quote; companion and clinician statements are never relabeled as patient speech.</p>
+<p>The remaining-objectives page lists the current partial/missing groups with specific gaps. Human review remains open. Readability measurements in <code>tools/spec_metrics.py</code> now include all 30 topics and the previously flagged difficult topics; word counts measure text length, not learner comprehension.</p>
 <h2 id="release-verification">Release verification<a class="headerlink" href="#release-verification" title="Permanent link">&para;</a></h2>
 <p>The release process runs strict build/link checks, content contracts, patient-fact stage tests, browser-state tests and exam tests. A passed software test does not establish medical accuracy. GitHub Actions and the public release manifest record the actual published revisions.</p>
 
