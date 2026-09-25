@@ -1,0 +1,85 @@
+{
+  "style": "Professional editorial semi-realistic anime, adult medical German education, recognizable user-supplied doctor references, navy/teal/ivory palette, landscape 3:2. Fictional teaching scenes; no readable records or medical results.",
+  "scenes": [
+    [
+      "identity-check",
+      "Only Dr Palwasha from the references, at a clinic reception desk, checking a blank appointment card with a fictional adult woman patient. Another person waits discreetly in soft-focus distance, privacy maintained. Blank labels and a clipboard, tidy ordinary workspace. Theme: confirming identity respectfully."
+    ],
+    [
+      "medicine-review",
+      "Only Dr Daniyal from the references, sitting beside a fictional middle-aged male patient at a clinic table with a few closed unlabelled medicine boxes and two blank medicine-list sheets. Both calmly point to the papers while clarifying what the person actually takes. Theme: medication reconciliation, no pills being taken."
+    ],
+    [
+      "private-conversation",
+      "Only Dr Palwasha from the references, seated in a private consultation room with a fictional adult woman, door closed, warm respectful eye contact. A relative is not present. Discreet quiet setting, both hands naturally resting on desk. Theme: making room for private questions."
+    ],
+    [
+      "walking-history",
+      "Only Dr Daniyal from the references, listening to a fictional older man seated in ordinary trousers and shoes, with a walking stick resting safely beside the chair. Patient gestures to a simple blank route card on the desk, a park visible through window. Theme: understanding walking distance and daily life, not conducting a physical exam."
+    ],
+    [
+      "wound-conversation",
+      "Only Dr Palwasha from the references, discussing a care plan with a fictional older woman whose lower leg has a neat clean dressing, no exposed wound or blood. Both seated in a dignified consultation, doctor attentive at eye level. Theme: practical dressing-care questions, not a treatment demonstration."
+    ],
+    [
+      "urgent-handover",
+      "Both Dr Palwasha and Dr Daniyal in a private clinical staff alcove, serious and focused while giving a concise verbal handover over a blank clipboard. No smiling or joking, no acutely ill patient depicted. Calm competent urgency conveyed by posture, uncluttered professional environment."
+    ],
+    [
+      "breathing-history",
+      "Only Dr Palwasha from the references, calmly listening to a fictional middle-aged man at an outpatient appointment, seated comfortably and gesturing towards a staircase seen through an open interior doorway. Theme: discussing how everyday breathlessness has changed, no acute respiratory distress."
+    ],
+    [
+      "inhaler-questions",
+      "Only Dr Daniyal from the references, explaining a simple closed generic blue inhaler training prop on a desk to a fictional adult woman. Neither person is using it; this is a discussion of questions and understanding, not a technique demonstration. Professional outpatient education setting."
+    ],
+    [
+      "swallowing-concerns",
+      "Only Dr Palwasha from the references, talking sensitively with a fictional older man about mealtime difficulties. A closed lunch container and untouched water glass sit on a side table, not being consumed. No choking, no active eating. Focused compassionate conversation in clinic."
+    ],
+    [
+      "abdominal-timeline",
+      "Only Dr Daniyal from the references, helping a fictional adult woman explain a symptom timeline using three blank colored cards arranged chronologically on desk. Patient speaking, doctor listening and noting. No anatomical chart or physical examination. Theme: organise time without guessing a diagnosis."
+    ],
+    [
+      "sensitive-bowel-history",
+      "Only Dr Palwasha from the references, in a discreet consultation room listening to a fictional adult man who looks slightly hesitant but respected. Neutral body language, closed door, hands resting on desk. No toilet or bodily-function imagery. Theme: normalising sensitive questions professionally."
+    ],
+    [
+      "test-uncertainty",
+      "Only Dr Daniyal from the references, having a thoughtful conversation with a fictional middle-aged woman about waiting for investigations, closed plain folder between them. Patient looks concerned, doctor calm without broad reassuring grin. Theme: explaining uncertainty honestly, no test results visible."
+    ],
+    [
+      "thyroid-conversation",
+      "Only Dr Palwasha from the references, consulting with a fictional adult woman in business-casual clothes who has brought a small notebook. Doctor listens while patient describes changes in energy and routine using subtle gestures. No body-size comparisons or anatomical diagrams. Theme: symptom history and listening."
+    ],
+    [
+      "glucose-follow-up",
+      "Only Dr Daniyal from the references, in a calm follow-up appointment with a fictional older male patient and his adult companion. Everyone seated and well enough to talk, blank timeline sheet on desk. Theme: reconstructing what happened after an earlier episode; no active emergency, food, medication or treatment shown."
+    ],
+    [
+      "blood-test-questions",
+      "Only Dr Palwasha from the references, discussing a planned blood test with a fictional adult male patient who looks apprehensive. A simple blank appointment card on desk. No needles, punctures, blood or phlebotomy equipment. Theme: understanding the worry before explaining the next step."
+    ],
+    [
+      "headache-diary",
+      "Only Dr Daniyal from the references, reviewing a blank symptom diary with a fictional adult woman in a softly lit outpatient consultation room. A calendar with simple blank squares lies beside the diary. No severe distress. Theme: distinguish timing and patterns without making assumptions."
+    ],
+    [
+      "witness-account",
+      "Only Dr Palwasha from the references, listening to two fictional adults, a patient and a witness, seated at equal level with clear personal space. Doctor takes careful notes on blank paper. Theme: separating what the patient remembers from what the companion observed, no seizure or emergency depicted."
+    ],
+    [
+      "injury-listening",
+      "Only Dr Daniyal from the references, talking to a fictional adult man whose wrist is supported in a simple neutral sling and who remains fully clothed. No manipulation or treatment. Patient describes an earlier fall; doctor attentive to the whole account. Calm consultation room, no blood."
+    ],
+    [
+      "examination-permission",
+      "Only Dr Palwasha from the references, standing at a respectful distance from a fully clothed fictional adult woman seated beside an examination couch, explaining a proposed examination before any contact. Open gentle hand gesture, a folded clean sheet, privacy curtain. Theme: consent and comfort, no examination being performed."
+    ],
+    [
+      "handover-rehearsal",
+      "Both Dr Palwasha and Dr Daniyal in a professional medical education room with a small tabletop timer, blank flashcards and blank notepads. Practising a concise colleague handover, relaxed focused expressions, no exaggerated comedy. Bookshelves and clean desk, no readable text. Theme: learning together with confidence."
+    ]
+  ]
+}

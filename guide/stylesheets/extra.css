@@ -1,0 +1,270 @@
+
+/* ==========================================================================
+   Site theme — the "The company story" look, applied to the whole guide
+   Warm paper ground, deep-green ink, brass accent, serif headings.
+   mkdocs.yml sets primary/accent to `custom`, so these tokens win.
+   ========================================================================== */
+
+/* Colours, fonts and sizes come from theme.css, generated from story/_site.yml. */
+
+/* Header + tabs: colours from the theme's header-bg / header-ink (story/_site.yml). */
+.md-header,
+.md-tabs {
+  background-color: var(--amber-header-bg);
+  color: var(--amber-header-ink);
+}
+.md-header { box-shadow: none; border-bottom: 1px solid var(--amber-line); }
+.md-header--shadow { box-shadow: 0 6px 18px -14px rgba(0, 0, 0, .35); }
+.md-tabs { border-bottom: 1px solid var(--amber-line); }
+.md-header__title { font-family: var(--amber-serif); font-weight: 600; letter-spacing: -.01em; }
+.md-header__button.md-logo { color: var(--amber-header-ink); }
+.md-tabs__link { color: var(--amber-header-muted); opacity: 1; }
+.md-tabs__item--active .md-tabs__link,
+.md-tabs__link:hover,
+.md-tabs__link:focus { color: var(--amber-header-ink); }
+.md-tabs__item--active .md-tabs__link { box-shadow: inset 0 -2px 0 var(--amber-brass); padding-bottom: .5rem; }
+.md-header__option .md-icon, .md-header__button { color: var(--amber-header-ink); }
+
+/* Search: a field you can see on the header colour, not an invisible hit area.
+   The tokens come from the theme, so it follows whichever palette is active. */
+.md-search__form {
+  position: relative;
+  background-color: color-mix(in srgb, var(--amber-header-ink) 10%, transparent);
+  border: 1px solid color-mix(in srgb, var(--amber-header-ink) 24%, transparent);
+  border-radius: .5rem;
+  transition: background-color .2s ease, border-color .2s ease, box-shadow .2s ease;
+}
+.md-search__form:hover {
+  background-color: color-mix(in srgb, var(--amber-header-ink) 16%, transparent);
+  border-color: color-mix(in srgb, var(--amber-header-ink) 40%, transparent);
+}
+.md-search__input { color: var(--amber-header-ink); font-size: var(--amber-fs-ui, .7rem); }
+.md-search__input::placeholder { color: var(--amber-header-muted); opacity: 1; }
+.md-search__icon { color: var(--amber-header-muted); }
+.md-search__form:hover .md-search__icon { color: var(--amber-header-ink); }
+
+/* The keyboard hint Material's shortcut already honours. */
+.md-search__form::after {
+  content: "/";
+  position: absolute; right: .5rem; top: 50%; transform: translateY(-50%);
+  padding: .1rem .34rem; border-radius: .25rem;
+  border: 1px solid color-mix(in srgb, var(--amber-header-ink) 30%, transparent);
+  font-family: var(--amber-mono); font-size: .58rem; line-height: 1.4;
+  color: var(--amber-header-muted); pointer-events: none;
+}
+[data-md-toggle="search"]:checked ~ .md-header .md-search__form { border-color: var(--amber-brass); background-color: color-mix(in srgb, var(--amber-header-ink) 14%, transparent); }
+[data-md-toggle="search"]:checked ~ .md-header .md-search__form::after { display: none; }
+
+/* Results: a hit is a slide of the story, so give the headings room to read. */
+.md-search-result__meta { color: var(--amber-header-muted); }
+.md-search-result__article { padding-block: .5rem; }
+.md-search-result mark { color: var(--amber-brass); }
+
+/* Body text in the theme's body face */
+body, .md-typeset { font-family: var(--amber-sans); }
+
+/* Serif headings across the guide so every page reads like the story. */
+.md-typeset h1, .md-typeset h2, .md-typeset h3 {
+  font-family: var(--amber-serif);
+  color: var(--amber-ink);
+}
+.md-typeset h1 { font-weight: 600; letter-spacing: -.03em; }
+.md-typeset h2 { font-weight: 600; }
+.md-nav__link--active, .md-nav__item .md-nav__link--active { color: var(--amber-green-2); }
+.md-footer, .md-footer-meta { background-color: var(--amber-footer); }
+
+/* ==========================================================================
+   Full-bleed layout with modern gutters
+   Material ships a narrow centred measure (61rem). We widen to the viewport
+   and keep a fluid side gutter instead.
+   ========================================================================== */
+
+.md-grid {
+  max-width: 100%;
+}
+
+/* One container: the logo, tabs, page content and footer share the same left and
+   right edges. Width and inset come from story/_site.yml (layout.max_width / gutter). */
+.md-header__inner,
+.md-tabs .md-grid,
+.md-footer-meta__inner,
+.md-footer__inner {
+  width: min(var(--amber-max), 100% - var(--amber-gutter) * 2);
+  max-width: none;
+  margin-inline: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+.md-header__button.md-logo { margin-left: 0; padding-left: 0; }
+[dir=ltr] .md-tabs__list, [dir=rtl] .md-tabs__list { margin-inline: 0; padding-inline: 0; }
+.md-tabs__item:first-child { padding-left: 0; }
+.md-search { margin-right: 0; }
+
+/* Keep prose from stretching edge-to-edge on ultrawide displays: the layout is
+   full-bleed, the *measure* stays readable. Raise or drop this if you want
+   text to fill the full width too. */
+@media screen and (min-width: 100em) {
+  .md-content__inner {
+    max-width: 62rem;
+  }
+}
+
+/* Breathing room between the nav rail and the content column. */
+@media screen and (min-width: 76.25em) {
+  .md-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+/* ==========================================================================
+   Grid cards
+   ========================================================================== */
+
+.md-typeset .grid.cards > ul > li {
+  border-radius: 0.6rem;
+  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+/* Icons sitting in card headings */
+.md-typeset .grid.cards .twemoji.lg svg {
+  width: 1.6em;
+  height: 1.6em;
+}
+
+.md-typeset .twemoji.middle svg {
+  vertical-align: middle;
+}
+
+/* ==========================================================================
+   Readability details
+   ========================================================================== */
+
+/* The ASCII diagrams (money map, The memory file) must not wrap. */
+.md-typeset pre > code {
+  font-variant-ligatures: none;
+}
+
+/* Tables sit better full-width in a wide layout. */
+.md-typeset__table {
+  width: 100%;
+}
+
+.md-typeset table:not([class]) {
+  font-size: 0.72rem;
+}
+
+/* ==========================================================================
+   Typography — product-documentation feel
+   Inter for text, JetBrains Mono for code (loaded via theme.font).
+   ========================================================================== */
+
+:root {
+  /* Inter's optical sizing + contextual alternates, and tabular figures where
+     numbers need to line up (this guide is full of dollar tables). */
+  --md-text-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body,
+.md-typeset {
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11", "ss01";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Body copy: slightly larger and looser than Material's default, which is
+   tuned for API reference rather than prose. */
+.md-typeset {
+  font-size: 0.78rem;
+  line-height: 1.72;
+  letter-spacing: -0.003em;
+}
+
+/* Headings: tighter tracking, heavier weights — the Stripe/Linear register. */
+.md-typeset h1 {
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.22;
+  margin-bottom: 1.2rem;
+}
+
+.md-typeset h2 {
+  font-weight: 650;
+  letter-spacing: -0.018em;
+  line-height: 1.3;
+  margin-top: 2.2em;
+}
+
+.md-typeset h3 {
+  font-weight: 620;
+  letter-spacing: -0.012em;
+}
+
+.md-typeset h4,
+.md-typeset h5 {
+  font-weight: 600;
+  letter-spacing: -0.008em;
+}
+
+/* Nav and tabs: a touch more weight so the chrome reads as UI, not prose. */
+.md-tabs__link {
+  font-weight: 500;
+  letter-spacing: -0.005em;
+}
+
+.md-nav__title {
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+
+.md-nav__link--active {
+  font-weight: 600;
+}
+
+/* Tabular figures in tables and the ASCII ledgers, so columns of dollars and
+   the money-map diagrams stay aligned. */
+.md-typeset table:not([class]) td,
+.md-typeset table:not([class]) th {
+  font-variant-numeric: tabular-nums;
+}
+
+.md-typeset code,
+.md-typeset pre > code {
+  font-feature-settings: "calt" 0;
+  font-variant-ligatures: none;
+}
+
+.md-typeset pre > code {
+  font-size: 0.72rem;
+  line-height: 1.6;
+}
+
+/* Inline code: distinguish from prose without shouting. */
+.md-typeset :not(pre) > code {
+  font-size: 0.84em;
+  padding: 0.12em 0.36em;
+  border-radius: 0.25rem;
+}
+
+/* Blockquotes carry handbook quotations throughout — give them presence. */
+.md-typeset blockquote {
+  font-size: 0.98em;
+  border-left-width: 0.15rem;
+}
+
+/* Admonition titles pick up the heading treatment. */
+.md-typeset .admonition-title,
+.md-typeset summary {
+  font-weight: 620;
+  letter-spacing: -0.008em;
+}
+
+/* Present mode: body.amber-present swaps the --amber-* and --md-* variables to the
+   present theme (theme.css), so the header, tabs and ground follow automatically. */
+body.amber-present .md-header { border-bottom-color: var(--amber-line); }
