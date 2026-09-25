@@ -8,9 +8,9 @@
     "hook": "Mara Keller comes with a letter marked M. Keller. Another patient has the same label. Before asking about her cough, you need to check which record belongs to her.",
     "question": "Both labels say M. Keller. What comes first?",
     "options": [
-      "Open the record with a cough note",
-      "Ask Mara to state her identifiers",
-      "Let the other Keller choose"
+      "Match her symptoms to the first record",
+      "Check her full name and birth date",
+      "Ask whether the surname looks right"
     ],
     "correct": 1,
     "feedback": "The same initial and surname can belong to different people. Ask Mara for her full name and birth date. Check both against the record.",
@@ -54,7 +54,36 @@
     "topic": "foundations",
     "topicTitle": "Getting started",
     "group": "Start & connect",
-    "guide": "cases/foundations/foundations-two-kellers/"
+    "guide": "cases/foundations/foundations-two-kellers/",
+    "assessment": {
+      "id": "foundations-two-kellers",
+      "version": 1,
+      "stem": "Mara brings a letter labelled M. Keller. A second record has the same label. Both records mention a cough.",
+      "stem_de": "Mara bringt einen Brief mit der Aufschrift M. Keller. Eine zweite Akte hat dieselbe Aufschrift. In beiden Akten steht etwas über Husten.",
+      "question": "Both labels say M. Keller. What comes first?",
+      "question_de": "Beide Etiketten zeigen M. Keller. Was kommt zuerst?",
+      "options": [
+        "Match her symptoms to the first record",
+        "Check her full name and birth date",
+        "Ask whether the surname looks right"
+      ],
+      "options_de": [
+        "Ihre Beschwerden mit der ersten Akte vergleichen",
+        "Vollständigen Namen und Geburtsdatum mit Akte abgleichen",
+        "Fragen, ob der gedruckte Nachname richtig aussieht"
+      ],
+      "correct": 1,
+      "option_feedback": [
+        "Both records mention a cough. Symptoms do not establish identity.",
+        "These two identifiers can be checked against the record before symptoms are entered.",
+        "Both records share the surname. A yes to this question does not distinguish them."
+      ],
+      "option_feedback_de": [
+        "In beiden Akten steht Husten. Beschwerden klären die Identität nicht.",
+        "Diese beiden Angaben lassen sich vor dem Eintrag der Beschwerden mit der Akte abgleichen.",
+        "Beide Akten tragen denselben Nachnamen. Ein Ja unterscheidet die Patienten nicht."
+      ]
+    }
   },
   {
     "id": "foundations-dictionary-on-holiday",
@@ -65,9 +94,9 @@
     "hook": "Emil has slept poorly for several weeks. You use the term vegetative history. He thinks you mean plants. Ask about his sleep using words he already knows.",
     "question": "How can you make the question clearer?",
     "options": [
-      "Explain the Latin root",
-      "Skip sleep to save time",
-      "Use ordinary questions and follow his answer"
+      "Define vegetative history before repeating the same question",
+      "Ask only whether he has any diagnosed sleep disorder",
+      "Ask when he wakes and what happens next"
     ],
     "correct": 2,
     "feedback": "Simple questions help Emil describe his symptoms clearly. Explain that you mean sleep and appetite. Ask what happens when Emil wakes at three.",
@@ -112,7 +141,36 @@
     "topic": "foundations",
     "topicTitle": "Getting started",
     "group": "Start & connect",
-    "guide": "cases/foundations/foundations-dictionary-on-holiday/"
+    "guide": "cases/foundations/foundations-dictionary-on-holiday/",
+    "assessment": {
+      "id": "foundations-dictionary-on-holiday",
+      "version": 1,
+      "stem": "Emil has slept poorly for several weeks. You ask about his vegetative history. He asks what plants have to do with his sleep.",
+      "stem_de": "Emil schläft seit mehreren Wochen schlecht. Sie fragen nach seiner vegetativen Anamnese. Er fragt, was Pflanzen mit seinem Schlaf zu tun haben.",
+      "question": "How can you make the question clearer?",
+      "question_de": "Wie wird die Frage klarer?",
+      "options": [
+        "Define vegetative history before repeating the same question",
+        "Ask only whether he has any diagnosed sleep disorder",
+        "Ask when he wakes and what happens next"
+      ],
+      "options_de": [
+        "Vegetative Anamnese erklären und die gleiche Frage wiederholen",
+        "Nur fragen, ob er eine Schlafstörung hat",
+        "Nach dem Erwachen und dem weiteren Verlauf fragen"
+      ],
+      "correct": 2,
+      "option_feedback": [
+        "Defining the term may help later, but repeating it still makes the patient translate a technical question.",
+        "A yes or no does not describe the sleep problem. An open question gives more detail.",
+        "Everyday questions let Emil describe his experience without needing medical vocabulary."
+      ],
+      "option_feedback_de": [
+        "Eine Definition kann später helfen. Die wiederholte Fachfrage bleibt für den Patienten aber schwer verständlich.",
+        "Ja oder Nein beschreibt das Schlafproblem nicht. Eine offene Frage liefert mehr Angaben.",
+        "Alltagsfragen helfen Emil, sein Erleben ohne medizinische Fachwörter zu beschreiben."
+      ]
+    }
   },
   {
     "id": "foundations-phone-storm",
@@ -123,9 +181,9 @@
     "hook": "Nora comes because of repeated headaches. Work messages keep interrupting her answers. She wants a few quiet minutes too. Agree on a short pause, then return to her symptoms.",
     "question": "How should you restart the conversation?",
     "options": [
-      "Agree on a pause, then return to the symptom story",
-      "Ask three questions while she texts",
-      "Record stress headache as confirmed"
+      "Agree on a pause, then resume her history",
+      "Continue questioning while she answers work messages",
+      "Postpone all history questions until a quieter appointment tomorrow"
     ],
     "correct": 0,
     "feedback": "Work pressure alone does not establish the cause of her headaches. Ask Nora how to reduce interruptions. Once she is ready, restart the headache question.",
@@ -169,7 +227,36 @@
     "topic": "foundations",
     "topicTitle": "Getting started",
     "group": "Start & connect",
-    "guide": "cases/foundations/foundations-phone-storm/"
+    "guide": "cases/foundations/foundations-phone-storm/",
+    "assessment": {
+      "id": "foundations-phone-storm",
+      "version": 1,
+      "stem": "Nora is describing repeated headaches. Work messages interrupt each answer. She says she would also like a few quiet minutes.",
+      "stem_de": "Nora beschreibt wiederkehrende Kopfschmerzen. Arbeitsnachrichten unterbrechen jede Antwort. Auch sie möchte einige Minuten Ruhe haben.",
+      "question": "How should you restart the conversation?",
+      "question_de": "Wie setzen Sie das Gespräch fort?",
+      "options": [
+        "Agree on a pause, then resume her history",
+        "Continue questioning while she answers work messages",
+        "Postpone all history questions until a quieter appointment tomorrow"
+      ],
+      "options_de": [
+        "Eine Pause vereinbaren, dann die Anamnese fortsetzen",
+        "Weiterfragen, während sie ihre Arbeitsnachrichten beantwortet",
+        "Alle Fragen auf einen ruhigeren Termin morgen verschieben"
+      ],
+      "correct": 0,
+      "option_feedback": [
+        "A short agreed pause creates space to hear her symptoms.",
+        "Divided attention makes important details easier to miss.",
+        "She wants time to talk now. First try a practical pause instead of postponing the whole history."
+      ],
+      "option_feedback_de": [
+        "Eine kurze vereinbarte Pause schafft Raum für ihre Beschwerden.",
+        "Bei geteilter Aufmerksamkeit gehen wichtige Angaben leichter verloren.",
+        "Sie möchte jetzt sprechen. Versuchen Sie zunächst eine kurze Pause, statt die ganze Anamnese zu verschieben."
+      ]
+    }
   },
   {
     "id": "foundations-blank-box",
@@ -180,9 +267,9 @@
     "hook": "Oskar has described leg pain and a blood-pressure medicine. An interruption stops the interview before the allergy question. His allergy field is empty. You must record what is still unknown.",
     "question": "Which entry matches what happened?",
     "options": [
-      "No known allergies",
+      "Patient reports no known allergies",
       "Allergy history not yet obtained",
-      "Allergy unlikely"
+      "No allergy reported during this interview"
     ],
     "correct": 1,
     "feedback": "Not asked and asked with a negative answer mean different things. Write allergy history not yet obtained. Ask Oskar about allergies when the interview resumes.",
@@ -226,7 +313,36 @@
     "topic": "foundations",
     "topicTitle": "Getting started",
     "group": "Start & connect",
-    "guide": "cases/foundations/foundations-blank-box/"
+    "guide": "cases/foundations/foundations-blank-box/",
+    "assessment": {
+      "id": "foundations-blank-box",
+      "version": 1,
+      "stem": "Oskar describes leg pain and a blood-pressure medicine. The interview stops before anyone asks about allergies. The allergy field is blank.",
+      "stem_de": "Oskar berichtet über Beinbeschwerden und ein Blutdruckmittel. Das Gespräch endet vor der Allergiefrage. Das Allergiefeld ist leer.",
+      "question": "Which entry matches what happened?",
+      "question_de": "Welcher Eintrag stimmt mit dem Gespräch überein?",
+      "options": [
+        "Patient reports no known allergies",
+        "Allergy history not yet obtained",
+        "No allergy reported during this interview"
+      ],
+      "options_de": [
+        "Patient verneint bekannte Allergien",
+        "Allergieanamnese noch nicht erhoben",
+        "Im Gespräch keine Allergie angegeben"
+      ],
+      "correct": 1,
+      "option_feedback": [
+        "Oskar has not been asked. This wording invents a negative answer.",
+        "This accurately records the gap without claiming that allergies are absent.",
+        "This can sound like a completed allergy check. State explicitly that the question was not asked."
+      ],
+      "option_feedback_de": [
+        "Oskar wurde nicht gefragt. Diese Formulierung erfindet eine negative Antwort.",
+        "So wird die Lücke festgehalten, ohne Allergien auszuschließen.",
+        "Das kann wie eine abgeschlossene Allergieanamnese klingen. Schreiben Sie ausdrücklich, dass noch nicht gefragt wurde."
+      ]
+    }
   },
   {
     "id": "foundations-three-days-three-weeks",
@@ -237,9 +353,9 @@
     "hook": "Leonie first coughed three weeks ago. Her cough became much worse three days ago. Your note says only three days. Correct the note so it includes both time points.",
     "question": "What should the first handover sentence include?",
     "options": [
-      "Only the worst day",
-      "The moving date",
-      "Three weeks of cough, worse for three days"
+      "Cough started three days ago, with earlier symptoms unclear",
+      "Cough started three weeks ago and stayed equally severe",
+      "Cough began three weeks ago and worsened three days ago"
     ],
     "correct": 2,
     "feedback": "The start of a symptom and its worsening can have different dates. Confirm both dates with Leonie. Report three weeks of cough, worse for three days.",
@@ -283,7 +399,36 @@
     "topic": "foundations",
     "topicTitle": "Getting started",
     "group": "Start & connect",
-    "guide": "cases/foundations/foundations-three-days-three-weeks/"
+    "guide": "cases/foundations/foundations-three-days-three-weeks/",
+    "assessment": {
+      "id": "foundations-three-days-three-weeks",
+      "version": 1,
+      "stem": "Leonie says her cough has been bad for three days. Later she says the first cough began three weeks ago. The note says: cough for three days.",
+      "stem_de": "Leonie sagt, ihr Husten sei seit drei Tagen schlimm. Später sagt sie, er habe vor drei Wochen begonnen. In der Notiz steht: Husten seit drei Tagen.",
+      "question": "What should the first handover sentence include?",
+      "question_de": "Was gehört in den ersten Übergabesatz?",
+      "options": [
+        "Cough started three days ago, with earlier symptoms unclear",
+        "Cough started three weeks ago and stayed equally severe",
+        "Cough began three weeks ago and worsened three days ago"
+      ],
+      "options_de": [
+        "Hustenbeginn vor drei Tagen; frühere Beschwerden noch unklar",
+        "Husten seit drei Wochen mit unverändert starker Ausprägung",
+        "Hustenbeginn vor drei Wochen, deutliche Verschlechterung vor drei Tagen"
+      ],
+      "correct": 2,
+      "option_feedback": [
+        "Three days describes worsening, not the first cough. The earlier onset is already reported.",
+        "The onset is right, but unchanged severity contradicts the reported worsening.",
+        "This keeps onset and worsening separate. Both time points matter in the handover."
+      ],
+      "option_feedback_de": [
+        "Drei Tage beschreibt die Verschlechterung, nicht den Beginn. Der frühere Beginn wurde bereits genannt.",
+        "Der Beginn stimmt. Die gleichbleibende Stärke widerspricht aber der beschriebenen Verschlechterung.",
+        "So bleiben Beginn und Verschlechterung getrennt. Beide Zeitpunkte gehören in die Übergabe."
+      ]
+    }
   },
   {
     "id": "foundations-doorway-summary",
@@ -294,9 +439,9 @@
     "hook": "Sami has shared personal information. A colleague asks for an update beside the waiting area. Other patients can hear you. Choose a private place before discussing his details.",
     "question": "What should happen before the handover?",
     "options": [
-      "Move to a suitable private place",
-      "Use only initials but stay there",
-      "Ask the waiting patients not to listen"
+      "Give the handover in a private room",
+      "Use initials here",
+      "Show the colleague the record beside the waiting area"
     ],
     "correct": 0,
     "feedback": "Initials and a quiet voice do not reliably prevent others from identifying the patient. Move to a private space. Share relevant details with the treating colleague there.",
@@ -341,7 +486,36 @@
     "topic": "foundations",
     "topicTitle": "Getting started",
     "group": "Start & connect",
-    "guide": "cases/foundations/foundations-doorway-summary/"
+    "guide": "cases/foundations/foundations-doorway-summary/",
+    "assessment": {
+      "id": "foundations-doorway-summary",
+      "version": 1,
+      "stem": "Sami has shared personal information. A treating colleague asks for an update next to the waiting area. Other patients are within hearing distance.",
+      "stem_de": "Sami hat persönliche Angaben gemacht. Eine behandelnde Kollegin fragt neben dem Wartebereich nach dem Gespräch. Andere Patienten können mithören.",
+      "question": "What should happen before the handover?",
+      "question_de": "Was soll vor der Übergabe geschehen?",
+      "options": [
+        "Give the handover in a private room",
+        "Use initials here",
+        "Show the colleague the record beside the waiting area"
+      ],
+      "options_de": [
+        "Die Übergabe in einem geschützten Raum durchführen",
+        "Hier nur Initialen verwenden",
+        "Der Kollegin im Wartebereich die Patientenakte zeigen"
+      ],
+      "correct": 0,
+      "option_feedback": [
+        "A suitable private setting protects the conversation from people not involved in care.",
+        "Initials and a quiet voice do not reliably stop others identifying the patient.",
+        "A visible record can also disclose personal details. Moving the discussion remains important."
+      ],
+      "option_feedback_de": [
+        "Ein geeigneter geschützter Ort hält Unbeteiligte vom Gespräch fern.",
+        "Initialen und eine leise Stimme verhindern nicht sicher, dass andere den Patienten erkennen.",
+        "Auch eine sichtbare Akte kann persönliche Angaben offenlegen. Ein geschützter Ort bleibt wichtig."
+      ]
+    }
   },
   {
     "id": "foundations-say-it-back",
@@ -352,9 +526,9 @@
     "hook": "Tessa nods during your explanation of a blood test. She says she understands, but does not know where to wait. Ask her to explain the next step in her own words.",
     "question": "Which question helps check understanding?",
     "options": [
-      "You understood everything, yes?",
-      "Tell me the next step so I can check my explanation",
-      "Repeat every medical term"
+      "Was the next step clear?",
+      "What will you do next, in your own words?",
+      "Can you repeat my instructions exactly as I said them?"
     ],
     "correct": 1,
     "feedback": "A polite yes may hide a practical question. Ask what happens next. Explain where Tessa should wait and check that this is now clear.",
@@ -398,7 +572,36 @@
     "topic": "foundations",
     "topicTitle": "Getting started",
     "group": "Start & connect",
-    "guide": "cases/foundations/foundations-say-it-back/"
+    "guide": "cases/foundations/foundations-say-it-back/",
+    "assessment": {
+      "id": "foundations-say-it-back",
+      "version": 1,
+      "stem": "Tessa nods after your explanation of a planned blood test. She says she understands. Before leaving, you want to check whether the next step is clear.",
+      "stem_de": "Tessa nickt nach Ihrer Erklärung zur geplanten Blutentnahme. Sie sagt, sie habe alles verstanden. Vor dem Gehen möchten Sie den nächsten Schritt prüfen.",
+      "question": "Which question helps check understanding?",
+      "question_de": "Welche Frage prüft das Verständnis?",
+      "options": [
+        "Was the next step clear?",
+        "What will you do next, in your own words?",
+        "Can you repeat my instructions exactly as I said them?"
+      ],
+      "options_de": [
+        "War der nächste Schritt klar?",
+        "Was machen Sie als Nächstes, mit eigenen Worten?",
+        "Können Sie meine Anweisungen genau mit meinen Worten wiederholen?"
+      ],
+      "correct": 1,
+      "option_feedback": [
+        "Another yes or no may not reveal a practical misunderstanding.",
+        "Her own description shows what she understood and helps you improve your explanation.",
+        "Repeating exact words can test memory without showing practical understanding."
+      ],
+      "option_feedback_de": [
+        "Ein weiteres Ja oder Nein zeigt ein praktisches Missverständnis möglicherweise nicht.",
+        "Ihre eigene Beschreibung zeigt ihr Verständnis und hilft Ihnen, die Erklärung zu verbessern.",
+        "Wörtliches Wiederholen kann das Gedächtnis prüfen, ohne praktisches Verständnis zu zeigen."
+      ]
+    }
   },
   {
     "id": "foundations-practice-not-prophecy",
@@ -409,9 +612,9 @@
     "hook": "In a practice session, you expect abdominal pain. Hanna instead asks about a medical letter that worries her. You have not read it. Start with her question before using your prepared symptom list.",
     "question": "How should you respond to Hanna first?",
     "options": [
-      "Return to the memorised symptom list",
-      "Promise the letter is harmless",
-      "Explore her concern and the actual letter"
+      "Start with the prepared questions",
+      "Explain that most letters contain routine findings before reading",
+      "Ask what worries her and read the letter"
     ],
     "correct": 2,
     "feedback": "The prepared topic does not establish what the patient actually needs today. Ask what the letter says and what worries Hanna. Read it before explaining its meaning.",
@@ -456,7 +659,36 @@
     "topic": "foundations",
     "topicTitle": "Getting started",
     "group": "Start & connect",
-    "guide": "cases/foundations/foundations-practice-not-prophecy/"
+    "guide": "cases/foundations/foundations-practice-not-prophecy/",
+    "assessment": {
+      "id": "foundations-practice-not-prophecy",
+      "version": 1,
+      "stem": "You prepared questions about abdominal pain for a practice session. Hanna instead asks about a medical letter that worries her. You have not read the letter.",
+      "stem_de": "Sie haben für eine Übung Fragen zu Bauchschmerzen vorbereitet. Hanna fragt stattdessen nach einem Arztbrief, der sie beunruhigt. Sie haben den Brief noch nicht gelesen.",
+      "question": "How should you respond to Hanna first?",
+      "question_de": "Wie reagieren Sie zuerst auf Hanna?",
+      "options": [
+        "Start with the prepared questions",
+        "Explain that most letters contain routine findings before reading",
+        "Ask what worries her and read the letter"
+      ],
+      "options_de": [
+        "Mit den vorbereiteten Fragen beginnen",
+        "Vor dem Lesen erklären, dass Arztbriefe meist Routinebefunde enthalten",
+        "Nach ihrer Sorge fragen und den Brief lesen"
+      ],
+      "correct": 2,
+      "option_feedback": [
+        "This delays the concern she actually brought. A prepared structure should remain flexible.",
+        "You do not yet know what this letter says. General reassurance can mislead her.",
+        "This establishes her concern and the actual wording before you explain it."
+      ],
+      "option_feedback_de": [
+        "Das verschiebt ihr eigentliches Anliegen. Eine vorbereitete Struktur soll flexibel bleiben.",
+        "Sie kennen diesen Brief noch nicht. Allgemeine Beruhigung kann sie in die Irre führen.",
+        "So klären Sie erst ihre Sorge und den Wortlaut, bevor Sie den Brief erklären."
+      ]
+    }
   },
   {
     "id": "history-blue-tablet",

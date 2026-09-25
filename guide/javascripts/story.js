@@ -9,6 +9,14 @@
   const VISITED_KEY = 'fsp-v1-story-visited';
   const ENTER_KEY = 'fsp-v1-story-enter';
   const MODE_KEY = 'fsp-v1-read-mode'; // Explicit preference shared by every chapter.
+  // Reading stages describe learning progress, never clinical certainty.
+  const FILE_STATUSES = {
+    'Open': { de: 'Offen', tone: 'muted' },
+    'Collecting facts': { de: 'Informationen sammeln', tone: 'info' },
+    'Checking details': { de: 'Details prüfen', tone: 'info' },
+    'Planning the next step': { de: 'Nächsten Schritt planen', tone: 'warn' },
+    'Ready to practise': { de: 'Bereit zum Üben', tone: 'ok' },
+  };
   const money = (n) => '$' + Math.round(n).toLocaleString('en-US');
   const store = {
     get(k, d) { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch (e) { return d; } },
@@ -50,6 +58,30 @@
     const headlineLabel = file && file.querySelector('[data-headline-label]');
     const headlineBar = file && file.querySelector('[data-headline-bar]');
     const status = file && file.querySelector('[data-file-status]');
+    const announcement = file && file.querySelector('[data-file-announcement]');
+    const badge = file && file.querySelector('[data-file-badge]');
+    let announcementsReady = false;
+    let unread = 0, activeStatus = 'Open', lastLanguage = null;
+    const german = () => document.documentElement.lang === 'de';
+    function renderFileStatus() {
+      if (!status) return;
+      const entry = FILE_STATUSES[activeStatus] || { de: activeStatus, tone: 'muted' };
+      status.textContent = german() ? entry.de : activeStatus;
+      status.dataset.tone = entry.tone;
+      if (badge) {
+        badge.hidden = !unread;
+        badge.textContent = '+' + unread;
+        badge.setAttribute('aria-label', german() ? `${unread} neue Lernnotizen` : `${unread} new reading notes`);
+      }
+    }
+    if (file && window.MutationObserver) {
+      const languageObserver = new MutationObserver(() => {
+        const lang = document.documentElement.lang;
+        if (lang !== lastLanguage) { lastLanguage = lang; renderFileStatus(); }
+      });
+      languageObserver.observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
+      off.push(() => languageObserver.disconnect());
+    }
     const tocLinks = [...story.querySelectorAll('.st-toc a[data-toc]')];
     const railProgress = story.querySelector('.st-rail__progress');
     const next = story.querySelector('[data-next]');
@@ -96,14 +128,16 @@
       marks.forEach((m) => m.classList.toggle('is-active', m === el));
 
       // Case file rows — earlier chapters arrive pre-filled.
-      let covered = 0;
+      let covered = 0, added = 0, removed = false;
       fillables.forEach((f) => {
         const isOn = Number(f.dataset.at) <= stage;
         const was = f.classList.contains('is-filled');
         f.classList.toggle('is-filled', isOn);
         f.setAttribute('aria-hidden', String(!isOn));
         if (!isOn) f.classList.remove('is-fresh');
-        if (isOn && !was && !firstPaint) { f.classList.remove('is-fresh'); void f.offsetWidth; f.classList.add('is-fresh'); }
+        if (was && !isOn) removed = true;
+        if (isOn && !was && f.dataset.amount) added++;
+        if (isOn && !was && !firstPaint && !reduced()) { f.classList.remove('is-fresh'); void f.offsetWidth; f.classList.add('is-fresh'); }
         if (isOn && f.dataset.amount) covered += Number(f.dataset.amount);
       });
 
@@ -124,8 +158,19 @@
         if (t.status) st = t.status;
         if (t.headline) hl = t.headline;
       }
-      status.textContent = st;
-      status.className = 'st-file__status' + (/paid|disbursed/i.test(st) ? ' is-paid' : /packaged/i.test(st) ? ' is-packaged' : '');
+      const changedStatus = activeStatus !== st;
+      activeStatus = st;
+      if (removed) unread = 0;
+      if (announcementsReady && !firstPaint && added && window.innerWidth <= 1080 && !file.classList.contains('is-open')) unread += added;
+      renderFileStatus();
+      status.classList.remove('is-stamping');
+      if (changedStatus && !firstPaint && !reduced()) { void status.offsetWidth; status.classList.add('is-stamping'); }
+      if (announcement && announcementsReady && !firstPaint) {
+        // Announce reading progress, not an unsupported patient confirmation.
+        announcement.textContent = german()
+          ? `${covered} von ${target} Lernnotizen sichtbar. Status: ${status.textContent}.`
+          : `${covered} of ${target} reading notes visible. Status: ${status.textContent}.`;
+      }
       headlineLabel.textContent = hl ? hl.label : defaultLabel;
       headline.textContent = hl ? hl.value : story.dataset.initialValue;
       headline.classList.toggle('is-zero', covered >= target);
@@ -312,6 +357,7 @@
         const open = !file.classList.contains('is-open');
         file.classList.toggle('is-open', open);
         head.setAttribute('aria-expanded', String(open));
+        if (open) { unread = 0; renderFileStatus(); }
       });
     }
 
@@ -532,6 +578,7 @@
       const railList = railCurrent.parentElement;
       railList.scrollTop += railCurrent.getBoundingClientRect().top - railList.getBoundingClientRect().top - 8;
     }
+    requestAnimationFrame(() => { announcementsReady = true; });
     window.__stoCleanup = () => { off.forEach((f) => f()); clearTimeout(pullTimer); document.body.classList.remove('amber-present'); };
   }
 
@@ -543,3 +590,4 @@
     init();
   }
 })();
+
