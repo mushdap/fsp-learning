@@ -37,6 +37,7 @@ def main():
     run([sys.executable, '-X', 'utf8', 'tools/check_release_requirements.py'], GUIDE)
     run([sys.executable, '-X', 'utf8', 'tools/test_case_stages.py'], GUIDE)
     run([sys.executable, '-X', 'utf8', 'tools/test_patient_fact_wave.py'], GUIDE)
+    run([sys.executable, '-X', 'utf8', 'tools/test_all_patient_facts.py'], GUIDE)
     run(['node', 'tools/test_story_mode.cjs'], GUIDE)
     run([sys.executable, '-X', 'utf8', 'tools/import_bank.py'], EXAM)
     run(['node', '--test'], EXAM)

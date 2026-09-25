@@ -68,6 +68,8 @@
     let patientStage = -1;
     const FACT_STATES = {
       reported: ['Patient report', 'Patientenangabe'],
+      witness_report: ['Companion or witness report', 'Fremdangabe'],
+      observed: ['Observed in this case', 'Im Fall beobachtet'],
       confirmed: ['Patient confirmed', 'Vom Patienten bestätigt'],
       unknown: ['Not known', 'Unbekannt'],
       not_asked: ['Not asked yet', 'Noch nicht erfragt'],
