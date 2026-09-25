@@ -73,3 +73,28 @@
 
 @media(min-width:900px){.fsp-illustrated{display:grid;grid-template-columns:1.1fr 1fr;gap:20px;align-items:start}.fsp-illustrated>.am-scene-head{grid-column:1/-1}.fsp-illustrated figure{margin:0}.fsp-illustrated-copy{font-size:17px;line-height:1.65}.fsp-illustrated blockquote{font-size:20px}.fsp-register-stage{display:grid;grid-template-columns:1fr 1.2fr;gap:16px;align-items:start}.fsp-register-cards article{margin-top:0;padding:18px}.fsp-register-cards p[lang=de]{font-size:20px}.fsp-three-status{grid-column:1/-1}.fsp-three{height:280px}}
 
+
+/* Plain-language case openings: the same reading order in both languages. */
+[data-reading-lang="de"]{display:none!important}
+html[lang="de"] [data-reading-lang="en"]{display:none!important}
+html[lang="de"] [data-reading-lang="de"]{display:revert!important}
+.fsp-case-intro{padding:clamp(22px,3vw,42px);border:1px solid var(--st-line);border-radius:22px;background:var(--st-paper);margin:24px 0}
+.fsp-case-intro h1{font-size:clamp(27px,3vw,42px);line-height:1.2;max-width:24ch;margin:12px 0 24px}
+.fsp-plain-summary{font-size:clamp(19px,1.6vw,23px);line-height:1.65;max-width:65ch}
+.fsp-case-map{margin:28px 0}.fsp-case-map h2{font-size:20px;margin:0 0 16px}
+.fsp-case-map ol{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;padding:0;list-style:none}
+.fsp-case-map li{position:relative;padding:20px;border:1px solid var(--st-line);border-radius:16px;background:var(--st-soft);font-size:18px;line-height:1.55;overflow-wrap:anywhere}
+.fsp-map-number{display:block;width:32px;height:32px;border-radius:50%;background:var(--st-accent);color:var(--st-paper);text-align:center;line-height:32px;font-weight:700;margin-bottom:14px}
+.fsp-case-map:not(.fsp-case-map--compare) li:not(:last-child):after{content:'→';position:absolute;right:-17px;top:25px;color:var(--st-accent);font-size:20px;z-index:1}
+.fsp-one-lesson{padding:18px 22px;border-left:4px solid var(--st-accent);background:var(--st-soft);border-radius:0 12px 12px 0;font-size:18px;line-height:1.6}.fsp-one-lesson p{margin:5px 0 0}
+.st-file__body{max-height:58vh;overflow-y:auto}.st-file__group dd{overflow-wrap:anywhere}
+@media(max-width:760px){.fsp-case-map ol{grid-template-columns:1fr}.fsp-case-map:not(.fsp-case-map--compare) li:not(:last-child):after{content:'↓';right:25px;top:auto;bottom:-22px}.fsp-case-map li{min-height:0}.fsp-case-intro{padding:22px 18px}}
+.story[data-file-scope="chapter"] .st-file__group{grid-template-columns:minmax(0,1fr);gap:6px}
+.story[data-file-scope="chapter"] .st-file__group dt{font-size:12px;text-transform:uppercase;letter-spacing:.05em;margin-top:10px}
+.story[data-file-scope="chapter"] .st-file__group dd{text-align:left;font-family:var(--st-sans);font-size:14px;line-height:1.5;white-space:normal}
+.story[data-file-scope="chapter"] .st-file__head{grid-template-columns:minmax(0,1fr);gap:8px}
+.story[data-file-scope="chapter"] .st-file__name{font-size:21px;line-height:1.3;overflow-wrap:anywhere}
+.story[data-file-scope="chapter"] .st-file__status{transform:none;justify-self:start;font-size:10px;line-height:1.5;white-space:normal;max-width:100%}
+.story:not(.is-present) [data-stage]{scroll-margin-top:145px}
+.st-rail__list a{min-width:0;overflow-wrap:anywhere;hyphens:auto}.st-rail__list li{min-width:0}
+@media(max-width:1080px){.story[data-file-scope="chapter"] .st-file__head{grid-template-columns:minmax(0,1fr) auto;gap:8px;padding:10px 14px}.story[data-file-scope="chapter"] .st-file__tab{display:none}.story[data-file-scope="chapter"] .st-file__name{font-size:17px}.story[data-file-scope="chapter"] .st-file__status{max-width:150px;font-size:9px}}

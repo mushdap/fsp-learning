@@ -101,6 +101,8 @@
         const isOn = Number(f.dataset.at) <= stage;
         const was = f.classList.contains('is-filled');
         f.classList.toggle('is-filled', isOn);
+        f.setAttribute('aria-hidden', String(!isOn));
+        if (!isOn) f.classList.remove('is-fresh');
         if (isOn && !was && !firstPaint) { f.classList.remove('is-fresh'); void f.offsetWidth; f.classList.add('is-fresh'); }
         if (isOn && f.dataset.amount) covered += Number(f.dataset.amount);
       });
