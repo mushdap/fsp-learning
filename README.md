@@ -10,4 +10,4 @@ These are fictional educational scenarios. The exam is a practice knowledge chec
 
 Only the built websites are distributed here. The supplied PDF and original photographs are not included. Illustrations are generated fictional teaching artwork.
 
-Snapshot: guide 28dd3d8; exam 43fdc01. GitHub Pages serves this repository's main branch.
+Snapshot: guide 0fc5773; exam 147a079. GitHub Pages serves this repository's main branch.

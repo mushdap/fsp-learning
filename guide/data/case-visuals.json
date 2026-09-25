@@ -1,0 +1,5302 @@
+{
+  "circulation-bakery-bench": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "circulation-rest-is-different": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "circulation-cold-foot": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "circulation-artery-vein": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "circulation-smoking-without-sermon": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "circulation-caregiver-clock": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "circulation-ultrasound-question": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "circulation-pain-score-context": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "clots-caravan-home": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "clots-nose-and-leg": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "clots-breathless-now": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "clots-negative-answer": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "clots-ultrasound-expectation": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "clots-stocking-shame": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "clots-medicine-double": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "clots-handover-left-right": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "wounds-sock-secret": {
+    "id": "skin",
+    "title": "Skin layers",
+    "modules": [
+      "wounds"
+    ],
+    "type": "anatomy",
+    "heading": "Skin layers",
+    "image": "assets/anatomy-skin.svg",
+    "alt": "Original German-labelled simplified schematic: skin layers. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://training.seer.cancer.gov/melanoma/anatomy/layers.html",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Epidermis",
+        "plain_de": "Oberhaut",
+        "en": "Epidermis / outer skin layer"
+      },
+      {
+        "de": "Dermis",
+        "plain_de": "Lederhaut",
+        "en": "Dermis"
+      },
+      {
+        "de": "Subcutis",
+        "plain_de": "Unterhaut",
+        "en": "Subcutaneous tissue"
+      }
+    ]
+  },
+  "wounds-dressing-pause": {
+    "id": "skin",
+    "title": "Skin layers",
+    "modules": [
+      "wounds"
+    ],
+    "type": "anatomy",
+    "heading": "Skin layers",
+    "image": "assets/anatomy-skin.svg",
+    "alt": "Original German-labelled simplified schematic: skin layers. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://training.seer.cancer.gov/melanoma/anatomy/layers.html",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Epidermis",
+        "plain_de": "Oberhaut",
+        "en": "Epidermis / outer skin layer"
+      },
+      {
+        "de": "Dermis",
+        "plain_de": "Lederhaut",
+        "en": "Dermis"
+      },
+      {
+        "de": "Subcutis",
+        "plain_de": "Unterhaut",
+        "en": "Subcutaneous tissue"
+      }
+    ]
+  },
+  "wounds-ointment-mystery": {
+    "id": "skin",
+    "title": "Skin layers",
+    "modules": [
+      "wounds"
+    ],
+    "type": "anatomy",
+    "heading": "Skin layers",
+    "image": "assets/anatomy-skin.svg",
+    "alt": "Original German-labelled simplified schematic: skin layers. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://training.seer.cancer.gov/melanoma/anatomy/layers.html",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Epidermis",
+        "plain_de": "Oberhaut",
+        "en": "Epidermis / outer skin layer"
+      },
+      {
+        "de": "Dermis",
+        "plain_de": "Lederhaut",
+        "en": "Dermis"
+      },
+      {
+        "de": "Subcutis",
+        "plain_de": "Unterhaut",
+        "en": "Subcutaneous tissue"
+      }
+    ]
+  },
+  "wounds-photo-permission": {
+    "id": "skin",
+    "title": "Skin layers",
+    "modules": [
+      "wounds"
+    ],
+    "type": "anatomy",
+    "heading": "Skin layers",
+    "image": "assets/anatomy-skin.svg",
+    "alt": "Original German-labelled simplified schematic: skin layers. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://training.seer.cancer.gov/melanoma/anatomy/layers.html",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Epidermis",
+        "plain_de": "Oberhaut",
+        "en": "Epidermis / outer skin layer"
+      },
+      {
+        "de": "Dermis",
+        "plain_de": "Lederhaut",
+        "en": "Dermis"
+      },
+      {
+        "de": "Subcutis",
+        "plain_de": "Unterhaut",
+        "en": "Subcutaneous tissue"
+      }
+    ]
+  },
+  "wounds-compression-first": {
+    "id": "skin",
+    "title": "Skin layers",
+    "modules": [
+      "wounds"
+    ],
+    "type": "anatomy",
+    "heading": "Skin layers",
+    "image": "assets/anatomy-skin.svg",
+    "alt": "Original German-labelled simplified schematic: skin layers. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://training.seer.cancer.gov/melanoma/anatomy/layers.html",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Epidermis",
+        "plain_de": "Oberhaut",
+        "en": "Epidermis / outer skin layer"
+      },
+      {
+        "de": "Dermis",
+        "plain_de": "Lederhaut",
+        "en": "Dermis"
+      },
+      {
+        "de": "Subcutis",
+        "plain_de": "Unterhaut",
+        "en": "Subcutaneous tissue"
+      }
+    ]
+  },
+  "wounds-hearing-first": {
+    "id": "skin",
+    "title": "Skin layers",
+    "modules": [
+      "wounds"
+    ],
+    "type": "anatomy",
+    "heading": "Skin layers",
+    "image": "assets/anatomy-skin.svg",
+    "alt": "Original German-labelled simplified schematic: skin layers. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://training.seer.cancer.gov/melanoma/anatomy/layers.html",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Epidermis",
+        "plain_de": "Oberhaut",
+        "en": "Epidermis / outer skin layer"
+      },
+      {
+        "de": "Dermis",
+        "plain_de": "Lederhaut",
+        "en": "Dermis"
+      },
+      {
+        "de": "Subcutis",
+        "plain_de": "Unterhaut",
+        "en": "Subcutaneous tissue"
+      }
+    ]
+  },
+  "wounds-wound-calendar": {
+    "id": "skin",
+    "title": "Skin layers",
+    "modules": [
+      "wounds"
+    ],
+    "type": "anatomy",
+    "heading": "Skin layers",
+    "image": "assets/anatomy-skin.svg",
+    "alt": "Original German-labelled simplified schematic: skin layers. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://training.seer.cancer.gov/melanoma/anatomy/layers.html",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Epidermis",
+        "plain_de": "Oberhaut",
+        "en": "Epidermis / outer skin layer"
+      },
+      {
+        "de": "Dermis",
+        "plain_de": "Lederhaut",
+        "en": "Dermis"
+      },
+      {
+        "de": "Subcutis",
+        "plain_de": "Unterhaut",
+        "en": "Subcutaneous tissue"
+      }
+    ]
+  },
+  "wounds-wound-change": {
+    "id": "skin",
+    "title": "Skin layers",
+    "modules": [
+      "wounds"
+    ],
+    "type": "anatomy",
+    "heading": "Skin layers",
+    "image": "assets/anatomy-skin.svg",
+    "alt": "Original German-labelled simplified schematic: skin layers. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://training.seer.cancer.gov/melanoma/anatomy/layers.html",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Epidermis",
+        "plain_de": "Oberhaut",
+        "en": "Epidermis / outer skin layer"
+      },
+      {
+        "de": "Dermis",
+        "plain_de": "Lederhaut",
+        "en": "Dermis"
+      },
+      {
+        "de": "Subcutis",
+        "plain_de": "Unterhaut",
+        "en": "Subcutaneous tissue"
+      }
+    ]
+  },
+  "chest-pain-shopping-bags": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "chest-pain-onset-clock": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "chest-pain-fear-question": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "chest-pain-ecg-explain": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "chest-pain-early-result": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "chest-pain-wants-home": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "chest-pain-family-call": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "chest-pain-handover-headline": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "heart-failure-pillow-tower": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "heart-failure-stairs-baseline": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "heart-failure-scale-surprise": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "heart-failure-failure-word": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "heart-failure-water-rule": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "heart-failure-toilet-tablet": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "heart-failure-night-call": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "heart-failure-discharge-map": {
+    "id": "anatomy-heart",
+    "title": "Herz & Kreislauf",
+    "modules": [
+      "circulation",
+      "clots",
+      "chest-pain",
+      "heart-failure"
+    ],
+    "type": "anatomy",
+    "heading": "Herz & Kreislauf",
+    "image": "assets/anatomy-heart.svg",
+    "alt": "Schematic blood flow: body to right atrium and right ventricle, lungs, left atrium and left ventricle, then body. Heart sides are labelled anatomically.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Vorhof",
+        "plain_de": "oberer Raum des Herzens",
+        "en": "Atrium"
+      },
+      {
+        "de": "Herzkammer",
+        "plain_de": "unterer Raum des Herzens",
+        "en": "Ventricle"
+      },
+      {
+        "de": "Lungenkreislauf",
+        "plain_de": "Weg des Blutes zwischen Herz und Lunge",
+        "en": "Pulmonary circulation"
+      }
+    ]
+  },
+  "breathing-flower-shop": {
+    "type": "anatomy",
+    "heading": "Point before you explain",
+    "image": "assets/respiratory.svg",
+    "alt": "Labelled respiratory system showing upper airway, windpipe and branching passages into the lungs.",
+    "credit": "Theresa Knott and Wikimedia Commons contributors · CC BY-SA 3.0 · original SVG, unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Respiratory_system.svg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "words": [
+      {
+        "de": "Trachea",
+        "plain_de": "Luftröhre",
+        "en": "Windpipe"
+      },
+      {
+        "de": "Bronchien",
+        "plain_de": "größere Atemwege in der Lunge",
+        "en": "Bronchi, branching airways"
+      },
+      {
+        "de": "Lunge",
+        "plain_de": "Organ zum Atmen",
+        "en": "Lung"
+      }
+    ]
+  },
+  "breathing-thermometer": {
+    "type": "anatomy",
+    "heading": "Point before you explain",
+    "image": "assets/respiratory.svg",
+    "alt": "Labelled respiratory system showing upper airway, windpipe and branching passages into the lungs.",
+    "credit": "Theresa Knott and Wikimedia Commons contributors · CC BY-SA 3.0 · original SVG, unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Respiratory_system.svg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "words": [
+      {
+        "de": "Trachea",
+        "plain_de": "Luftröhre",
+        "en": "Windpipe"
+      },
+      {
+        "de": "Bronchien",
+        "plain_de": "größere Atemwege in der Lunge",
+        "en": "Bronchi, branching airways"
+      },
+      {
+        "de": "Lunge",
+        "plain_de": "Organ zum Atmen",
+        "en": "Lung"
+      }
+    ]
+  },
+  "breathing-sputum-colour": {
+    "type": "anatomy",
+    "heading": "Point before you explain",
+    "image": "assets/respiratory.svg",
+    "alt": "Labelled respiratory system showing upper airway, windpipe and branching passages into the lungs.",
+    "credit": "Theresa Knott and Wikimedia Commons contributors · CC BY-SA 3.0 · original SVG, unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Respiratory_system.svg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "words": [
+      {
+        "de": "Trachea",
+        "plain_de": "Luftröhre",
+        "en": "Windpipe"
+      },
+      {
+        "de": "Bronchien",
+        "plain_de": "größere Atemwege in der Lunge",
+        "en": "Bronchi, branching airways"
+      },
+      {
+        "de": "Lunge",
+        "plain_de": "Organ zum Atmen",
+        "en": "Lung"
+      }
+    ]
+  },
+  "breathing-throat-gate": {
+    "type": "anatomy",
+    "heading": "Point before you explain",
+    "image": "assets/respiratory.svg",
+    "alt": "Labelled respiratory system showing upper airway, windpipe and branching passages into the lungs.",
+    "credit": "Theresa Knott and Wikimedia Commons contributors · CC BY-SA 3.0 · original SVG, unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Respiratory_system.svg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "words": [
+      {
+        "de": "Trachea",
+        "plain_de": "Luftröhre",
+        "en": "Windpipe"
+      },
+      {
+        "de": "Bronchien",
+        "plain_de": "größere Atemwege in der Lunge",
+        "en": "Bronchi, branching airways"
+      },
+      {
+        "de": "Lunge",
+        "plain_de": "Organ zum Atmen",
+        "en": "Lung"
+      }
+    ]
+  },
+  "breathing-cough-blood": {
+    "type": "anatomy",
+    "heading": "Point before you explain",
+    "image": "assets/respiratory.svg",
+    "alt": "Labelled respiratory system showing upper airway, windpipe and branching passages into the lungs.",
+    "credit": "Theresa Knott and Wikimedia Commons contributors · CC BY-SA 3.0 · original SVG, unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Respiratory_system.svg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "words": [
+      {
+        "de": "Trachea",
+        "plain_de": "Luftröhre",
+        "en": "Windpipe"
+      },
+      {
+        "de": "Bronchien",
+        "plain_de": "größere Atemwege in der Lunge",
+        "en": "Bronchi, branching airways"
+      },
+      {
+        "de": "Lunge",
+        "plain_de": "Organ zum Atmen",
+        "en": "Lung"
+      }
+    ]
+  },
+  "breathing-xray-why": {
+    "type": "anatomy",
+    "heading": "Point before you explain",
+    "image": "assets/respiratory.svg",
+    "alt": "Labelled respiratory system showing upper airway, windpipe and branching passages into the lungs.",
+    "credit": "Theresa Knott and Wikimedia Commons contributors · CC BY-SA 3.0 · original SVG, unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Respiratory_system.svg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "words": [
+      {
+        "de": "Trachea",
+        "plain_de": "Luftröhre",
+        "en": "Windpipe"
+      },
+      {
+        "de": "Bronchien",
+        "plain_de": "größere Atemwege in der Lunge",
+        "en": "Bronchi, branching airways"
+      },
+      {
+        "de": "Lunge",
+        "plain_de": "Organ zum Atmen",
+        "en": "Lung"
+      }
+    ]
+  },
+  "breathing-work-certificate": {
+    "type": "anatomy",
+    "heading": "Point before you explain",
+    "image": "assets/respiratory.svg",
+    "alt": "Labelled respiratory system showing upper airway, windpipe and branching passages into the lungs.",
+    "credit": "Theresa Knott and Wikimedia Commons contributors · CC BY-SA 3.0 · original SVG, unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Respiratory_system.svg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "words": [
+      {
+        "de": "Trachea",
+        "plain_de": "Luftröhre",
+        "en": "Windpipe"
+      },
+      {
+        "de": "Bronchien",
+        "plain_de": "größere Atemwege in der Lunge",
+        "en": "Bronchi, branching airways"
+      },
+      {
+        "de": "Lunge",
+        "plain_de": "Organ zum Atmen",
+        "en": "Lung"
+      }
+    ]
+  },
+  "breathing-home-instructions": {
+    "type": "anatomy",
+    "heading": "Point before you explain",
+    "image": "assets/respiratory.svg",
+    "alt": "Labelled respiratory system showing upper airway, windpipe and branching passages into the lungs.",
+    "credit": "Theresa Knott and Wikimedia Commons contributors · CC BY-SA 3.0 · original SVG, unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Respiratory_system.svg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "words": [
+      {
+        "de": "Trachea",
+        "plain_de": "Luftröhre",
+        "en": "Windpipe"
+      },
+      {
+        "de": "Bronchien",
+        "plain_de": "größere Atemwege in der Lunge",
+        "en": "Bronchi, branching airways"
+      },
+      {
+        "de": "Lunge",
+        "plain_de": "Organ zum Atmen",
+        "en": "Lung"
+      }
+    ]
+  },
+  "asthma-night-whistle": {
+    "type": "anatomy",
+    "heading": "Point before you explain",
+    "image": "assets/respiratory.svg",
+    "alt": "Labelled respiratory system showing upper airway, windpipe and branching passages into the lungs.",
+    "credit": "Theresa Knott and Wikimedia Commons contributors · CC BY-SA 3.0 · original SVG, unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Respiratory_system.svg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "words": [
+      {
+        "de": "Trachea",
+        "plain_de": "Luftröhre",
+        "en": "Windpipe"
+      },
+      {
+        "de": "Bronchien",
+        "plain_de": "größere Atemwege in der Lunge",
+        "en": "Bronchi, branching airways"
+      },
+      {
+        "de": "Lunge",
+        "plain_de": "Organ zum Atmen",
+        "en": "Lung"
+      }
+    ]
+  },
+  "asthma-inhaler-demo": {
+    "type": "anatomy",
+    "heading": "Point before you explain",
+    "image": "assets/respiratory.svg",
+    "alt": "Labelled respiratory system showing upper airway, windpipe and branching passages into the lungs.",
+    "credit": "Theresa Knott and Wikimedia Commons contributors · CC BY-SA 3.0 · original SVG, unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Respiratory_system.svg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "words": [
+      {
+        "de": "Trachea",
+        "plain_de": "Luftröhre",
+        "en": "Windpipe"
+      },
+      {
+        "de": "Bronchien",
+        "plain_de": "größere Atemwege in der Lunge",
+        "en": "Bronchi, branching airways"
+      },
+      {
+        "de": "Lunge",
+        "plain_de": "Organ zum Atmen",
+        "en": "Lung"
+      }
+    ]
+  },
+  "asthma-workshop-pattern": {
+    "type": "anatomy",
+    "heading": "Point before you explain",
+    "image": "assets/respiratory.svg",
+    "alt": "Labelled respiratory system showing upper airway, windpipe and branching passages into the lungs.",
+    "credit": "Theresa Knott and Wikimedia Commons contributors · CC BY-SA 3.0 · original SVG, unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Respiratory_system.svg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "words": [
+      {
+        "de": "Trachea",
+        "plain_de": "Luftröhre",
+        "en": "Windpipe"
+      },
+      {
+        "de": "Bronchien",
+        "plain_de": "größere Atemwege in der Lunge",
+        "en": "Bronchi, branching airways"
+      },
+      {
+        "de": "Lunge",
+        "plain_de": "Organ zum Atmen",
+        "en": "Lung"
+      }
+    ]
+  },
+  "asthma-panic-anchor": {
+    "type": "anatomy",
+    "heading": "Point before you explain",
+    "image": "assets/respiratory.svg",
+    "alt": "Labelled respiratory system showing upper airway, windpipe and branching passages into the lungs.",
+    "credit": "Theresa Knott and Wikimedia Commons contributors · CC BY-SA 3.0 · original SVG, unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Respiratory_system.svg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "words": [
+      {
+        "de": "Trachea",
+        "plain_de": "Luftröhre",
+        "en": "Windpipe"
+      },
+      {
+        "de": "Bronchien",
+        "plain_de": "größere Atemwege in der Lunge",
+        "en": "Bronchi, branching airways"
+      },
+      {
+        "de": "Lunge",
+        "plain_de": "Organ zum Atmen",
+        "en": "Lung"
+      }
+    ]
+  },
+  "asthma-spirometry": {
+    "type": "anatomy",
+    "heading": "Point before you explain",
+    "image": "assets/respiratory.svg",
+    "alt": "Labelled respiratory system showing upper airway, windpipe and branching passages into the lungs.",
+    "credit": "Theresa Knott and Wikimedia Commons contributors · CC BY-SA 3.0 · original SVG, unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Respiratory_system.svg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "words": [
+      {
+        "de": "Trachea",
+        "plain_de": "Luftröhre",
+        "en": "Windpipe"
+      },
+      {
+        "de": "Bronchien",
+        "plain_de": "größere Atemwege in der Lunge",
+        "en": "Bronchi, branching airways"
+      },
+      {
+        "de": "Lunge",
+        "plain_de": "Organ zum Atmen",
+        "en": "Lung"
+      }
+    ]
+  },
+  "asthma-inhaler-colours": {
+    "type": "anatomy",
+    "heading": "Point before you explain",
+    "image": "assets/respiratory.svg",
+    "alt": "Labelled respiratory system showing upper airway, windpipe and branching passages into the lungs.",
+    "credit": "Theresa Knott and Wikimedia Commons contributors · CC BY-SA 3.0 · original SVG, unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Respiratory_system.svg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "words": [
+      {
+        "de": "Trachea",
+        "plain_de": "Luftröhre",
+        "en": "Windpipe"
+      },
+      {
+        "de": "Bronchien",
+        "plain_de": "größere Atemwege in der Lunge",
+        "en": "Bronchi, branching airways"
+      },
+      {
+        "de": "Lunge",
+        "plain_de": "Organ zum Atmen",
+        "en": "Lung"
+      }
+    ]
+  },
+  "asthma-attack-now": {
+    "type": "anatomy",
+    "heading": "Point before you explain",
+    "image": "assets/respiratory.svg",
+    "alt": "Labelled respiratory system showing upper airway, windpipe and branching passages into the lungs.",
+    "credit": "Theresa Knott and Wikimedia Commons contributors · CC BY-SA 3.0 · original SVG, unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Respiratory_system.svg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "words": [
+      {
+        "de": "Trachea",
+        "plain_de": "Luftröhre",
+        "en": "Windpipe"
+      },
+      {
+        "de": "Bronchien",
+        "plain_de": "größere Atemwege in der Lunge",
+        "en": "Bronchi, branching airways"
+      },
+      {
+        "de": "Lunge",
+        "plain_de": "Organ zum Atmen",
+        "en": "Lung"
+      }
+    ]
+  },
+  "asthma-symptom-diary": {
+    "type": "anatomy",
+    "heading": "Point before you explain",
+    "image": "assets/respiratory.svg",
+    "alt": "Labelled respiratory system showing upper airway, windpipe and branching passages into the lungs.",
+    "credit": "Theresa Knott and Wikimedia Commons contributors · CC BY-SA 3.0 · original SVG, unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Respiratory_system.svg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "words": [
+      {
+        "de": "Trachea",
+        "plain_de": "Luftröhre",
+        "en": "Windpipe"
+      },
+      {
+        "de": "Bronchien",
+        "plain_de": "größere Atemwege in der Lunge",
+        "en": "Bronchi, branching airways"
+      },
+      {
+        "de": "Lunge",
+        "plain_de": "Organ zum Atmen",
+        "en": "Lung"
+      }
+    ]
+  },
+  "swallowing-soup-menu": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "swallowing-family-shadow": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "swallowing-quiet-ear": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "swallowing-camera-question": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "swallowing-tablet-photo": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "swallowing-saliva-now": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "swallowing-private-lunch": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "swallowing-scales-story": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "stomach-coffee-grounds": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "stomach-pocket-pharmacy": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "stomach-stress-shortcut": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "stomach-meal-clock": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "stomach-test-name": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "stomach-allergy-detail": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "stomach-call-back": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "stomach-teach-back": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "gallbladder-croissant-trial": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "gallbladder-ultrasound-gel": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "gallbladder-yellow-change": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "gallbladder-surgery-calendar": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "gallbladder-two-pipes": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "gallbladder-incidental-stone": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "gallbladder-pain-scale": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "gallbladder-handover-correction": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "bowel-inflammation-toilet-map": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "bowel-inflammation-holiday-alibi": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "bowel-inflammation-three-week-clock": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "bowel-inflammation-marker-message": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "bowel-inflammation-contrast-memory": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "bowel-inflammation-specimen-cup": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "bowel-inflammation-night-count": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "bowel-inflammation-work-note": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "bowel-cancer-old-explanation": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "bowel-cancer-alternating-days": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "bowel-cancer-family-tree": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "bowel-cancer-quiet-consent": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "bowel-cancer-fast-referral": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "bowel-cancer-stoma-fear": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "bowel-cancer-heavy-bleeding": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "bowel-cancer-copied-negative": {
+    "id": "anatomy-digestion",
+    "title": "Der Verdauungsweg",
+    "modules": [
+      "swallowing",
+      "stomach",
+      "gallbladder",
+      "bowel-inflammation",
+      "bowel-cancer"
+    ],
+    "type": "anatomy",
+    "heading": "Der Verdauungsweg",
+    "image": "assets/anatomy-digestion.svg",
+    "alt": "Simplified frontal digestive anatomy with mouth, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine and rectum. Patient right appears on the left of the image.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Ösophagus",
+        "plain_de": "Speiseröhre",
+        "en": "Oesophagus"
+      },
+      {
+        "de": "Dünndarm",
+        "plain_de": "Darmabschnitt nach dem Magen",
+        "en": "Small intestine"
+      },
+      {
+        "de": "Kolon",
+        "plain_de": "großer Teil des Dickdarms",
+        "en": "Colon"
+      },
+      {
+        "de": "Gallenblase",
+        "plain_de": "kleines Speicherorgan für Galle unter der Leber",
+        "en": "Gallbladder"
+      }
+    ]
+  },
+  "thyroid-winter-cardigan": {
+    "id": "anatomy-thyroid",
+    "title": "Die Schilddrüse im Hals",
+    "modules": [
+      "thyroid"
+    ],
+    "type": "anatomy",
+    "heading": "Die Schilddrüse im Hals",
+    "image": "assets/anatomy-thyroid.svg",
+    "alt": "Frontal simplified neck showing larynx above trachea, thyroid lobes on either side and the isthmus crossing in front of the trachea.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.cancer.gov/types/thyroid/patient/thyroid-screening-pdq",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Schilddrüse",
+        "plain_de": "kleine Drüse vorn im Hals",
+        "en": "Thyroid gland"
+      },
+      {
+        "de": "Schilddrüsenlappen",
+        "plain_de": "eine der beiden Seiten der Schilddrüse",
+        "en": "Thyroid lobe"
+      },
+      {
+        "de": "Isthmus",
+        "plain_de": "schmale Verbindung der beiden Lappen",
+        "en": "Isthmus"
+      }
+    ]
+  },
+  "thyroid-restless-till": {
+    "id": "anatomy-thyroid",
+    "title": "Die Schilddrüse im Hals",
+    "modules": [
+      "thyroid"
+    ],
+    "type": "anatomy",
+    "heading": "Die Schilddrüse im Hals",
+    "image": "assets/anatomy-thyroid.svg",
+    "alt": "Frontal simplified neck showing larynx above trachea, thyroid lobes on either side and the isthmus crossing in front of the trachea.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.cancer.gov/types/thyroid/patient/thyroid-screening-pdq",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Schilddrüse",
+        "plain_de": "kleine Drüse vorn im Hals",
+        "en": "Thyroid gland"
+      },
+      {
+        "de": "Schilddrüsenlappen",
+        "plain_de": "eine der beiden Seiten der Schilddrüse",
+        "en": "Thyroid lobe"
+      },
+      {
+        "de": "Isthmus",
+        "plain_de": "schmale Verbindung der beiden Lappen",
+        "en": "Isthmus"
+      }
+    ]
+  },
+  "thyroid-three-letters": {
+    "id": "anatomy-thyroid",
+    "title": "Die Schilddrüse im Hals",
+    "modules": [
+      "thyroid"
+    ],
+    "type": "anatomy",
+    "heading": "Die Schilddrüse im Hals",
+    "image": "assets/anatomy-thyroid.svg",
+    "alt": "Frontal simplified neck showing larynx above trachea, thyroid lobes on either side and the isthmus crossing in front of the trachea.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.cancer.gov/types/thyroid/patient/thyroid-screening-pdq",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Schilddrüse",
+        "plain_de": "kleine Drüse vorn im Hals",
+        "en": "Thyroid gland"
+      },
+      {
+        "de": "Schilddrüsenlappen",
+        "plain_de": "eine der beiden Seiten der Schilddrüse",
+        "en": "Thyroid lobe"
+      },
+      {
+        "de": "Isthmus",
+        "plain_de": "schmale Verbindung der beiden Lappen",
+        "en": "Isthmus"
+      }
+    ]
+  },
+  "thyroid-pill-routine": {
+    "id": "anatomy-thyroid",
+    "title": "Die Schilddrüse im Hals",
+    "modules": [
+      "thyroid"
+    ],
+    "type": "anatomy",
+    "heading": "Die Schilddrüse im Hals",
+    "image": "assets/anatomy-thyroid.svg",
+    "alt": "Frontal simplified neck showing larynx above trachea, thyroid lobes on either side and the isthmus crossing in front of the trachea.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.cancer.gov/types/thyroid/patient/thyroid-screening-pdq",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Schilddrüse",
+        "plain_de": "kleine Drüse vorn im Hals",
+        "en": "Thyroid gland"
+      },
+      {
+        "de": "Schilddrüsenlappen",
+        "plain_de": "eine der beiden Seiten der Schilddrüse",
+        "en": "Thyroid lobe"
+      },
+      {
+        "de": "Isthmus",
+        "plain_de": "schmale Verbindung der beiden Lappen",
+        "en": "Isthmus"
+      }
+    ]
+  },
+  "thyroid-neck-mirror": {
+    "id": "anatomy-thyroid",
+    "title": "Die Schilddrüse im Hals",
+    "modules": [
+      "thyroid"
+    ],
+    "type": "anatomy",
+    "heading": "Die Schilddrüse im Hals",
+    "image": "assets/anatomy-thyroid.svg",
+    "alt": "Frontal simplified neck showing larynx above trachea, thyroid lobes on either side and the isthmus crossing in front of the trachea.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.cancer.gov/types/thyroid/patient/thyroid-screening-pdq",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Schilddrüse",
+        "plain_de": "kleine Drüse vorn im Hals",
+        "en": "Thyroid gland"
+      },
+      {
+        "de": "Schilddrüsenlappen",
+        "plain_de": "eine der beiden Seiten der Schilddrüse",
+        "en": "Thyroid lobe"
+      },
+      {
+        "de": "Isthmus",
+        "plain_de": "schmale Verbindung der beiden Lappen",
+        "en": "Isthmus"
+      }
+    ]
+  },
+  "thyroid-caregiver-clock": {
+    "id": "anatomy-thyroid",
+    "title": "Die Schilddrüse im Hals",
+    "modules": [
+      "thyroid"
+    ],
+    "type": "anatomy",
+    "heading": "Die Schilddrüse im Hals",
+    "image": "assets/anatomy-thyroid.svg",
+    "alt": "Frontal simplified neck showing larynx above trachea, thyroid lobes on either side and the isthmus crossing in front of the trachea.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.cancer.gov/types/thyroid/patient/thyroid-screening-pdq",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Schilddrüse",
+        "plain_de": "kleine Drüse vorn im Hals",
+        "en": "Thyroid gland"
+      },
+      {
+        "de": "Schilddrüsenlappen",
+        "plain_de": "eine der beiden Seiten der Schilddrüse",
+        "en": "Thyroid lobe"
+      },
+      {
+        "de": "Isthmus",
+        "plain_de": "schmale Verbindung der beiden Lappen",
+        "en": "Isthmus"
+      }
+    ]
+  },
+  "thyroid-image-function": {
+    "id": "anatomy-thyroid",
+    "title": "Die Schilddrüse im Hals",
+    "modules": [
+      "thyroid"
+    ],
+    "type": "anatomy",
+    "heading": "Die Schilddrüse im Hals",
+    "image": "assets/anatomy-thyroid.svg",
+    "alt": "Frontal simplified neck showing larynx above trachea, thyroid lobes on either side and the isthmus crossing in front of the trachea.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.cancer.gov/types/thyroid/patient/thyroid-screening-pdq",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Schilddrüse",
+        "plain_de": "kleine Drüse vorn im Hals",
+        "en": "Thyroid gland"
+      },
+      {
+        "de": "Schilddrüsenlappen",
+        "plain_de": "eine der beiden Seiten der Schilddrüse",
+        "en": "Thyroid lobe"
+      },
+      {
+        "de": "Isthmus",
+        "plain_de": "schmale Verbindung der beiden Lappen",
+        "en": "Isthmus"
+      }
+    ]
+  },
+  "thyroid-treatment-choice": {
+    "id": "anatomy-thyroid",
+    "title": "Die Schilddrüse im Hals",
+    "modules": [
+      "thyroid"
+    ],
+    "type": "anatomy",
+    "heading": "Die Schilddrüse im Hals",
+    "image": "assets/anatomy-thyroid.svg",
+    "alt": "Frontal simplified neck showing larynx above trachea, thyroid lobes on either side and the isthmus crossing in front of the trachea.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.cancer.gov/types/thyroid/patient/thyroid-screening-pdq",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Schilddrüse",
+        "plain_de": "kleine Drüse vorn im Hals",
+        "en": "Thyroid gland"
+      },
+      {
+        "de": "Schilddrüsenlappen",
+        "plain_de": "eine der beiden Seiten der Schilddrüse",
+        "en": "Thyroid lobe"
+      },
+      {
+        "de": "Isthmus",
+        "plain_de": "schmale Verbindung der beiden Lappen",
+        "en": "Isthmus"
+      }
+    ]
+  },
+  "headache-sudden-change": {
+    "id": "anatomy-nervous-system",
+    "title": "Gehirn, Rückenmark & Nerven",
+    "modules": [
+      "headache",
+      "seizures"
+    ],
+    "type": "anatomy",
+    "heading": "Gehirn, Rückenmark & Nerven",
+    "image": "assets/anatomy-nervous-system.svg",
+    "alt": "Schematic brain viewed from the side with cerebrum, cerebellum and brainstem, continuing to spinal cord and branching peripheral nerves. Simplified connections rather than exact nerve courses.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.ninds.nih.gov/sites/default/files/2025-05/know-your-brain-brian-basics.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Großhirn",
+        "plain_de": "großer oberer Teil des Gehirns",
+        "en": "Cerebrum"
+      },
+      {
+        "de": "Kleinhirn",
+        "plain_de": "Teil des Gehirns hinten unten",
+        "en": "Cerebellum"
+      },
+      {
+        "de": "Rückenmark",
+        "plain_de": "Nervengewebe im Wirbelkanal",
+        "en": "Spinal cord"
+      },
+      {
+        "de": "Periphere Nerven",
+        "plain_de": "Nerven außerhalb von Gehirn und Rückenmark",
+        "en": "Peripheral nerves"
+      }
+    ]
+  },
+  "headache-light-switch": {
+    "id": "anatomy-nervous-system",
+    "title": "Gehirn, Rückenmark & Nerven",
+    "modules": [
+      "headache",
+      "seizures"
+    ],
+    "type": "anatomy",
+    "heading": "Gehirn, Rückenmark & Nerven",
+    "image": "assets/anatomy-nervous-system.svg",
+    "alt": "Schematic brain viewed from the side with cerebrum, cerebellum and brainstem, continuing to spinal cord and branching peripheral nerves. Simplified connections rather than exact nerve courses.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.ninds.nih.gov/sites/default/files/2025-05/know-your-brain-brian-basics.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Großhirn",
+        "plain_de": "großer oberer Teil des Gehirns",
+        "en": "Cerebrum"
+      },
+      {
+        "de": "Kleinhirn",
+        "plain_de": "Teil des Gehirns hinten unten",
+        "en": "Cerebellum"
+      },
+      {
+        "de": "Rückenmark",
+        "plain_de": "Nervengewebe im Wirbelkanal",
+        "en": "Spinal cord"
+      },
+      {
+        "de": "Periphere Nerven",
+        "plain_de": "Nerven außerhalb von Gehirn und Rückenmark",
+        "en": "Peripheral nerves"
+      }
+    ]
+  },
+  "headache-zigzag-timeline": {
+    "id": "anatomy-nervous-system",
+    "title": "Gehirn, Rückenmark & Nerven",
+    "modules": [
+      "headache",
+      "seizures"
+    ],
+    "type": "anatomy",
+    "heading": "Gehirn, Rückenmark & Nerven",
+    "image": "assets/anatomy-nervous-system.svg",
+    "alt": "Schematic brain viewed from the side with cerebrum, cerebellum and brainstem, continuing to spinal cord and branching peripheral nerves. Simplified connections rather than exact nerve courses.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.ninds.nih.gov/sites/default/files/2025-05/know-your-brain-brian-basics.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Großhirn",
+        "plain_de": "großer oberer Teil des Gehirns",
+        "en": "Cerebrum"
+      },
+      {
+        "de": "Kleinhirn",
+        "plain_de": "Teil des Gehirns hinten unten",
+        "en": "Cerebellum"
+      },
+      {
+        "de": "Rückenmark",
+        "plain_de": "Nervengewebe im Wirbelkanal",
+        "en": "Spinal cord"
+      },
+      {
+        "de": "Periphere Nerven",
+        "plain_de": "Nerven außerhalb von Gehirn und Rückenmark",
+        "en": "Peripheral nerves"
+      }
+    ]
+  },
+  "headache-tablet-days": {
+    "id": "anatomy-nervous-system",
+    "title": "Gehirn, Rückenmark & Nerven",
+    "modules": [
+      "headache",
+      "seizures"
+    ],
+    "type": "anatomy",
+    "heading": "Gehirn, Rückenmark & Nerven",
+    "image": "assets/anatomy-nervous-system.svg",
+    "alt": "Schematic brain viewed from the side with cerebrum, cerebellum and brainstem, continuing to spinal cord and branching peripheral nerves. Simplified connections rather than exact nerve courses.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.ninds.nih.gov/sites/default/files/2025-05/know-your-brain-brian-basics.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Großhirn",
+        "plain_de": "großer oberer Teil des Gehirns",
+        "en": "Cerebrum"
+      },
+      {
+        "de": "Kleinhirn",
+        "plain_de": "Teil des Gehirns hinten unten",
+        "en": "Cerebellum"
+      },
+      {
+        "de": "Rückenmark",
+        "plain_de": "Nervengewebe im Wirbelkanal",
+        "en": "Spinal cord"
+      },
+      {
+        "de": "Periphere Nerven",
+        "plain_de": "Nerven außerhalb von Gehirn und Rückenmark",
+        "en": "Peripheral nerves"
+      }
+    ]
+  },
+  "headache-family-fear": {
+    "id": "anatomy-nervous-system",
+    "title": "Gehirn, Rückenmark & Nerven",
+    "modules": [
+      "headache",
+      "seizures"
+    ],
+    "type": "anatomy",
+    "heading": "Gehirn, Rückenmark & Nerven",
+    "image": "assets/anatomy-nervous-system.svg",
+    "alt": "Schematic brain viewed from the side with cerebrum, cerebellum and brainstem, continuing to spinal cord and branching peripheral nerves. Simplified connections rather than exact nerve courses.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.ninds.nih.gov/sites/default/files/2025-05/know-your-brain-brian-basics.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Großhirn",
+        "plain_de": "großer oberer Teil des Gehirns",
+        "en": "Cerebrum"
+      },
+      {
+        "de": "Kleinhirn",
+        "plain_de": "Teil des Gehirns hinten unten",
+        "en": "Cerebellum"
+      },
+      {
+        "de": "Rückenmark",
+        "plain_de": "Nervengewebe im Wirbelkanal",
+        "en": "Spinal cord"
+      },
+      {
+        "de": "Periphere Nerven",
+        "plain_de": "Nerven außerhalb von Gehirn und Rückenmark",
+        "en": "Peripheral nerves"
+      }
+    ]
+  },
+  "headache-diary-perfection": {
+    "id": "anatomy-nervous-system",
+    "title": "Gehirn, Rückenmark & Nerven",
+    "modules": [
+      "headache",
+      "seizures"
+    ],
+    "type": "anatomy",
+    "heading": "Gehirn, Rückenmark & Nerven",
+    "image": "assets/anatomy-nervous-system.svg",
+    "alt": "Schematic brain viewed from the side with cerebrum, cerebellum and brainstem, continuing to spinal cord and branching peripheral nerves. Simplified connections rather than exact nerve courses.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.ninds.nih.gov/sites/default/files/2025-05/know-your-brain-brian-basics.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Großhirn",
+        "plain_de": "großer oberer Teil des Gehirns",
+        "en": "Cerebrum"
+      },
+      {
+        "de": "Kleinhirn",
+        "plain_de": "Teil des Gehirns hinten unten",
+        "en": "Cerebellum"
+      },
+      {
+        "de": "Rückenmark",
+        "plain_de": "Nervengewebe im Wirbelkanal",
+        "en": "Spinal cord"
+      },
+      {
+        "de": "Periphere Nerven",
+        "plain_de": "Nerven außerhalb von Gehirn und Rückenmark",
+        "en": "Peripheral nerves"
+      }
+    ]
+  },
+  "headache-scan-claustrophobia": {
+    "id": "anatomy-nervous-system",
+    "title": "Gehirn, Rückenmark & Nerven",
+    "modules": [
+      "headache",
+      "seizures"
+    ],
+    "type": "anatomy",
+    "heading": "Gehirn, Rückenmark & Nerven",
+    "image": "assets/anatomy-nervous-system.svg",
+    "alt": "Schematic brain viewed from the side with cerebrum, cerebellum and brainstem, continuing to spinal cord and branching peripheral nerves. Simplified connections rather than exact nerve courses.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.ninds.nih.gov/sites/default/files/2025-05/know-your-brain-brian-basics.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Großhirn",
+        "plain_de": "großer oberer Teil des Gehirns",
+        "en": "Cerebrum"
+      },
+      {
+        "de": "Kleinhirn",
+        "plain_de": "Teil des Gehirns hinten unten",
+        "en": "Cerebellum"
+      },
+      {
+        "de": "Rückenmark",
+        "plain_de": "Nervengewebe im Wirbelkanal",
+        "en": "Spinal cord"
+      },
+      {
+        "de": "Periphere Nerven",
+        "plain_de": "Nerven außerhalb von Gehirn und Rückenmark",
+        "en": "Peripheral nerves"
+      }
+    ]
+  },
+  "headache-work-language": {
+    "id": "anatomy-nervous-system",
+    "title": "Gehirn, Rückenmark & Nerven",
+    "modules": [
+      "headache",
+      "seizures"
+    ],
+    "type": "anatomy",
+    "heading": "Gehirn, Rückenmark & Nerven",
+    "image": "assets/anatomy-nervous-system.svg",
+    "alt": "Schematic brain viewed from the side with cerebrum, cerebellum and brainstem, continuing to spinal cord and branching peripheral nerves. Simplified connections rather than exact nerve courses.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.ninds.nih.gov/sites/default/files/2025-05/know-your-brain-brian-basics.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Großhirn",
+        "plain_de": "großer oberer Teil des Gehirns",
+        "en": "Cerebrum"
+      },
+      {
+        "de": "Kleinhirn",
+        "plain_de": "Teil des Gehirns hinten unten",
+        "en": "Cerebellum"
+      },
+      {
+        "de": "Rückenmark",
+        "plain_de": "Nervengewebe im Wirbelkanal",
+        "en": "Spinal cord"
+      },
+      {
+        "de": "Periphere Nerven",
+        "plain_de": "Nerven außerhalb von Gehirn und Rückenmark",
+        "en": "Peripheral nerves"
+      }
+    ]
+  },
+  "seizures-missing-minute": {
+    "id": "anatomy-nervous-system",
+    "title": "Gehirn, Rückenmark & Nerven",
+    "modules": [
+      "headache",
+      "seizures"
+    ],
+    "type": "anatomy",
+    "heading": "Gehirn, Rückenmark & Nerven",
+    "image": "assets/anatomy-nervous-system.svg",
+    "alt": "Schematic brain viewed from the side with cerebrum, cerebellum and brainstem, continuing to spinal cord and branching peripheral nerves. Simplified connections rather than exact nerve courses.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.ninds.nih.gov/sites/default/files/2025-05/know-your-brain-brian-basics.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Großhirn",
+        "plain_de": "großer oberer Teil des Gehirns",
+        "en": "Cerebrum"
+      },
+      {
+        "de": "Kleinhirn",
+        "plain_de": "Teil des Gehirns hinten unten",
+        "en": "Cerebellum"
+      },
+      {
+        "de": "Rückenmark",
+        "plain_de": "Nervengewebe im Wirbelkanal",
+        "en": "Spinal cord"
+      },
+      {
+        "de": "Periphere Nerven",
+        "plain_de": "Nerven außerhalb von Gehirn und Rückenmark",
+        "en": "Peripheral nerves"
+      }
+    ]
+  },
+  "seizures-label-future": {
+    "id": "anatomy-nervous-system",
+    "title": "Gehirn, Rückenmark & Nerven",
+    "modules": [
+      "headache",
+      "seizures"
+    ],
+    "type": "anatomy",
+    "heading": "Gehirn, Rückenmark & Nerven",
+    "image": "assets/anatomy-nervous-system.svg",
+    "alt": "Schematic brain viewed from the side with cerebrum, cerebellum and brainstem, continuing to spinal cord and branching peripheral nerves. Simplified connections rather than exact nerve courses.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.ninds.nih.gov/sites/default/files/2025-05/know-your-brain-brian-basics.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Großhirn",
+        "plain_de": "großer oberer Teil des Gehirns",
+        "en": "Cerebrum"
+      },
+      {
+        "de": "Kleinhirn",
+        "plain_de": "Teil des Gehirns hinten unten",
+        "en": "Cerebellum"
+      },
+      {
+        "de": "Rückenmark",
+        "plain_de": "Nervengewebe im Wirbelkanal",
+        "en": "Spinal cord"
+      },
+      {
+        "de": "Periphere Nerven",
+        "plain_de": "Nerven außerhalb von Gehirn und Rückenmark",
+        "en": "Peripheral nerves"
+      }
+    ]
+  },
+  "seizures-still-unresponsive": {
+    "id": "anatomy-nervous-system",
+    "title": "Gehirn, Rückenmark & Nerven",
+    "modules": [
+      "headache",
+      "seizures"
+    ],
+    "type": "anatomy",
+    "heading": "Gehirn, Rückenmark & Nerven",
+    "image": "assets/anatomy-nervous-system.svg",
+    "alt": "Schematic brain viewed from the side with cerebrum, cerebellum and brainstem, continuing to spinal cord and branching peripheral nerves. Simplified connections rather than exact nerve courses.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.ninds.nih.gov/sites/default/files/2025-05/know-your-brain-brian-basics.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Großhirn",
+        "plain_de": "großer oberer Teil des Gehirns",
+        "en": "Cerebrum"
+      },
+      {
+        "de": "Kleinhirn",
+        "plain_de": "Teil des Gehirns hinten unten",
+        "en": "Cerebellum"
+      },
+      {
+        "de": "Rückenmark",
+        "plain_de": "Nervengewebe im Wirbelkanal",
+        "en": "Spinal cord"
+      },
+      {
+        "de": "Periphere Nerven",
+        "plain_de": "Nerven außerhalb von Gehirn und Rückenmark",
+        "en": "Peripheral nerves"
+      }
+    ]
+  },
+  "seizures-normal-eeg": {
+    "id": "anatomy-nervous-system",
+    "title": "Gehirn, Rückenmark & Nerven",
+    "modules": [
+      "headache",
+      "seizures"
+    ],
+    "type": "anatomy",
+    "heading": "Gehirn, Rückenmark & Nerven",
+    "image": "assets/anatomy-nervous-system.svg",
+    "alt": "Schematic brain viewed from the side with cerebrum, cerebellum and brainstem, continuing to spinal cord and branching peripheral nerves. Simplified connections rather than exact nerve courses.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.ninds.nih.gov/sites/default/files/2025-05/know-your-brain-brian-basics.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Großhirn",
+        "plain_de": "großer oberer Teil des Gehirns",
+        "en": "Cerebrum"
+      },
+      {
+        "de": "Kleinhirn",
+        "plain_de": "Teil des Gehirns hinten unten",
+        "en": "Cerebellum"
+      },
+      {
+        "de": "Rückenmark",
+        "plain_de": "Nervengewebe im Wirbelkanal",
+        "en": "Spinal cord"
+      },
+      {
+        "de": "Periphere Nerven",
+        "plain_de": "Nerven außerhalb von Gehirn und Rückenmark",
+        "en": "Peripheral nerves"
+      }
+    ]
+  },
+  "seizures-driving-work": {
+    "id": "anatomy-nervous-system",
+    "title": "Gehirn, Rückenmark & Nerven",
+    "modules": [
+      "headache",
+      "seizures"
+    ],
+    "type": "anatomy",
+    "heading": "Gehirn, Rückenmark & Nerven",
+    "image": "assets/anatomy-nervous-system.svg",
+    "alt": "Schematic brain viewed from the side with cerebrum, cerebellum and brainstem, continuing to spinal cord and branching peripheral nerves. Simplified connections rather than exact nerve courses.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.ninds.nih.gov/sites/default/files/2025-05/know-your-brain-brian-basics.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Großhirn",
+        "plain_de": "großer oberer Teil des Gehirns",
+        "en": "Cerebrum"
+      },
+      {
+        "de": "Kleinhirn",
+        "plain_de": "Teil des Gehirns hinten unten",
+        "en": "Cerebellum"
+      },
+      {
+        "de": "Rückenmark",
+        "plain_de": "Nervengewebe im Wirbelkanal",
+        "en": "Spinal cord"
+      },
+      {
+        "de": "Periphere Nerven",
+        "plain_de": "Nerven außerhalb von Gehirn und Rückenmark",
+        "en": "Peripheral nerves"
+      }
+    ]
+  },
+  "seizures-party-question": {
+    "id": "anatomy-nervous-system",
+    "title": "Gehirn, Rückenmark & Nerven",
+    "modules": [
+      "headache",
+      "seizures"
+    ],
+    "type": "anatomy",
+    "heading": "Gehirn, Rückenmark & Nerven",
+    "image": "assets/anatomy-nervous-system.svg",
+    "alt": "Schematic brain viewed from the side with cerebrum, cerebellum and brainstem, continuing to spinal cord and branching peripheral nerves. Simplified connections rather than exact nerve courses.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.ninds.nih.gov/sites/default/files/2025-05/know-your-brain-brian-basics.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Großhirn",
+        "plain_de": "großer oberer Teil des Gehirns",
+        "en": "Cerebrum"
+      },
+      {
+        "de": "Kleinhirn",
+        "plain_de": "Teil des Gehirns hinten unten",
+        "en": "Cerebellum"
+      },
+      {
+        "de": "Rückenmark",
+        "plain_de": "Nervengewebe im Wirbelkanal",
+        "en": "Spinal cord"
+      },
+      {
+        "de": "Periphere Nerven",
+        "plain_de": "Nerven außerhalb von Gehirn und Rückenmark",
+        "en": "Peripheral nerves"
+      }
+    ]
+  },
+  "seizures-future-pregnancy": {
+    "id": "anatomy-nervous-system",
+    "title": "Gehirn, Rückenmark & Nerven",
+    "modules": [
+      "headache",
+      "seizures"
+    ],
+    "type": "anatomy",
+    "heading": "Gehirn, Rückenmark & Nerven",
+    "image": "assets/anatomy-nervous-system.svg",
+    "alt": "Schematic brain viewed from the side with cerebrum, cerebellum and brainstem, continuing to spinal cord and branching peripheral nerves. Simplified connections rather than exact nerve courses.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.ninds.nih.gov/sites/default/files/2025-05/know-your-brain-brian-basics.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Großhirn",
+        "plain_de": "großer oberer Teil des Gehirns",
+        "en": "Cerebrum"
+      },
+      {
+        "de": "Kleinhirn",
+        "plain_de": "Teil des Gehirns hinten unten",
+        "en": "Cerebellum"
+      },
+      {
+        "de": "Rückenmark",
+        "plain_de": "Nervengewebe im Wirbelkanal",
+        "en": "Spinal cord"
+      },
+      {
+        "de": "Periphere Nerven",
+        "plain_de": "Nerven außerhalb von Gehirn und Rückenmark",
+        "en": "Peripheral nerves"
+      }
+    ]
+  },
+  "seizures-witness-phone": {
+    "id": "anatomy-nervous-system",
+    "title": "Gehirn, Rückenmark & Nerven",
+    "modules": [
+      "headache",
+      "seizures"
+    ],
+    "type": "anatomy",
+    "heading": "Gehirn, Rückenmark & Nerven",
+    "image": "assets/anatomy-nervous-system.svg",
+    "alt": "Schematic brain viewed from the side with cerebrum, cerebellum and brainstem, continuing to spinal cord and branching peripheral nerves. Simplified connections rather than exact nerve courses.",
+    "credit": "Original FSP Guide vector schematic · CC BY 4.0 · not to scale; factual reference linked below",
+    "source": "https://www.ninds.nih.gov/sites/default/files/2025-05/know-your-brain-brian-basics.pdf",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Großhirn",
+        "plain_de": "großer oberer Teil des Gehirns",
+        "en": "Cerebrum"
+      },
+      {
+        "de": "Kleinhirn",
+        "plain_de": "Teil des Gehirns hinten unten",
+        "en": "Cerebellum"
+      },
+      {
+        "de": "Rückenmark",
+        "plain_de": "Nervengewebe im Wirbelkanal",
+        "en": "Spinal cord"
+      },
+      {
+        "de": "Periphere Nerven",
+        "plain_de": "Nerven außerhalb von Gehirn und Rückenmark",
+        "en": "Peripheral nerves"
+      }
+    ]
+  },
+  "wrist-trauma-which-side": {
+    "id": "wrist",
+    "title": "Forearm and wrist",
+    "modules": [
+      "wrist-trauma"
+    ],
+    "type": "anatomy",
+    "heading": "Forearm and wrist",
+    "image": "assets/anatomy-wrist.svg",
+    "alt": "Original German-labelled simplified schematic: forearm and wrist. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://www.orthoinfo.org/diseases--conditions/adult-forearm-fractures",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Radius",
+        "plain_de": "Speiche auf der Daumenseite",
+        "en": "Radius / thumb-side forearm bone"
+      },
+      {
+        "de": "Ulna",
+        "plain_de": "Elle auf der Kleinfingerseite",
+        "en": "Ulna / little-finger-side forearm bone"
+      },
+      {
+        "de": "Ossa carpi",
+        "plain_de": "acht Handwurzelknochen",
+        "en": "Eight carpal bones"
+      }
+    ]
+  },
+  "wrist-trauma-the-van-keys": {
+    "id": "wrist",
+    "title": "Forearm and wrist",
+    "modules": [
+      "wrist-trauma"
+    ],
+    "type": "anatomy",
+    "heading": "Forearm and wrist",
+    "image": "assets/anatomy-wrist.svg",
+    "alt": "Original German-labelled simplified schematic: forearm and wrist. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://www.orthoinfo.org/diseases--conditions/adult-forearm-fractures",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Radius",
+        "plain_de": "Speiche auf der Daumenseite",
+        "en": "Radius / thumb-side forearm bone"
+      },
+      {
+        "de": "Ulna",
+        "plain_de": "Elle auf der Kleinfingerseite",
+        "en": "Ulna / little-finger-side forearm bone"
+      },
+      {
+        "de": "Ossa carpi",
+        "plain_de": "acht Handwurzelknochen",
+        "en": "Eight carpal bones"
+      }
+    ]
+  },
+  "wrist-trauma-the-second-pain": {
+    "id": "wrist",
+    "title": "Forearm and wrist",
+    "modules": [
+      "wrist-trauma"
+    ],
+    "type": "anatomy",
+    "heading": "Forearm and wrist",
+    "image": "assets/anatomy-wrist.svg",
+    "alt": "Original German-labelled simplified schematic: forearm and wrist. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://www.orthoinfo.org/diseases--conditions/adult-forearm-fractures",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Radius",
+        "plain_de": "Speiche auf der Daumenseite",
+        "en": "Radius / thumb-side forearm bone"
+      },
+      {
+        "de": "Ulna",
+        "plain_de": "Elle auf der Kleinfingerseite",
+        "en": "Ulna / little-finger-side forearm bone"
+      },
+      {
+        "de": "Ossa carpi",
+        "plain_de": "acht Handwurzelknochen",
+        "en": "Eight carpal bones"
+      }
+    ]
+  },
+  "wrist-trauma-tingling-update": {
+    "id": "wrist",
+    "title": "Forearm and wrist",
+    "modules": [
+      "wrist-trauma"
+    ],
+    "type": "anatomy",
+    "heading": "Forearm and wrist",
+    "image": "assets/anatomy-wrist.svg",
+    "alt": "Original German-labelled simplified schematic: forearm and wrist. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://www.orthoinfo.org/diseases--conditions/adult-forearm-fractures",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Radius",
+        "plain_de": "Speiche auf der Daumenseite",
+        "en": "Radius / thumb-side forearm bone"
+      },
+      {
+        "de": "Ulna",
+        "plain_de": "Elle auf der Kleinfingerseite",
+        "en": "Ulna / little-finger-side forearm bone"
+      },
+      {
+        "de": "Ossa carpi",
+        "plain_de": "acht Handwurzelknochen",
+        "en": "Eight carpal bones"
+      }
+    ]
+  },
+  "wrist-trauma-the-tablet-photo": {
+    "id": "wrist",
+    "title": "Forearm and wrist",
+    "modules": [
+      "wrist-trauma"
+    ],
+    "type": "anatomy",
+    "heading": "Forearm and wrist",
+    "image": "assets/anatomy-wrist.svg",
+    "alt": "Original German-labelled simplified schematic: forearm and wrist. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://www.orthoinfo.org/diseases--conditions/adult-forearm-fractures",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Radius",
+        "plain_de": "Speiche auf der Daumenseite",
+        "en": "Radius / thumb-side forearm bone"
+      },
+      {
+        "de": "Ulna",
+        "plain_de": "Elle auf der Kleinfingerseite",
+        "en": "Ulna / little-finger-side forearm bone"
+      },
+      {
+        "de": "Ossa carpi",
+        "plain_de": "acht Handwurzelknochen",
+        "en": "Eight carpal bones"
+      }
+    ]
+  },
+  "wrist-trauma-the-helpful-neighbour": {
+    "id": "wrist",
+    "title": "Forearm and wrist",
+    "modules": [
+      "wrist-trauma"
+    ],
+    "type": "anatomy",
+    "heading": "Forearm and wrist",
+    "image": "assets/anatomy-wrist.svg",
+    "alt": "Original German-labelled simplified schematic: forearm and wrist. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://www.orthoinfo.org/diseases--conditions/adult-forearm-fractures",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Radius",
+        "plain_de": "Speiche auf der Daumenseite",
+        "en": "Radius / thumb-side forearm bone"
+      },
+      {
+        "de": "Ulna",
+        "plain_de": "Elle auf der Kleinfingerseite",
+        "en": "Ulna / little-finger-side forearm bone"
+      },
+      {
+        "de": "Ossa carpi",
+        "plain_de": "acht Handwurzelknochen",
+        "en": "Eight carpal bones"
+      }
+    ]
+  },
+  "wrist-trauma-the-swollen-schedule": {
+    "id": "wrist",
+    "title": "Forearm and wrist",
+    "modules": [
+      "wrist-trauma"
+    ],
+    "type": "anatomy",
+    "heading": "Forearm and wrist",
+    "image": "assets/anatomy-wrist.svg",
+    "alt": "Original German-labelled simplified schematic: forearm and wrist. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://www.orthoinfo.org/diseases--conditions/adult-forearm-fractures",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Radius",
+        "plain_de": "Speiche auf der Daumenseite",
+        "en": "Radius / thumb-side forearm bone"
+      },
+      {
+        "de": "Ulna",
+        "plain_de": "Elle auf der Kleinfingerseite",
+        "en": "Ulna / little-finger-side forearm bone"
+      },
+      {
+        "de": "Ossa carpi",
+        "plain_de": "acht Handwurzelknochen",
+        "en": "Eight carpal bones"
+      }
+    ]
+  },
+  "wrist-trauma-the-empty-normal-box": {
+    "id": "wrist",
+    "title": "Forearm and wrist",
+    "modules": [
+      "wrist-trauma"
+    ],
+    "type": "anatomy",
+    "heading": "Forearm and wrist",
+    "image": "assets/anatomy-wrist.svg",
+    "alt": "Original German-labelled simplified schematic: forearm and wrist. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://www.orthoinfo.org/diseases--conditions/adult-forearm-fractures",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Radius",
+        "plain_de": "Speiche auf der Daumenseite",
+        "en": "Radius / thumb-side forearm bone"
+      },
+      {
+        "de": "Ulna",
+        "plain_de": "Elle auf der Kleinfingerseite",
+        "en": "Ulna / little-finger-side forearm bone"
+      },
+      {
+        "de": "Ossa carpi",
+        "plain_de": "acht Handwurzelknochen",
+        "en": "Eight carpal bones"
+      }
+    ]
+  },
+  "knee-ankle-the-dashboard-story": {
+    "id": "knee-ankle",
+    "title": "Knee and ankle",
+    "modules": [
+      "knee-ankle"
+    ],
+    "type": "anatomy",
+    "heading": "Knee and ankle",
+    "image": "assets/anatomy-knee-ankle.svg",
+    "alt": "Original German-labelled simplified schematic: knee and ankle. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://www.orthoinfo.org/diseases--conditions/common-knee-injuries/",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Femur",
+        "plain_de": "Oberschenkelknochen",
+        "en": "Thighbone"
+      },
+      {
+        "de": "Patella",
+        "plain_de": "Kniescheibe",
+        "en": "Kneecap"
+      },
+      {
+        "de": "Tibia",
+        "plain_de": "Schienbein",
+        "en": "Shinbone"
+      },
+      {
+        "de": "Fibula",
+        "plain_de": "Wadenbein",
+        "en": "Fibula"
+      },
+      {
+        "de": "Talus",
+        "plain_de": "Sprungbein",
+        "en": "Talus / ankle bone"
+      }
+    ],
+    "additional_sources": [
+      "https://www.orthoinfo.org/en/diseases--conditions/ankle-fractures-broken-ankle/"
+    ]
+  },
+  "knee-ankle-the-wedding-shoes": {
+    "id": "knee-ankle",
+    "title": "Knee and ankle",
+    "modules": [
+      "knee-ankle"
+    ],
+    "type": "anatomy",
+    "heading": "Knee and ankle",
+    "image": "assets/anatomy-knee-ankle.svg",
+    "alt": "Original German-labelled simplified schematic: knee and ankle. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://www.orthoinfo.org/diseases--conditions/common-knee-injuries/",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Femur",
+        "plain_de": "Oberschenkelknochen",
+        "en": "Thighbone"
+      },
+      {
+        "de": "Patella",
+        "plain_de": "Kniescheibe",
+        "en": "Kneecap"
+      },
+      {
+        "de": "Tibia",
+        "plain_de": "Schienbein",
+        "en": "Shinbone"
+      },
+      {
+        "de": "Fibula",
+        "plain_de": "Wadenbein",
+        "en": "Fibula"
+      },
+      {
+        "de": "Talus",
+        "plain_de": "Sprungbein",
+        "en": "Talus / ankle bone"
+      }
+    ],
+    "additional_sources": [
+      "https://www.orthoinfo.org/en/diseases--conditions/ankle-fractures-broken-ankle/"
+    ]
+  },
+  "knee-ankle-the-staircase-test": {
+    "id": "knee-ankle",
+    "title": "Knee and ankle",
+    "modules": [
+      "knee-ankle"
+    ],
+    "type": "anatomy",
+    "heading": "Knee and ankle",
+    "image": "assets/anatomy-knee-ankle.svg",
+    "alt": "Original German-labelled simplified schematic: knee and ankle. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://www.orthoinfo.org/diseases--conditions/common-knee-injuries/",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Femur",
+        "plain_de": "Oberschenkelknochen",
+        "en": "Thighbone"
+      },
+      {
+        "de": "Patella",
+        "plain_de": "Kniescheibe",
+        "en": "Kneecap"
+      },
+      {
+        "de": "Tibia",
+        "plain_de": "Schienbein",
+        "en": "Shinbone"
+      },
+      {
+        "de": "Fibula",
+        "plain_de": "Wadenbein",
+        "en": "Fibula"
+      },
+      {
+        "de": "Talus",
+        "plain_de": "Sprungbein",
+        "en": "Talus / ankle bone"
+      }
+    ],
+    "additional_sources": [
+      "https://www.orthoinfo.org/en/diseases--conditions/ankle-fractures-broken-ankle/"
+    ]
+  },
+  "knee-ankle-the-latex-note": {
+    "id": "knee-ankle",
+    "title": "Knee and ankle",
+    "modules": [
+      "knee-ankle"
+    ],
+    "type": "anatomy",
+    "heading": "Knee and ankle",
+    "image": "assets/anatomy-knee-ankle.svg",
+    "alt": "Original German-labelled simplified schematic: knee and ankle. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://www.orthoinfo.org/diseases--conditions/common-knee-injuries/",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Femur",
+        "plain_de": "Oberschenkelknochen",
+        "en": "Thighbone"
+      },
+      {
+        "de": "Patella",
+        "plain_de": "Kniescheibe",
+        "en": "Kneecap"
+      },
+      {
+        "de": "Tibia",
+        "plain_de": "Schienbein",
+        "en": "Shinbone"
+      },
+      {
+        "de": "Fibula",
+        "plain_de": "Wadenbein",
+        "en": "Fibula"
+      },
+      {
+        "de": "Talus",
+        "plain_de": "Sprungbein",
+        "en": "Talus / ankle bone"
+      }
+    ],
+    "additional_sources": [
+      "https://www.orthoinfo.org/en/diseases--conditions/ankle-fractures-broken-ankle/"
+    ]
+  },
+  "knee-ankle-pain-number": {
+    "id": "knee-ankle",
+    "title": "Knee and ankle",
+    "modules": [
+      "knee-ankle"
+    ],
+    "type": "anatomy",
+    "heading": "Knee and ankle",
+    "image": "assets/anatomy-knee-ankle.svg",
+    "alt": "Original German-labelled simplified schematic: knee and ankle. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://www.orthoinfo.org/diseases--conditions/common-knee-injuries/",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Femur",
+        "plain_de": "Oberschenkelknochen",
+        "en": "Thighbone"
+      },
+      {
+        "de": "Patella",
+        "plain_de": "Kniescheibe",
+        "en": "Kneecap"
+      },
+      {
+        "de": "Tibia",
+        "plain_de": "Schienbein",
+        "en": "Shinbone"
+      },
+      {
+        "de": "Fibula",
+        "plain_de": "Wadenbein",
+        "en": "Fibula"
+      },
+      {
+        "de": "Talus",
+        "plain_de": "Sprungbein",
+        "en": "Talus / ankle bone"
+      }
+    ],
+    "additional_sources": [
+      "https://www.orthoinfo.org/en/diseases--conditions/ankle-fractures-broken-ankle/"
+    ]
+  },
+  "knee-ankle-the-work-note": {
+    "id": "knee-ankle",
+    "title": "Knee and ankle",
+    "modules": [
+      "knee-ankle"
+    ],
+    "type": "anatomy",
+    "heading": "Knee and ankle",
+    "image": "assets/anatomy-knee-ankle.svg",
+    "alt": "Original German-labelled simplified schematic: knee and ankle. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://www.orthoinfo.org/diseases--conditions/common-knee-injuries/",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Femur",
+        "plain_de": "Oberschenkelknochen",
+        "en": "Thighbone"
+      },
+      {
+        "de": "Patella",
+        "plain_de": "Kniescheibe",
+        "en": "Kneecap"
+      },
+      {
+        "de": "Tibia",
+        "plain_de": "Schienbein",
+        "en": "Shinbone"
+      },
+      {
+        "de": "Fibula",
+        "plain_de": "Wadenbein",
+        "en": "Fibula"
+      },
+      {
+        "de": "Talus",
+        "plain_de": "Sprungbein",
+        "en": "Talus / ankle bone"
+      }
+    ],
+    "additional_sources": [
+      "https://www.orthoinfo.org/en/diseases--conditions/ankle-fractures-broken-ankle/"
+    ]
+  },
+  "knee-ankle-the-repeated-story": {
+    "id": "knee-ankle",
+    "title": "Knee and ankle",
+    "modules": [
+      "knee-ankle"
+    ],
+    "type": "anatomy",
+    "heading": "Knee and ankle",
+    "image": "assets/anatomy-knee-ankle.svg",
+    "alt": "Original German-labelled simplified schematic: knee and ankle. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://www.orthoinfo.org/diseases--conditions/common-knee-injuries/",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Femur",
+        "plain_de": "Oberschenkelknochen",
+        "en": "Thighbone"
+      },
+      {
+        "de": "Patella",
+        "plain_de": "Kniescheibe",
+        "en": "Kneecap"
+      },
+      {
+        "de": "Tibia",
+        "plain_de": "Schienbein",
+        "en": "Shinbone"
+      },
+      {
+        "de": "Fibula",
+        "plain_de": "Wadenbein",
+        "en": "Fibula"
+      },
+      {
+        "de": "Talus",
+        "plain_de": "Sprungbein",
+        "en": "Talus / ankle bone"
+      }
+    ],
+    "additional_sources": [
+      "https://www.orthoinfo.org/en/diseases--conditions/ankle-fractures-broken-ankle/"
+    ]
+  },
+  "knee-ankle-home-instructions": {
+    "id": "knee-ankle",
+    "title": "Knee and ankle",
+    "modules": [
+      "knee-ankle"
+    ],
+    "type": "anatomy",
+    "heading": "Knee and ankle",
+    "image": "assets/anatomy-knee-ankle.svg",
+    "alt": "Original German-labelled simplified schematic: knee and ankle. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://www.orthoinfo.org/diseases--conditions/common-knee-injuries/",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Femur",
+        "plain_de": "Oberschenkelknochen",
+        "en": "Thighbone"
+      },
+      {
+        "de": "Patella",
+        "plain_de": "Kniescheibe",
+        "en": "Kneecap"
+      },
+      {
+        "de": "Tibia",
+        "plain_de": "Schienbein",
+        "en": "Shinbone"
+      },
+      {
+        "de": "Fibula",
+        "plain_de": "Wadenbein",
+        "en": "Fibula"
+      },
+      {
+        "de": "Talus",
+        "plain_de": "Sprungbein",
+        "en": "Talus / ankle bone"
+      }
+    ],
+    "additional_sources": [
+      "https://www.orthoinfo.org/en/diseases--conditions/ankle-fractures-broken-ankle/"
+    ]
+  },
+  "spine-the-map-of-pain": {
+    "id": "spine",
+    "title": "Spine and discs",
+    "modules": [
+      "spine"
+    ],
+    "type": "anatomy",
+    "heading": "Spine and discs",
+    "image": "assets/anatomy-spine.svg",
+    "alt": "Original German-labelled simplified schematic: spine and discs. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://www.niams.nih.gov/health-topics/back-pain",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Wirbelkörper",
+        "plain_de": "tragender Teil eines Wirbels",
+        "en": "Vertebral body"
+      },
+      {
+        "de": "Bandscheibe",
+        "plain_de": "Gewebe zwischen benachbarten Wirbelkörpern",
+        "en": "Intervertebral disc"
+      },
+      {
+        "de": "Nervenwurzel",
+        "plain_de": "Nervenfasern am Austritt aus dem Wirbelkanal",
+        "en": "Nerve root"
+      }
+    ]
+  },
+  "spine-lifting-the-story": {
+    "id": "spine",
+    "title": "Spine and discs",
+    "modules": [
+      "spine"
+    ],
+    "type": "anatomy",
+    "heading": "Spine and discs",
+    "image": "assets/anatomy-spine.svg",
+    "alt": "Original German-labelled simplified schematic: spine and discs. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://www.niams.nih.gov/health-topics/back-pain",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Wirbelkörper",
+        "plain_de": "tragender Teil eines Wirbels",
+        "en": "Vertebral body"
+      },
+      {
+        "de": "Bandscheibe",
+        "plain_de": "Gewebe zwischen benachbarten Wirbelkörpern",
+        "en": "Intervertebral disc"
+      },
+      {
+        "de": "Nervenwurzel",
+        "plain_de": "Nervenfasern am Austritt aus dem Wirbelkanal",
+        "en": "Nerve root"
+      }
+    ]
+  },
+  "spine-private-red-flags": {
+    "id": "spine",
+    "title": "Spine and discs",
+    "modules": [
+      "spine"
+    ],
+    "type": "anatomy",
+    "heading": "Spine and discs",
+    "image": "assets/anatomy-spine.svg",
+    "alt": "Original German-labelled simplified schematic: spine and discs. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://www.niams.nih.gov/health-topics/back-pain",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Wirbelkörper",
+        "plain_de": "tragender Teil eines Wirbels",
+        "en": "Vertebral body"
+      },
+      {
+        "de": "Bandscheibe",
+        "plain_de": "Gewebe zwischen benachbarten Wirbelkörpern",
+        "en": "Intervertebral disc"
+      },
+      {
+        "de": "Nervenwurzel",
+        "plain_de": "Nervenfasern am Austritt aus dem Wirbelkanal",
+        "en": "Nerve root"
+      }
+    ]
+  },
+  "spine-new-bladder-change": {
+    "id": "spine",
+    "title": "Spine and discs",
+    "modules": [
+      "spine"
+    ],
+    "type": "anatomy",
+    "heading": "Spine and discs",
+    "image": "assets/anatomy-spine.svg",
+    "alt": "Original German-labelled simplified schematic: spine and discs. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://www.niams.nih.gov/health-topics/back-pain",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Wirbelkörper",
+        "plain_de": "tragender Teil eines Wirbels",
+        "en": "Vertebral body"
+      },
+      {
+        "de": "Bandscheibe",
+        "plain_de": "Gewebe zwischen benachbarten Wirbelkörpern",
+        "en": "Intervertebral disc"
+      },
+      {
+        "de": "Nervenwurzel",
+        "plain_de": "Nervenfasern am Austritt aus dem Wirbelkanal",
+        "en": "Nerve root"
+      }
+    ]
+  },
+  "spine-scan-language": {
+    "id": "spine",
+    "title": "Spine and discs",
+    "modules": [
+      "spine"
+    ],
+    "type": "anatomy",
+    "heading": "Spine and discs",
+    "image": "assets/anatomy-spine.svg",
+    "alt": "Original German-labelled simplified schematic: spine and discs. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://www.niams.nih.gov/health-topics/back-pain",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Wirbelkörper",
+        "plain_de": "tragender Teil eines Wirbels",
+        "en": "Vertebral body"
+      },
+      {
+        "de": "Bandscheibe",
+        "plain_de": "Gewebe zwischen benachbarten Wirbelkörpern",
+        "en": "Intervertebral disc"
+      },
+      {
+        "de": "Nervenwurzel",
+        "plain_de": "Nervenfasern am Austritt aus dem Wirbelkanal",
+        "en": "Nerve root"
+      }
+    ]
+  },
+  "spine-hands-that-drop-things": {
+    "id": "spine",
+    "title": "Spine and discs",
+    "modules": [
+      "spine"
+    ],
+    "type": "anatomy",
+    "heading": "Spine and discs",
+    "image": "assets/anatomy-spine.svg",
+    "alt": "Original German-labelled simplified schematic: spine and discs. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://www.niams.nih.gov/health-topics/back-pain",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Wirbelkörper",
+        "plain_de": "tragender Teil eines Wirbels",
+        "en": "Vertebral body"
+      },
+      {
+        "de": "Bandscheibe",
+        "plain_de": "Gewebe zwischen benachbarten Wirbelkörpern",
+        "en": "Intervertebral disc"
+      },
+      {
+        "de": "Nervenwurzel",
+        "plain_de": "Nervenfasern am Austritt aus dem Wirbelkanal",
+        "en": "Nerve root"
+      }
+    ]
+  },
+  "spine-work-and-worry": {
+    "id": "spine",
+    "title": "Spine and discs",
+    "modules": [
+      "spine"
+    ],
+    "type": "anatomy",
+    "heading": "Spine and discs",
+    "image": "assets/anatomy-spine.svg",
+    "alt": "Original German-labelled simplified schematic: spine and discs. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://www.niams.nih.gov/health-topics/back-pain",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Wirbelkörper",
+        "plain_de": "tragender Teil eines Wirbels",
+        "en": "Vertebral body"
+      },
+      {
+        "de": "Bandscheibe",
+        "plain_de": "Gewebe zwischen benachbarten Wirbelkörpern",
+        "en": "Intervertebral disc"
+      },
+      {
+        "de": "Nervenwurzel",
+        "plain_de": "Nervenfasern am Austritt aus dem Wirbelkanal",
+        "en": "Nerve root"
+      }
+    ]
+  },
+  "spine-two-different-sides": {
+    "id": "spine",
+    "title": "Spine and discs",
+    "modules": [
+      "spine"
+    ],
+    "type": "anatomy",
+    "heading": "Spine and discs",
+    "image": "assets/anatomy-spine.svg",
+    "alt": "Original German-labelled simplified schematic: spine and discs. Not to scale.",
+    "credit": "FSP Guide · original educational schematic · CC BY 4.0. Anatomy reference linked; source illustrations not copied.",
+    "source": "https://www.niams.nih.gov/health-topics/back-pain",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "words": [
+      {
+        "de": "Wirbelkörper",
+        "plain_de": "tragender Teil eines Wirbels",
+        "en": "Vertebral body"
+      },
+      {
+        "de": "Bandscheibe",
+        "plain_de": "Gewebe zwischen benachbarten Wirbelkörpern",
+        "en": "Intervertebral disc"
+      },
+      {
+        "de": "Nervenwurzel",
+        "plain_de": "Nervenfasern am Austritt aus dem Wirbelkanal",
+        "en": "Nerve root"
+      }
+    ]
+  },
+  "urinary-the-moving-pain": {
+    "type": "anatomy",
+    "heading": "Follow the route, then name it",
+    "image": "assets/urinary.svg",
+    "alt": "Urinary-system illustration showing the kidneys, ureters, bladder and urethra.",
+    "credit": "US National Cancer Institute / SEER source; SVG adaptation by Thstehle, via Wikimedia Commons · public domain designation · unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Illu_urinary_system.svg",
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "words": [
+      {
+        "de": "Niere",
+        "plain_de": "bildet Urin",
+        "en": "Kidney"
+      },
+      {
+        "de": "Harnleiter",
+        "plain_de": "Verbindung von der Niere zur Blase",
+        "en": "Ureter"
+      },
+      {
+        "de": "Harnröhre",
+        "plain_de": "Verbindung von der Blase nach außen",
+        "en": "Urethra"
+      }
+    ]
+  },
+  "urinary-the-pain-request": {
+    "type": "anatomy",
+    "heading": "Follow the route, then name it",
+    "image": "assets/urinary.svg",
+    "alt": "Urinary-system illustration showing the kidneys, ureters, bladder and urethra.",
+    "credit": "US National Cancer Institute / SEER source; SVG adaptation by Thstehle, via Wikimedia Commons · public domain designation · unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Illu_urinary_system.svg",
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "words": [
+      {
+        "de": "Niere",
+        "plain_de": "bildet Urin",
+        "en": "Kidney"
+      },
+      {
+        "de": "Harnleiter",
+        "plain_de": "Verbindung von der Niere zur Blase",
+        "en": "Ureter"
+      },
+      {
+        "de": "Harnröhre",
+        "plain_de": "Verbindung von der Blase nach außen",
+        "en": "Urethra"
+      }
+    ]
+  },
+  "urinary-the-fever-update": {
+    "type": "anatomy",
+    "heading": "Follow the route, then name it",
+    "image": "assets/urinary.svg",
+    "alt": "Urinary-system illustration showing the kidneys, ureters, bladder and urethra.",
+    "credit": "US National Cancer Institute / SEER source; SVG adaptation by Thstehle, via Wikimedia Commons · public domain designation · unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Illu_urinary_system.svg",
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "words": [
+      {
+        "de": "Niere",
+        "plain_de": "bildet Urin",
+        "en": "Kidney"
+      },
+      {
+        "de": "Harnleiter",
+        "plain_de": "Verbindung von der Niere zur Blase",
+        "en": "Ureter"
+      },
+      {
+        "de": "Harnröhre",
+        "plain_de": "Verbindung von der Blase nach außen",
+        "en": "Urethra"
+      }
+    ]
+  },
+  "urinary-words-for-urine": {
+    "type": "anatomy",
+    "heading": "Follow the route, then name it",
+    "image": "assets/urinary.svg",
+    "alt": "Urinary-system illustration showing the kidneys, ureters, bladder and urethra.",
+    "credit": "US National Cancer Institute / SEER source; SVG adaptation by Thstehle, via Wikimedia Commons · public domain designation · unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Illu_urinary_system.svg",
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "words": [
+      {
+        "de": "Niere",
+        "plain_de": "bildet Urin",
+        "en": "Kidney"
+      },
+      {
+        "de": "Harnleiter",
+        "plain_de": "Verbindung von der Niere zur Blase",
+        "en": "Ureter"
+      },
+      {
+        "de": "Harnröhre",
+        "plain_de": "Verbindung von der Blase nach außen",
+        "en": "Urethra"
+      }
+    ]
+  },
+  "urinary-sample-without-shame": {
+    "type": "anatomy",
+    "heading": "Follow the route, then name it",
+    "image": "assets/urinary.svg",
+    "alt": "Urinary-system illustration showing the kidneys, ureters, bladder and urethra.",
+    "credit": "US National Cancer Institute / SEER source; SVG adaptation by Thstehle, via Wikimedia Commons · public domain designation · unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Illu_urinary_system.svg",
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "words": [
+      {
+        "de": "Niere",
+        "plain_de": "bildet Urin",
+        "en": "Kidney"
+      },
+      {
+        "de": "Harnleiter",
+        "plain_de": "Verbindung von der Niere zur Blase",
+        "en": "Ureter"
+      },
+      {
+        "de": "Harnröhre",
+        "plain_de": "Verbindung von der Blase nach außen",
+        "en": "Urethra"
+      }
+    ]
+  },
+  "urinary-the-old-stone": {
+    "type": "anatomy",
+    "heading": "Follow the route, then name it",
+    "image": "assets/urinary.svg",
+    "alt": "Urinary-system illustration showing the kidneys, ureters, bladder and urethra.",
+    "credit": "US National Cancer Institute / SEER source; SVG adaptation by Thstehle, via Wikimedia Commons · public domain designation · unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Illu_urinary_system.svg",
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "words": [
+      {
+        "de": "Niere",
+        "plain_de": "bildet Urin",
+        "en": "Kidney"
+      },
+      {
+        "de": "Harnleiter",
+        "plain_de": "Verbindung von der Niere zur Blase",
+        "en": "Ureter"
+      },
+      {
+        "de": "Harnröhre",
+        "plain_de": "Verbindung von der Blase nach außen",
+        "en": "Urethra"
+      }
+    ]
+  },
+  "urinary-phone-privacy": {
+    "type": "anatomy",
+    "heading": "Follow the route, then name it",
+    "image": "assets/urinary.svg",
+    "alt": "Urinary-system illustration showing the kidneys, ureters, bladder and urethra.",
+    "credit": "US National Cancer Institute / SEER source; SVG adaptation by Thstehle, via Wikimedia Commons · public domain designation · unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Illu_urinary_system.svg",
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "words": [
+      {
+        "de": "Niere",
+        "plain_de": "bildet Urin",
+        "en": "Kidney"
+      },
+      {
+        "de": "Harnleiter",
+        "plain_de": "Verbindung von der Niere zur Blase",
+        "en": "Ureter"
+      },
+      {
+        "de": "Harnröhre",
+        "plain_de": "Verbindung von der Blase nach außen",
+        "en": "Urethra"
+      }
+    ]
+  },
+  "urinary-the-follow-up-owner": {
+    "type": "anatomy",
+    "heading": "Follow the route, then name it",
+    "image": "assets/urinary.svg",
+    "alt": "Urinary-system illustration showing the kidneys, ureters, bladder and urethra.",
+    "credit": "US National Cancer Institute / SEER source; SVG adaptation by Thstehle, via Wikimedia Commons · public domain designation · unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Illu_urinary_system.svg",
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "words": [
+      {
+        "de": "Niere",
+        "plain_de": "bildet Urin",
+        "en": "Kidney"
+      },
+      {
+        "de": "Harnleiter",
+        "plain_de": "Verbindung von der Niere zur Blase",
+        "en": "Ureter"
+      },
+      {
+        "de": "Harnröhre",
+        "plain_de": "Verbindung von der Blase nach außen",
+        "en": "Urethra"
+      }
+    ]
+  },
+  "procedures-breathing-instructions": {
+    "type": "anatomy",
+    "heading": "Point before you explain",
+    "image": "assets/respiratory.svg",
+    "alt": "Labelled respiratory system showing upper airway, windpipe and branching passages into the lungs.",
+    "credit": "Theresa Knott and Wikimedia Commons contributors · CC BY-SA 3.0 · original SVG, unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Respiratory_system.svg",
+    "license": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "words": [
+      {
+        "de": "Trachea",
+        "plain_de": "Luftröhre",
+        "en": "Windpipe"
+      },
+      {
+        "de": "Bronchien",
+        "plain_de": "größere Atemwege in der Lunge",
+        "en": "Bronchi, branching airways"
+      },
+      {
+        "de": "Lunge",
+        "plain_de": "Organ zum Atmen",
+        "en": "Lung"
+      }
+    ]
+  },
+  "procedures-shockwave-name": {
+    "type": "anatomy",
+    "heading": "Follow the route, then name it",
+    "image": "assets/urinary.svg",
+    "alt": "Urinary-system illustration showing the kidneys, ureters, bladder and urethra.",
+    "credit": "US National Cancer Institute / SEER source; SVG adaptation by Thstehle, via Wikimedia Commons · public domain designation · unchanged",
+    "source": "https://commons.wikimedia.org/wiki/File:Illu_urinary_system.svg",
+    "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "words": [
+      {
+        "de": "Niere",
+        "plain_de": "bildet Urin",
+        "en": "Kidney"
+      },
+      {
+        "de": "Harnleiter",
+        "plain_de": "Verbindung von der Niere zur Blase",
+        "en": "Ureter"
+      },
+      {
+        "de": "Harnröhre",
+        "plain_de": "Verbindung von der Blase nach außen",
+        "en": "Urethra"
+      }
+    ]
+  }
+}
